@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 14 - Ruta completa</name><desc>Lienz -&gt; Heiligenblut -&gt; Grossglockner High Alpine Road -&gt; Kaiser-Franz-Josefs-Hohe -&gt; Zell am See</desc></metadata>
+  <wpt lat="46.8297" lon="12.769"><name>01 - Lienz</name></wpt>
+  <wpt lat="47.0396" lon="12.8431"><name>02 - Heiligenblut</name></wpt>
+  <wpt lat="47.055" lon="12.83"><name>03 - Grossglockner High Alpine Road</name></wpt>
+  <wpt lat="47.0742" lon="12.7517"><name>04 - Kaiser-Franz-Josefs-Höhe</name></wpt>
+  <wpt lat="47.3235" lon="12.7968"><name>05 - Zell am See</name></wpt>
+  <trk><name>Dia 14 - Ruta completa</name><trkseg>
+    <trkpt lat="46.8297" lon="12.769"><name>Lienz</name></trkpt>
+    <trkpt lat="47.0396" lon="12.8431"><name>Heiligenblut</name></trkpt>
+    <trkpt lat="47.055" lon="12.83"><name>Grossglockner High Alpine Road</name></trkpt>
+    <trkpt lat="47.0742" lon="12.7517"><name>Kaiser-Franz-Josefs-Höhe</name></trkpt>
+    <trkpt lat="47.3235" lon="12.7968"><name>Zell am See</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 14 - Ruta completa</name>
+    <rtept lat="46.8297" lon="12.769"><name>Lienz</name></rtept>
+    <rtept lat="47.0396" lon="12.8431"><name>Heiligenblut</name></rtept>
+    <rtept lat="47.055" lon="12.83"><name>Grossglockner High Alpine Road</name></rtept>
+    <rtept lat="47.0742" lon="12.7517"><name>Kaiser-Franz-Josefs-Höhe</name></rtept>
+    <rtept lat="47.3235" lon="12.7968"><name>Zell am See</name></rtept>
+  </rte>
+</gpx>

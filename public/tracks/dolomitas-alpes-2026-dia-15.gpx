@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 15 - Ruta completa</name><desc>Zell am See -&gt; Innsbruck -&gt; Brennero -&gt; Verona -&gt; Brescia -&gt; Milan -&gt; Genova -&gt; Barcelona</desc></metadata>
+  <wpt lat="47.3235" lon="12.7968"><name>01 - Zell am See</name></wpt>
+  <wpt lat="47.2692" lon="11.4041"><name>02 - Innsbruck</name></wpt>
+  <wpt lat="47.006" lon="11.506"><name>03 - Brennero</name></wpt>
+  <wpt lat="45.4384" lon="10.9916"><name>04 - Verona</name></wpt>
+  <wpt lat="45.5416" lon="10.2118"><name>05 - Brescia</name></wpt>
+  <wpt lat="45.4642" lon="9.19"><name>06 - Milan</name></wpt>
+  <wpt lat="44.4106" lon="8.9139"><name>07 - Genova</name></wpt>
+  <wpt lat="41.3521" lon="2.1599"><name>08 - Barcelona</name></wpt>
+  <trk><name>Dia 15 - Ruta completa</name><trkseg>
+    <trkpt lat="47.3235" lon="12.7968"><name>Zell am See</name></trkpt>
+    <trkpt lat="47.2692" lon="11.4041"><name>Innsbruck</name></trkpt>
+    <trkpt lat="47.006" lon="11.506"><name>Brennero</name></trkpt>
+    <trkpt lat="45.4384" lon="10.9916"><name>Verona</name></trkpt>
+    <trkpt lat="45.5416" lon="10.2118"><name>Brescia</name></trkpt>
+    <trkpt lat="45.4642" lon="9.19"><name>Milan</name></trkpt>
+    <trkpt lat="44.4106" lon="8.9139"><name>Genova</name></trkpt>
+    <trkpt lat="41.3521" lon="2.1599"><name>Barcelona</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 15 - Ruta completa</name>
+    <rtept lat="47.3235" lon="12.7968"><name>Zell am See</name></rtept>
+    <rtept lat="47.2692" lon="11.4041"><name>Innsbruck</name></rtept>
+    <rtept lat="47.006" lon="11.506"><name>Brennero</name></rtept>
+    <rtept lat="45.4384" lon="10.9916"><name>Verona</name></rtept>
+    <rtept lat="45.5416" lon="10.2118"><name>Brescia</name></rtept>
+    <rtept lat="45.4642" lon="9.19"><name>Milan</name></rtept>
+    <rtept lat="44.4106" lon="8.9139"><name>Genova</name></rtept>
+    <rtept lat="41.3521" lon="2.1599"><name>Barcelona</name></rtept>
+  </rte>
+</gpx>

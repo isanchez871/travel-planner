@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 9 - Ruta completa</name><desc>Lago di Misurina -&gt; Lago d’Antorno -&gt; Rifugio Auronzo -&gt; Tre Cime -&gt; Rifugio Locatelli -&gt; Cadini di Misurina -&gt; Lago di Misurina</desc></metadata>
+  <wpt lat="46.5833" lon="12.2548"><name>01 - Lago di Misurina</name></wpt>
+  <wpt lat="46.593" lon="12.266"><name>02 - Lago d’Antorno</name></wpt>
+  <wpt lat="46.6123" lon="12.2959"><name>03 - Rifugio Auronzo</name></wpt>
+  <wpt lat="46.6187" lon="12.3028"><name>04 - Tre Cime di Lavaredo</name></wpt>
+  <wpt lat="46.6368" lon="12.3105"><name>05 - Rifugio Locatelli</name></wpt>
+  <wpt lat="46.604" lon="12.288"><name>06 - Cadini di Misurina viewpoint</name></wpt>
+  <wpt lat="46.5833" lon="12.2548"><name>07 - Lago di Misurina</name></wpt>
+  <trk><name>Dia 9 - Ruta completa</name><trkseg>
+    <trkpt lat="46.5833" lon="12.2548"><name>Lago di Misurina</name></trkpt>
+    <trkpt lat="46.593" lon="12.266"><name>Lago d’Antorno</name></trkpt>
+    <trkpt lat="46.6123" lon="12.2959"><name>Rifugio Auronzo</name></trkpt>
+    <trkpt lat="46.6187" lon="12.3028"><name>Tre Cime di Lavaredo</name></trkpt>
+    <trkpt lat="46.6368" lon="12.3105"><name>Rifugio Locatelli</name></trkpt>
+    <trkpt lat="46.604" lon="12.288"><name>Cadini di Misurina viewpoint</name></trkpt>
+    <trkpt lat="46.5833" lon="12.2548"><name>Lago di Misurina</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 9 - Ruta completa</name>
+    <rtept lat="46.5833" lon="12.2548"><name>Lago di Misurina</name></rtept>
+    <rtept lat="46.593" lon="12.266"><name>Lago d’Antorno</name></rtept>
+    <rtept lat="46.6123" lon="12.2959"><name>Rifugio Auronzo</name></rtept>
+    <rtept lat="46.6187" lon="12.3028"><name>Tre Cime di Lavaredo</name></rtept>
+    <rtept lat="46.6368" lon="12.3105"><name>Rifugio Locatelli</name></rtept>
+    <rtept lat="46.604" lon="12.288"><name>Cadini di Misurina viewpoint</name></rtept>
+    <rtept lat="46.5833" lon="12.2548"><name>Lago di Misurina</name></rtept>
+  </rte>
+</gpx>

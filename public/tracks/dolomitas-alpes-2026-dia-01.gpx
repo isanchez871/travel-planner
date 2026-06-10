@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 1 - Ruta completa</name><desc>Lleida / Fraga -&gt; Narbona / Nîmes / Avignon</desc></metadata>
+  <wpt lat="41.6176" lon="0.62"><name>01 - Lleida</name></wpt>
+  <wpt lat="42.4172" lon="2.8731"><name>02 - La Jonquera</name></wpt>
+  <wpt lat="43.1843" lon="3.0031"><name>03 - Narbona</name></wpt>
+  <wpt lat="43.6119" lon="3.8772"><name>04 - Montpellier</name></wpt>
+  <wpt lat="43.8367" lon="4.3601"><name>05 - Nîmes</name></wpt>
+  <wpt lat="43.9493" lon="4.8055"><name>06 - Avignon</name></wpt>
+  <trk><name>Dia 1 - Ruta completa</name><trkseg>
+    <trkpt lat="41.6176" lon="0.62"><name>Lleida</name></trkpt>
+    <trkpt lat="42.4172" lon="2.8731"><name>La Jonquera</name></trkpt>
+    <trkpt lat="43.1843" lon="3.0031"><name>Narbona</name></trkpt>
+    <trkpt lat="43.6119" lon="3.8772"><name>Montpellier</name></trkpt>
+    <trkpt lat="43.8367" lon="4.3601"><name>Nîmes</name></trkpt>
+    <trkpt lat="43.9493" lon="4.8055"><name>Avignon</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 1 - Ruta completa</name>
+    <rtept lat="41.6176" lon="0.62"><name>Lleida</name></rtept>
+    <rtept lat="42.4172" lon="2.8731"><name>La Jonquera</name></rtept>
+    <rtept lat="43.1843" lon="3.0031"><name>Narbona</name></rtept>
+    <rtept lat="43.6119" lon="3.8772"><name>Montpellier</name></rtept>
+    <rtept lat="43.8367" lon="4.3601"><name>Nîmes</name></rtept>
+    <rtept lat="43.9493" lon="4.8055"><name>Avignon</name></rtept>
+  </rte>
+</gpx>

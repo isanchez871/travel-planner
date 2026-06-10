@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 5 - Ruta completa</name><desc>Aosta -&gt; Lecco -&gt; Sondrio -&gt; Bormio</desc></metadata>
+  <wpt lat="45.737" lon="7.317"><name>01 - Aosta</name></wpt>
+  <wpt lat="45.8566" lon="9.3977"><name>02 - Lecco</name></wpt>
+  <wpt lat="46.1699" lon="9.8788"><name>03 - Sondrio</name></wpt>
+  <wpt lat="46.4669" lon="10.375"><name>04 - Bormio</name></wpt>
+  <trk><name>Dia 5 - Ruta completa</name><trkseg>
+    <trkpt lat="45.737" lon="7.317"><name>Aosta</name></trkpt>
+    <trkpt lat="45.8566" lon="9.3977"><name>Lecco</name></trkpt>
+    <trkpt lat="46.1699" lon="9.8788"><name>Sondrio</name></trkpt>
+    <trkpt lat="46.4669" lon="10.375"><name>Bormio</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 5 - Ruta completa</name>
+    <rtept lat="45.737" lon="7.317"><name>Aosta</name></rtept>
+    <rtept lat="45.8566" lon="9.3977"><name>Lecco</name></rtept>
+    <rtept lat="46.1699" lon="9.8788"><name>Sondrio</name></rtept>
+    <rtept lat="46.4669" lon="10.375"><name>Bormio</name></rtept>
+  </rte>
+</gpx>

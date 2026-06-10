@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 12 - Ruta completa</name><desc>Ortisei -&gt; Santa Maddalena -&gt; San Giovanni in Ranui -&gt; Zanser Alm -&gt; Adolf Munkel Trail -&gt; Geisler Alm -&gt; Ortisei</desc></metadata>
+  <wpt lat="46.5765" lon="11.6726"><name>01 - Ortisei</name></wpt>
+  <wpt lat="46.6408" lon="11.714"><name>02 - Santa Maddalena</name></wpt>
+  <wpt lat="46.6359" lon="11.7203"><name>03 - Chiesa di San Giovanni in Ranui</name></wpt>
+  <wpt lat="46.636" lon="11.765"><name>04 - Zanser Alm</name></wpt>
+  <wpt lat="46.633" lon="11.76"><name>05 - Adolf Munkel Trail</name></wpt>
+  <wpt lat="46.6332" lon="11.7559"><name>06 - Geisler Alm</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>07 - Ortisei</name></wpt>
+  <trk><name>Dia 12 - Ruta completa</name><trkseg>
+    <trkpt lat="46.5765" lon="11.6726"><name>Ortisei</name></trkpt>
+    <trkpt lat="46.6408" lon="11.714"><name>Santa Maddalena</name></trkpt>
+    <trkpt lat="46.6359" lon="11.7203"><name>Chiesa di San Giovanni in Ranui</name></trkpt>
+    <trkpt lat="46.636" lon="11.765"><name>Zanser Alm</name></trkpt>
+    <trkpt lat="46.633" lon="11.76"><name>Adolf Munkel Trail</name></trkpt>
+    <trkpt lat="46.6332" lon="11.7559"><name>Geisler Alm</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Ortisei</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 12 - Ruta completa</name>
+    <rtept lat="46.5765" lon="11.6726"><name>Ortisei</name></rtept>
+    <rtept lat="46.6408" lon="11.714"><name>Santa Maddalena</name></rtept>
+    <rtept lat="46.6359" lon="11.7203"><name>Chiesa di San Giovanni in Ranui</name></rtept>
+    <rtept lat="46.636" lon="11.765"><name>Zanser Alm</name></rtept>
+    <rtept lat="46.633" lon="11.76"><name>Adolf Munkel Trail</name></rtept>
+    <rtept lat="46.6332" lon="11.7559"><name>Geisler Alm</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Ortisei</name></rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 7 - Ruta completa</name><desc>Ortisei -&gt; Teleférico Seceda -&gt; Seceda Viewpoint -&gt; Rifugio Firenze -&gt; Alpe di Siusi -&gt; Ortisei</desc></metadata>
+  <wpt lat="46.5765" lon="11.6726"><name>01 - Ortisei</name></wpt>
+  <wpt lat="46.5757" lon="11.6745"><name>02 - Seceda Cable Car</name></wpt>
+  <wpt lat="46.6004" lon="11.7242"><name>03 - Seceda viewpoint</name></wpt>
+  <wpt lat="46.5913" lon="11.7612"><name>04 - Rifugio Firenze</name></wpt>
+  <wpt lat="46.5415" lon="11.6172"><name>05 - Alpe di Siusi</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>06 - Ortisei</name></wpt>
+  <trk><name>Dia 7 - Ruta completa</name><trkseg>
+    <trkpt lat="46.5765" lon="11.6726"><name>Ortisei</name></trkpt>
+    <trkpt lat="46.5757" lon="11.6745"><name>Seceda Cable Car</name></trkpt>
+    <trkpt lat="46.6004" lon="11.7242"><name>Seceda viewpoint</name></trkpt>
+    <trkpt lat="46.5913" lon="11.7612"><name>Rifugio Firenze</name></trkpt>
+    <trkpt lat="46.5415" lon="11.6172"><name>Alpe di Siusi</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Ortisei</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 7 - Ruta completa</name>
+    <rtept lat="46.5765" lon="11.6726"><name>Ortisei</name></rtept>
+    <rtept lat="46.5757" lon="11.6745"><name>Seceda Cable Car</name></rtept>
+    <rtept lat="46.6004" lon="11.7242"><name>Seceda viewpoint</name></rtept>
+    <rtept lat="46.5913" lon="11.7612"><name>Rifugio Firenze</name></rtept>
+    <rtept lat="46.5415" lon="11.6172"><name>Alpe di Siusi</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Ortisei</name></rtept>
+  </rte>
+</gpx>

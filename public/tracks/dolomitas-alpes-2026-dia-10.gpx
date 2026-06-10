@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 10 - Ruta completa</name><desc>Lago di Misurina -&gt; Passo Tre Croci -&gt; Lago di Sorapis -&gt; Cortina -&gt; Passo Giau -&gt; Cortina d’Ampezzo</desc></metadata>
+  <wpt lat="46.5833" lon="12.2548"><name>01 - Lago di Misurina</name></wpt>
+  <wpt lat="46.5591" lon="12.2044"><name>02 - Passo Tre Croci</name></wpt>
+  <wpt lat="46.5144" lon="12.2264"><name>03 - Lago di Sorapis</name></wpt>
+  <wpt lat="46.483" lon="12.052"><name>04 - Passo Giau</name></wpt>
+  <wpt lat="46.5405" lon="12.1357"><name>05 - Cortina d’Ampezzo</name></wpt>
+  <trk><name>Dia 10 - Ruta completa</name><trkseg>
+    <trkpt lat="46.5833" lon="12.2548"><name>Lago di Misurina</name></trkpt>
+    <trkpt lat="46.5591" lon="12.2044"><name>Passo Tre Croci</name></trkpt>
+    <trkpt lat="46.5144" lon="12.2264"><name>Lago di Sorapis</name></trkpt>
+    <trkpt lat="46.483" lon="12.052"><name>Passo Giau</name></trkpt>
+    <trkpt lat="46.5405" lon="12.1357"><name>Cortina d’Ampezzo</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 10 - Ruta completa</name>
+    <rtept lat="46.5833" lon="12.2548"><name>Lago di Misurina</name></rtept>
+    <rtept lat="46.5591" lon="12.2044"><name>Passo Tre Croci</name></rtept>
+    <rtept lat="46.5144" lon="12.2264"><name>Lago di Sorapis</name></rtept>
+    <rtept lat="46.483" lon="12.052"><name>Passo Giau</name></rtept>
+    <rtept lat="46.5405" lon="12.1357"><name>Cortina d’Ampezzo</name></rtept>
+  </rte>
+</gpx>

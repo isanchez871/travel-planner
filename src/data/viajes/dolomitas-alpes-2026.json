@@ -1,0 +1,3154 @@
+{
+  "slug": "dolomitas-alpes-2026",
+  "titulo": "Dolomitas y Alpes en Moto",
+  "descripcion": "Ruta recomendada del 4 al 20 de septiembre de 2026: salida desde Loranca/Fuenlabrada, Alpes franceses, norte de Italia, Dolomitas, Grossglockner y cierre eficiente con ferry Genova-Barcelona el sabado 19 por la tarde/noche para llegar a casa el domingo 20.",
+  "fechaInicio": "2026-09-04",
+  "fechaFin": "2026-09-20",
+  "duracionDias": 17,
+  "viajeros": 2,
+  "vehiculo": {
+    "tipo": "moto",
+    "modelo": "Yamaha Tracer 9 GT+",
+    "nombre": "La bestia"
+  },
+  "estilo": "alpino, visual, eficiente en presupuesto y centrado en Dolomitas",
+  "filosofiaViaje": [
+    "Viaje en Yamaha Tracer 9 GT+.",
+    "Prioridad absoluta a carreteras panorámicas y puertos alpinos.",
+    "Evitar autopistas siempre que sea posible.",
+    "Evitar kilómetros aburridos.",
+    "El objetivo NO es llegar rápido, sino disfrutar conduciendo.",
+    "Es mi primer gran viaje por los Alpes, por lo que quiero ver también el macizo del Mont Blanc."
+  ],
+  "reglasContinuidad": [
+    "El primer punto de cada día debe ser siempre el alojamiento donde he dormido.",
+    "El último punto de cada día debe ser siempre el alojamiento donde voy a dormir.",
+    "El primer punto del día siguiente debe coincidir exactamente con el último del día anterior.",
+    "No quiero inconsistencias entre jornadas."
+  ],
+  "preferenciasAlojamiento": [
+    "apartamento",
+    "cocina",
+    "parking",
+    "baño privado"
+  ],
+  "requiereFerry": true,
+  "dias": [
+    {
+      "numero": 0,
+      "fecha": "2026-09-04",
+      "base": "Lleida",
+      "ruta": "Loranca, Fuenlabrada -> Lleida / Fraga",
+      "origen": "Loranca, Fuenlabrada",
+      "destino": "Lleida",
+      "distanciaKm": 480,
+      "duracionHoras": 5.25,
+      "intensidad": "Pre-etapa de aproximación",
+      "puntosGoogle": 5,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=Loranca%2C%20Fuenlabrada&destination=Lleida&travelmode=driving&waypoints=Guadalajara%7CZaragoza%7CFraga",
+      "mapas": [
+        {
+          "bloque": "pre-etapa de aproximación",
+          "puntos": [
+            "Loranca, Fuenlabrada",
+            "Guadalajara",
+            "Zaragoza",
+            "Fraga",
+            "Lleida"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=Loranca%2C%20Fuenlabrada&destination=Lleida&travelmode=driving&waypoints=Guadalajara%7CZaragoza%7CFraga",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-00.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Guadalajara",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Zaragoza",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Fraga",
+          "tipo": "punto_interes"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Lleida",
+          "precioEstimado": 100,
+          "enlaces": [],
+          "notas": "Lleida si vamos bien. Fraga si queremos algo más prudente. Zaragoza si salimos tarde o estamos cansados."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 100,
+        "combustible": 53,
+        "peajes": 45,
+        "comida": 40,
+        "actividades": 0,
+        "varios": 15,
+        "total": 253
+      },
+      "comidaAhorro": "Cena sencilla prevista o parada rápida; priorizar check-in tardío.",
+      "repostaje": {
+        "principal": "Zaragoza o Fraga",
+        "alternativa": "Guadalajara o Lleida",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Salida el viernes por la tarde desde Loranca/Fuenlabrada para quitar kilómetros al sábado. Es una etapa de autopista, sin interés turístico, pero muy útil para no empezar el viaje con una paliza Madrid-Narbona el sábado. Permite dividir el gran enlace inicial en dos partes. El sábado 5 queda mucho más humano y se puede llegar al sur de Francia con menos cansancio.",
+      "planBClima": "Parar en Zaragoza si salimos tarde o hay cansancio.",
+      "id": 0,
+      "date": "2026-09-04",
+      "title": "Loranca, Fuenlabrada -> Lleida / Fraga",
+      "start": "Loranca, Fuenlabrada",
+      "end": "Lleida",
+      "overnight": "Lleida",
+      "country": "",
+      "block": "enlace",
+      "color": "#ef476f",
+      "km": 480,
+      "drivingTime": "5,25 h",
+      "type": "pre-etapa de aproximación",
+      "summary": "Salida el viernes por la tarde desde Loranca/Fuenlabrada para quitar kilómetros al sábado. Es una etapa de autopista, sin interés turístico, pero muy útil para no empezar el viaje con una paliza Madrid-Narbona el sábado.",
+      "highlights": [
+        "Loranca, Fuenlabrada",
+        "Guadalajara",
+        "Zaragoza",
+        "Fraga",
+        "Lleida"
+      ],
+      "warnings": [
+        "Salir realmente a las 17:00.",
+        "Evitar alargar hasta Narbona porque sería demasiado saliendo de tarde.",
+        "Parar cada 1h45-2h.",
+        "Llevar cena sencilla prevista o elegir hotel con check-in tardío.",
+        "Priorizar hotel con parking cómodo para moto."
+      ],
+      "accommodationAdvice": "Lleida si vamos bien. Fraga si queremos algo más prudente. Zaragoza si salimos tarde o estamos cansados.",
+      "estimatedCost": 253,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Loranca%2C%20Fuenlabrada&destination=Lleida&travelmode=driving&waypoints=Guadalajara%7CZaragoza%7CFraga",
+      "points": [
+        {
+          "name": "Loranca, Fuenlabrada",
+          "lat": 40.291,
+          "lng": -3.837,
+          "type": "highlight",
+          "description": "Punto Loranca, Fuenlabrada del día 0: Salida el viernes por la tarde desde Loranca/Fuenlabrada para quitar kilómetros al sábado. Es una etapa de autopista, sin interés turístico, pero muy útil para no empezar el viaje con una paliza Madrid-Narbona el sábado.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Loranca%2C%20Fuenlabrada"
+        },
+        {
+          "name": "Guadalajara",
+          "lat": 40.6333,
+          "lng": -3.1667,
+          "type": "highlight",
+          "description": "Punto Guadalajara del día 0: Salida el viernes por la tarde desde Loranca/Fuenlabrada para quitar kilómetros al sábado. Es una etapa de autopista, sin interés turístico, pero muy útil para no empezar el viaje con una paliza Madrid-Narbona el sábado.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Guadalajara"
+        },
+        {
+          "name": "Zaragoza",
+          "lat": 41.6488,
+          "lng": -0.8891,
+          "type": "highlight",
+          "description": "Punto Zaragoza del día 0: Salida el viernes por la tarde desde Loranca/Fuenlabrada para quitar kilómetros al sábado. Es una etapa de autopista, sin interés turístico, pero muy útil para no empezar el viaje con una paliza Madrid-Narbona el sábado.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zaragoza"
+        },
+        {
+          "name": "Fraga",
+          "lat": 41.5229,
+          "lng": 0.3489,
+          "type": "highlight",
+          "description": "Punto Fraga del día 0: Salida el viernes por la tarde desde Loranca/Fuenlabrada para quitar kilómetros al sábado. Es una etapa de autopista, sin interés turístico, pero muy útil para no empezar el viaje con una paliza Madrid-Narbona el sábado.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fraga"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.6176,
+          "lng": 0.62,
+          "type": "highlight",
+          "description": "Punto Lleida del día 0: Salida el viernes por la tarde desde Loranca/Fuenlabrada para quitar kilómetros al sábado. Es una etapa de autopista, sin interés turístico, pero muy útil para no empezar el viaje con una paliza Madrid-Narbona el sábado.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lleida"
+        }
+      ]
+    },
+    {
+      "numero": 1,
+      "fecha": "2026-09-05",
+      "base": "Avignon",
+      "ruta": "Lleida / Fraga -> Narbona / Nîmes / Avignon",
+      "origen": "Lleida",
+      "destino": "Avignon",
+      "distanciaKm": 590,
+      "duracionHoras": 6.25,
+      "intensidad": "Enlace hacia Alpes franceses",
+      "puntosGoogle": 6,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=Lleida&destination=Avignon&travelmode=driving&waypoints=La%20Jonquera%7CNarbona%7CMontpellier%7CN%C3%AEmes",
+      "mapas": [
+        {
+          "bloque": "enlace hacia Alpes franceses",
+          "puntos": [
+            "Lleida",
+            "La Jonquera",
+            "Narbona",
+            "Montpellier",
+            "Nîmes",
+            "Avignon"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=Lleida&destination=Avignon&travelmode=driving&waypoints=La%20Jonquera%7CNarbona%7CMontpellier%7CN%C3%AEmes",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-01.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "La Jonquera",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Narbona",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Montpellier",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Nîmes",
+          "tipo": "punto_interes"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Avignon",
+          "precioEstimado": 100,
+          "enlaces": [],
+          "notas": "Dormir en Avignon para que el día siguiente arranque exactamente desde el alojamiento."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 100,
+        "combustible": 65,
+        "peajes": 45,
+        "comida": 40,
+        "actividades": 0,
+        "varios": 15,
+        "total": 265
+      },
+      "comidaAhorro": "Comida rápida en ruta; cena tranquila al llegar.",
+      "repostaje": {
+        "principal": "Lleida o La Jonquera",
+        "alternativa": "Narbona o Montpellier",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Gracias a haber avanzado el viernes, el sábado ya no es una paliza extrema. La opción óptima es llegar a Nîmes o Avignon para dejar muy cómodo el acceso a Briançon al día siguiente. Narbona queda como opción prudente si el viernes acabó siendo más duro. Coloca el viaje en el sur de Francia sin quemarnos. Permite que el domingo 6 sea una etapa bonita hacia Briançon, pasando por Nyons, Serres, Gap y Embrun.",
+      "planBClima": "Si el viernes fue duro, recortar paradas pero mantener Avignon como objetivo de alojamiento si es razonable.",
+      "id": 1,
+      "date": "2026-09-05",
+      "title": "Lleida / Fraga -> Narbona / Nîmes / Avignon",
+      "start": "Lleida",
+      "end": "Avignon",
+      "overnight": "Avignon",
+      "country": "",
+      "block": "enlace",
+      "color": "#ff7f11",
+      "km": 590,
+      "drivingTime": "6,25 h",
+      "type": "enlace hacia Alpes franceses",
+      "summary": "Gracias a haber avanzado el viernes, el sábado ya no es una paliza extrema. La opción óptima es llegar a Nîmes o Avignon para dejar muy cómodo el acceso a Briançon al día siguiente. Narbona queda como opción prudente si el viernes acabó siendo más duro.",
+      "highlights": [
+        "La Jonquera",
+        "Narbona",
+        "Montpellier",
+        "Nîmes",
+        "Avignon"
+      ],
+      "warnings": [
+        "Día todavía de enlace, no entretenerse demasiado.",
+        "No meter visitas largas en Avignon si al día siguiente hay ruta.",
+        "Reservar hotel con parking.",
+        "Si hay mucho calor en el sur de Francia, hidratarse bien."
+      ],
+      "accommodationAdvice": "Avignon, con parking, para salir al día siguiente hacia Nyons/Serres/Briançon sin salto de continuidad.",
+      "estimatedCost": 265,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Lleida&destination=Avignon&travelmode=driving&waypoints=La%20Jonquera%7CNarbona%7CMontpellier%7CN%C3%AEmes",
+      "points": [
+        {
+          "name": "Lleida",
+          "lat": 41.6176,
+          "lng": 0.62,
+          "type": "route",
+          "description": "Punto Lleida del día 1: Gracias a haber avanzado el viernes, el sábado ya no es una paliza extrema. La opción óptima es llegar a Nîmes o Avignon para dejar muy cómodo el acceso a Briançon al día siguiente. Narbona queda como opción prudente si el viernes acabó siendo más duro.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lleida"
+        },
+        {
+          "name": "La Jonquera",
+          "lat": 42.4172,
+          "lng": 2.8731,
+          "type": "highlight",
+          "description": "Punto La Jonquera del día 1: Gracias a haber avanzado el viernes, el sábado ya no es una paliza extrema. La opción óptima es llegar a Nîmes o Avignon para dejar muy cómodo el acceso a Briançon al día siguiente. Narbona queda como opción prudente si el viernes acabó siendo más duro.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Jonquera"
+        },
+        {
+          "name": "Narbona",
+          "lat": 43.1843,
+          "lng": 3.0031,
+          "type": "highlight",
+          "description": "Punto Narbona del día 1: Gracias a haber avanzado el viernes, el sábado ya no es una paliza extrema. La opción óptima es llegar a Nîmes o Avignon para dejar muy cómodo el acceso a Briançon al día siguiente. Narbona queda como opción prudente si el viernes acabó siendo más duro.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Narbona"
+        },
+        {
+          "name": "Montpellier",
+          "lat": 43.6119,
+          "lng": 3.8772,
+          "type": "highlight",
+          "description": "Punto Montpellier del día 1: Gracias a haber avanzado el viernes, el sábado ya no es una paliza extrema. La opción óptima es llegar a Nîmes o Avignon para dejar muy cómodo el acceso a Briançon al día siguiente. Narbona queda como opción prudente si el viernes acabó siendo más duro.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Montpellier"
+        },
+        {
+          "name": "Nîmes",
+          "lat": 43.8367,
+          "lng": 4.3601,
+          "type": "highlight",
+          "description": "Punto Nîmes del día 1: Gracias a haber avanzado el viernes, el sábado ya no es una paliza extrema. La opción óptima es llegar a Nîmes o Avignon para dejar muy cómodo el acceso a Briançon al día siguiente. Narbona queda como opción prudente si el viernes acabó siendo más duro.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=N%C3%AEmes"
+        },
+        {
+          "name": "Avignon",
+          "lat": 43.9493,
+          "lng": 4.8055,
+          "type": "highlight",
+          "description": "Punto Avignon del día 1: Gracias a haber avanzado el viernes, el sábado ya no es una paliza extrema. La opción óptima es llegar a Nîmes o Avignon para dejar muy cómodo el acceso a Briançon al día siguiente. Narbona queda como opción prudente si el viernes acabó siendo más duro.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Avignon"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "fecha": "2026-09-06",
+      "base": "Briançon",
+      "ruta": "Avignon -> Nyons -> Serres (Hautes-Alpes) -> Gap -> Embrun -> Briançon",
+      "origen": "Avignon",
+      "destino": "Briançon",
+      "distanciaKm": 290,
+      "duracionHoras": 5.5,
+      "intensidad": "Entrada escénica a Alpes",
+      "puntosGoogle": 6,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=43.9493%2C4.8055&destination=44.8994%2C6.6432&travelmode=driving&waypoints=44.3603%2C5.1405%7C44.4286%2C5.7169%7C44.5596%2C6.0798%7C44.5639%2C6.4953",
+      "mapas": [
+        {
+          "bloque": "entrada escénica a Alpes",
+          "puntos": [
+            "Avignon",
+            "Nyons",
+            "Serres (Hautes-Alpes)",
+            "Gap",
+            "Embrun",
+            "Briançon"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=43.9493%2C4.8055&destination=44.8994%2C6.6432&travelmode=driving&waypoints=44.3603%2C5.1405%7C44.4286%2C5.7169%7C44.5596%2C6.0798%7C44.5639%2C6.4953",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-02.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Avignon",
+          "tipo": "experiencia"
+        },
+        {
+          "nombre": "Nyons",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Serres (Hautes-Alpes)",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Gap",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Embrun",
+          "tipo": "punto_interes"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Hôtel Vauban Briançon",
+          "tipo": "hotel",
+          "ubicacion": "Briançon",
+          "precioEstimado": 120,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20Vauban%20Brian%C3%A7on"
+          ],
+          "notas": "Opción céntrica práctica. Confirmar parking para moto, cancelación y acceso con equipaje."
+        },
+        {
+          "nombre": "Hôtel de Paris Briançon",
+          "tipo": "hotel",
+          "ubicacion": "Briançon",
+          "precioEstimado": 100,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20de%20Paris%20Brian%C3%A7on"
+          ],
+          "notas": "Alternativa funcional para dormir y salir hacia Galibier. Confirmar parking privado o zona segura para moto."
+        },
+        {
+          "nombre": "Auberge de la Paix Briançon",
+          "tipo": "hotel",
+          "ubicacion": "Briançon",
+          "precioEstimado": 100,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=Auberge%20de%20la%20Paix%20Brian%C3%A7on"
+          ],
+          "notas": "Opción con carácter local. Confirmar aparcamiento y horario de check-in."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 100,
+        "combustible": 33,
+        "peajes": 15,
+        "comida": 40,
+        "actividades": 0,
+        "varios": 15,
+        "total": 203
+      },
+      "comidaAhorro": "Comida en Nyons, Serres (Hautes-Alpes) o Gap; cena sencilla en Briançon.",
+      "repostaje": {
+        "principal": "Avignon o Nyons",
+        "alternativa": "Gap o Embrun",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Entrada progresiva a Alpes franceses evitando el túnel de Frejus. Forzar el paso por Nyons, Serres (Hautes-Alpes), Gap y Embrun para enlazar D94/D994/N94 hasta Briançon, una carretera mucho más de montaña y panorámica.",
+      "planBClima": "Si se sale tarde desde Avignon, recortar paradas para llegar con luz.",
+      "id": 2,
+      "date": "2026-09-06",
+      "title": "Avignon -> Nyons -> Serres (Hautes-Alpes) -> Gap -> Embrun -> Briançon",
+      "start": "Avignon",
+      "end": "Briançon",
+      "overnight": "Briançon",
+      "country": "",
+      "block": "alpes-franceses",
+      "color": "#ff9f1c",
+      "km": 290,
+      "drivingTime": "5,5 h",
+      "type": "entrada escénica a Alpes",
+      "summary": "Entrada progresiva a Alpes franceses evitando el túnel de Frejus. Forzar el paso por Nyons, Serres (Hautes-Alpes), Gap y Embrun para enlazar D94/D994/N94 hasta Briançon, una carretera mucho más de montaña y panorámica.",
+      "highlights": [
+        "D94 / D994 hacia Serres (Hautes-Alpes)",
+        "Nyons",
+        "Serres (Hautes-Alpes)",
+        "Gap",
+        "Embrun",
+        "Llegada a Briançon",
+        "Ciudad fortificada de Briançon"
+      ],
+      "warnings": [
+        "No hacer demasiadas paradas largas.",
+        "Llegar a Briançon con luz si es posible.",
+        "Revisar temperatura nocturna.",
+        "Reservar alojamiento con parking."
+      ],
+      "accommodationAdvice": "Briançon.",
+      "estimatedCost": 203,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=43.9493%2C4.8055&destination=44.8994%2C6.6432&travelmode=driving&waypoints=44.3603%2C5.1405%7C44.4286%2C5.7169%7C44.5596%2C6.0798%7C44.5639%2C6.4953",
+      "points": [
+        {
+          "name": "Avignon",
+          "lat": 43.9493,
+          "lng": 4.8055,
+          "type": "route",
+          "description": "Punto Avignon del día 2: Desde aquí se fuerza la ruta de montaña por Nyons, Serres, Gap y Embrun, enlazando D94/D994/N94 hacia Briançon.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Avignon%2C%20France"
+        },
+        {
+          "name": "Nyons",
+          "lat": 44.3603,
+          "lng": 5.1405,
+          "type": "highlight",
+          "description": "Punto Nyons del día 2: Punto para encaminar la D94/D994 y evitar la ruta fea y de peaje del Frejus.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nyons%2C%2026110%2C%20France"
+        },
+        {
+          "name": "Serres, Hautes-Alpes",
+          "lat": 44.4286,
+          "lng": 5.7169,
+          "type": "highlight",
+          "description": "Punto Serres del día 2: Mantiene la ruta por carretera de montaña D94/D994 antes de enlazar hacia Gap.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Serres%2C%2005700%2C%20France"
+        },
+        {
+          "name": "Gap",
+          "lat": 44.5596,
+          "lng": 6.0798,
+          "type": "highlight",
+          "description": "Punto Gap del día 2: Enlace natural hacia Embrun y Briançon por la ruta panorámica, sin Frejus.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gap%2C%2005000%2C%20France"
+        },
+        {
+          "name": "Embrun",
+          "lat": 44.5639,
+          "lng": 6.4953,
+          "type": "highlight",
+          "description": "Punto Embrun del día 2: Último punto útil para obligar el tramo panorámico hacia Briançon por el valle de la Durance.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Embrun%2C%2005200%2C%20France"
+        },
+        {
+          "name": "Briançon",
+          "lat": 44.8994,
+          "lng": 6.6432,
+          "type": "route",
+          "description": "Punto Briançon del día 2: Llegada por la ruta de montaña Nyons, Serres, Gap y Embrun, evitando el túnel de Frejus.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brian%C3%A7on%2C%2005100%2C%20France"
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "fecha": "2026-09-07",
+      "base": "Lanslebourg-Mont-Cenis",
+      "ruta": "Briançon -> Col du Lautaret -> Col du Galibier -> Valloire -> Saint-Michel-de-Maurienne -> Modane -> Lanslebourg-Mont-Cenis",
+      "origen": "Briançon",
+      "destino": "Lanslebourg-Mont-Cenis",
+      "distanciaKm": 145,
+      "duracionHoras": 3.5,
+      "intensidad": "Media-alta · paisaje 10/10 · moto 10/10",
+      "puntosGoogle": 9,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=44.8994%2C6.6432&destination=45.2434%2C6.8768&travelmode=driving&waypoints=45.0350%2C6.4050%7C45.0640%2C6.4070%7C45.0649%2C6.4071%7C45.1655%2C6.4292%7C45.1581%2C6.4470%7C45.2014%2C6.4731%7C45.2017%2C6.6697",
+      "mapas": [
+        {
+          "bloque": "Los gigantes de la Route des Grandes Alpes",
+          "puntos": [
+            "Briançon",
+            "Col du Lautaret",
+            "Col du Galibier",
+            "Monumento Henri Desgrange",
+            "Valloire",
+            "Col du Télégraphe",
+            "Saint-Michel-de-Maurienne",
+            "Modane",
+            "Lanslebourg-Mont-Cenis"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=44.8994%2C6.6432&destination=45.2434%2C6.8768&travelmode=driving&waypoints=45.0350%2C6.4050%7C45.0640%2C6.4070%7C45.0649%2C6.4071%7C45.1655%2C6.4292%7C45.1581%2C6.4470%7C45.2014%2C6.4731%7C45.2017%2C6.6697",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-03.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Col du Lautaret",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Col du Galibier",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Monumento Henri Desgrange",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Valloire",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Col du Télégraphe",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Saint-Michel-de-Maurienne",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Modane",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Lanslebourg-Mont-Cenis",
+          "tipo": "punto_interes"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Hôtel Saint Charles Val Cenis",
+          "tipo": "hotel",
+          "ubicacion": "Lanslebourg-Mont-Cenis",
+          "precioEstimado": 130,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20Saint%20Charles%20Val%20Cenis"
+          ],
+          "notas": "Prioridad por ubicación: deja el inicio del día siguiente perfecto para Mont Cenis e Iseran. Confirmar parking moto."
+        },
+        {
+          "nombre": "Hôtel l'Alpazur Val Cenis",
+          "tipo": "hotel",
+          "ubicacion": "Lanslebourg-Mont-Cenis",
+          "precioEstimado": 120,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20l%27Alpazur%20Val%20Cenis"
+          ],
+          "notas": "Alternativa lógica en Val Cenis. Confirmar baño privado, cancelación y aparcamiento."
+        },
+        {
+          "nombre": "Hôtel Le Perce Neige Lanslebourg",
+          "tipo": "hotel",
+          "ubicacion": "Lanslebourg-Mont-Cenis",
+          "precioEstimado": 110,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20Le%20Perce%20Neige%20Lanslebourg"
+          ],
+          "notas": "Opción sencilla si se prioriza dormir cerca de la salida. Modane queda solo como plan B si no hay disponibilidad."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 120,
+        "combustible": 18,
+        "peajes": 0,
+        "comida": 45,
+        "actividades": 0,
+        "varios": 15,
+        "total": 198
+      },
+      "comidaAhorro": "Mejor comida: Valloire, parada corta en Brasserie Le K o compra de bocata/picnic. Cena recomendable en Lanslebourg: fondue/raclette o restaurante de montaña; si se duerme en Modane, cena sencilla sin alargar.",
+      "repostaje": {
+        "principal": "Briançon antes de salir",
+        "alternativa": "Modane o Lanslebourg-Mont-Cenis al llegar",
+        "regla": "Salir lleno desde Briançon. No hay prisa: este día se disfruta con paradas largas en Galibier y Télégraphe."
+      },
+      "notas": "Distancia total: 145 km. Conducción real: 3,5 h. Tiempo total con paradas: 6-6,5 h. Dificultad: media-alta por altura y meteorología. Interés paisajístico: 10/10. Interés motero: 10/10. Mejor foto: Col du Galibier y Monumento Henri Desgrange. Salida recomendada: 09:00. Llegada estimada: 15:30-16:30. Jornada tranquila para saborear Lautaret, Galibier, Télégraphe y llegar pronto a descansar.",
+      "planBClima": "Si Galibier está cerrado o con niebla fuerte, mantener Lautaret y bajar por la alternativa más segura hacia Modane/Lanslebourg sin añadir puertos extra.",
+      "id": 3,
+      "date": "2026-09-07",
+      "title": "Los gigantes de la Route des Grandes Alpes",
+      "start": "Briançon",
+      "end": "Lanslebourg-Mont-Cenis",
+      "overnight": "Lanslebourg-Mont-Cenis",
+      "country": "",
+      "block": "alpes-franceses",
+      "color": "#2bb673",
+      "km": 145,
+      "drivingTime": "3,5 h",
+      "type": "Route des Grandes Alpes tranquila",
+      "summary": "Jornada corta y muy alpina para disfrutar Briançon, Lautaret, Galibier, Valloire y Télégraphe sin añadir kilómetros innecesarios. Objetivo: muchas fotos, conducción limpia y llegada temprana a Lanslebourg-Mont-Cenis.",
+      "highlights": [
+        "Col du Lautaret",
+        "Col du Galibier",
+        "Monumento Henri Desgrange",
+        "Col du Télégraphe",
+        "Valloire",
+        "Lanslebourg-Mont-Cenis"
+      ],
+      "warnings": [
+        "Salida recomendada 09:00; no hace falta madrugar fuerte.",
+        "Llevar capa térmica accesible: Galibier puede estar frío incluso con sol.",
+        "No añadir Iseran este día: queda reservado para la etapa siguiente.",
+        "Llegada estimada 15:30-16:30 con paradas fotográficas."
+      ],
+      "accommodationAdvice": "Prioridad Lanslebourg-Mont-Cenis por lógica de ruta. Modane solo si mejora precio, parking o disponibilidad.",
+      "estimatedCost": 198,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=44.8994%2C6.6432&destination=45.2434%2C6.8768&travelmode=driving&waypoints=45.0350%2C6.4050%7C45.0640%2C6.4070%7C45.0649%2C6.4071%7C45.1655%2C6.4292%7C45.1581%2C6.4470%7C45.2014%2C6.4731%7C45.2017%2C6.6697",
+      "points": [
+        {
+          "name": "Briançon",
+          "lat": 44.8994,
+          "lng": 6.6432,
+          "type": "highlight",
+          "description": "Punto Briançon: salir con depósito lleno, agua y capa térmica a mano antes de subir Lautaret y Galibier.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brian%C3%A7on%2C%20France"
+        },
+        {
+          "name": "Col du Lautaret",
+          "lat": 45.035,
+          "lng": 6.405,
+          "type": "highlight",
+          "description": "Punto Col du Lautaret: primer balcón alpino de la etapa y transición perfecta hacia Galibier.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Col%20du%20Lautaret%2C%20France"
+        },
+        {
+          "name": "Col du Galibier",
+          "lat": 45.064,
+          "lng": 6.407,
+          "type": "highlight",
+          "description": "Punto Col du Galibier: gran objetivo motero de la etapa. Parar arriba, fotos, respirar y no correr.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Col%20du%20Galibier%2C%20France"
+        },
+        {
+          "name": "Monumento Henri Desgrange",
+          "lat": 45.0649,
+          "lng": 6.4071,
+          "type": "highlight",
+          "description": "Punto Monumento Henri Desgrange: mejor parada cultural y fotográfica del Galibier.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Monument%20Henri%20Desgrange%20Galibier"
+        },
+        {
+          "name": "Valloire",
+          "lat": 45.1655,
+          "lng": 6.4292,
+          "type": "highlight",
+          "description": "Punto Valloire: mejor parada para café o comida ligera sin romper la jornada.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Valloire%2C%20France"
+        },
+        {
+          "name": "Col du Télégraphe",
+          "lat": 45.1581,
+          "lng": 6.447,
+          "type": "highlight",
+          "description": "Punto Col du Télégraphe: enlaza Galibier con Maurienne y mantiene la etapa en clave de carretera alpina.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Col%20du%20T%C3%A9l%C3%A9graphe%2C%20France"
+        },
+        {
+          "name": "Saint-Michel-de-Maurienne",
+          "lat": 45.2014,
+          "lng": 6.4731,
+          "type": "route",
+          "description": "Punto Saint-Michel-de-Maurienne: fin de la bajada del Télégraphe y enlace lógico hacia Modane.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Saint-Michel-de-Maurienne%2C%20France"
+        },
+        {
+          "name": "Modane",
+          "lat": 45.2017,
+          "lng": 6.6697,
+          "type": "route",
+          "description": "Punto Modane: alternativa práctica de alojamiento/repostaje si Lanslebourg no encaja.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Modane%2C%20France"
+        },
+        {
+          "name": "Lanslebourg-Mont-Cenis",
+          "lat": 45.2434,
+          "lng": 6.8768,
+          "type": "route",
+          "description": "Punto Lanslebourg-Mont-Cenis: fin ideal para descansar y preparar Mont Cenis, Iseran y Petit Saint-Bernard.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lanslebourg-Mont-Cenis%2C%20France"
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "fecha": "2026-09-08",
+      "base": "Aosta",
+      "ruta": "Lanslebourg-Mont-Cenis -> Col du Mont Cenis -> Bonneval-sur-Arc -> Col de l’Iseran -> Val d’Isère -> Bourg-Saint-Maurice -> Cormet de Roselend -> Saint-Gervais-les-Bains -> Chamonix-Mont-Blanc -> Martigny -> Gran San Bernardo -> Aosta",
+      "origen": "Lanslebourg-Mont-Cenis",
+      "destino": "Aosta",
+      "distanciaKm": 390,
+      "duracionHoras": 9.25,
+      "intensidad": "Muy alta · paisaje 10/10 · moto 10/10",
+      "puntosGoogle": 16,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=45.2434%2C6.8768&destination=45.6170%2C6.7690&travelmode=driving&waypoints=45.2590%2C6.9007%7C45.2350%2C6.9520%7C45.2434%2C6.8768%7C45.3710%2C7.0470%7C45.4175%2C7.0305%7C45.4170%2C7.0300%7C45.4508%2C6.9781",
+      "mapas": [
+        {
+          "bloque": "Iseran completo por la D902",
+          "puntos": [
+            "Lanslebourg-Mont-Cenis",
+            "Col du Mont Cenis",
+            "Lac du Mont-Cenis",
+            "Lanslebourg-Mont-Cenis",
+            "Bonneval-sur-Arc",
+            "Refuge de l’Iseran",
+            "Col de l’Iseran",
+            "Val d’Isère",
+            "Bourg-Saint-Maurice"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=45.2434%2C6.8768&destination=45.6170%2C6.7690&travelmode=driving&waypoints=45.2590%2C6.9007%7C45.2350%2C6.9520%7C45.2434%2C6.8768%7C45.3710%2C7.0470%7C45.4175%2C7.0305%7C45.4170%2C7.0300%7C45.4508%2C6.9781",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-04.gpx"
+        },
+        {
+          "bloque": "Mont Blanc + Gran San Bernardo",
+          "puntos": [
+            "Bourg-Saint-Maurice",
+            "Cormet de Roselend",
+            "Beaufort",
+            "Megève",
+            "Saint-Gervais-les-Bains",
+            "Chamonix-Mont-Blanc",
+            "Martigny",
+            "Col du Grand-Saint-Bernard",
+            "Aosta"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=45.6170%2C6.7690&destination=45.7370%2C7.3170&travelmode=driving&waypoints=45.6903%2C6.6909%7C45.3405%2C6.5732%7C45.8569%2C6.6178%7C45.8918%2C6.7138%7C45.9237%2C6.8694%7C46.1020%2C7.0720%7C45.8687%2C7.1706",
+          "estado": "OK"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Col du Mont Cenis",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Bonneval-sur-Arc",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Refuge de l’Iseran",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Col de l’Iseran",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Bourg-Saint-Maurice",
+          "tipo": "comida"
+        },
+        {
+          "nombre": "Cormet de Roselend",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Saint-Gervais-les-Bains",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Chamonix-Mont-Blanc",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Martigny",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Gran San Bernardo",
+          "tipo": "punto_interes"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "HB Aosta Hotel & Balcony SPA",
+          "tipo": "hotel",
+          "ubicacion": "Aosta",
+          "precioEstimado": 140,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=HB%20Aosta%20Hotel%20%26%20Balcony%20SPA"
+          ],
+          "notas": "Buena opción para recuperar tras etapa larga. Confirmar parking y cancelación."
+        },
+        {
+          "nombre": "Hotel Duca d'Aosta",
+          "tipo": "hotel",
+          "ubicacion": "Aosta",
+          "precioEstimado": 130,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=Hotel%20Duca%20d%27Aosta%20Aosta"
+          ],
+          "notas": "Céntrico y cómodo para cenar sin mover la moto. Revisar aparcamiento real antes de reservar."
+        },
+        {
+          "nombre": "Omama Hotel Aosta",
+          "tipo": "hotel",
+          "ubicacion": "Aosta",
+          "precioEstimado": 120,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=Omama%20Hotel%20Aosta"
+          ],
+          "notas": "Alternativa práctica en Aosta. Confirmar parking para la Tracer y acceso con maletas."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 48,
+        "peajes": 0,
+        "comida": 60,
+        "actividades": 0,
+        "varios": 20,
+        "total": 258
+      },
+      "comidaAhorro": "Mejor comida: Bourg-Saint-Maurice tras completar Iseran, parada de 45 min en panadería/traiteur o Le Refuge Altitude 810 si encaja. Cena en Aosta: trattoria local cerca del casco histórico, sin desviar la ruta.",
+      "repostaje": {
+        "principal": "Lanslebourg-Mont-Cenis o Modane antes de salir",
+        "alternativa": "Bourg-Saint-Maurice, Chamonix o Martigny",
+        "regla": "Salir lleno. Día muy largo: repostar en Bourg-Saint-Maurice si queda menos de medio depósito y no apurar antes de Suiza/Gran San Bernardo."
+      },
+      "notas": "Distancia total: 390 km. Conducción real: 9,25 h. Tiempo total con paradas: 11-12 h. Dificultad: muy alta por encadenar Mont Cenis, Iseran completo, Mont Blanc/Chamonix, Suiza y Gran San Bernardo. Interés paisajístico: 10/10. Interés motero: 10/10. Mejor foto: Lago del Mont Cenis, cartel del Iseran, vistas del Mont Blanc en Chamonix y Gran San Bernardo. Salida recomendada: 07:00. Llegada estimada a Aosta: 19:30-20:30. Alternativa superior aplicada: Cormet de Roselend, Beaufort y Megève entre Bourg-Saint-Maurice y Saint-Gervais para sustituir carreteras principales por una conexión más panorámica y lógica hacia el macizo del Mont Blanc.",
+      "planBClima": "Si Iseran está cerrado, no forzar. Si el día se alarga, saltar Cormet de Roselend y bajar más directo hacia Saint-Gervais/Chamonix. Si Gran San Bernardo está cerrado, valorar túnel solo como recurso de seguridad, no como plan base.",
+      "id": 4,
+      "date": "2026-09-08",
+      "title": "Grandes puertos + Mont Blanc + entrada en Italia",
+      "start": "Lanslebourg-Mont-Cenis",
+      "end": "Aosta",
+      "overnight": "Aosta",
+      "country": "",
+      "block": "norte-italia",
+      "color": "#2bb673",
+      "km": 390,
+      "drivingTime": "9,25 h",
+      "type": "puertos míticos + Mont Blanc",
+      "summary": "Etapa reina larga: Mont Cenis, carretera completa Bonneval-sur-Arc -> Refuge de l’Iseran -> Col de l’Iseran -> Val d’Isère, comida en Bourg-Saint-Maurice, conexión panorámica por Cormet de Roselend hacia Saint-Gervais y Chamonix, cruce por Martigny y entrada en Italia por el Gran San Bernardo.",
+      "highlights": [
+        "Col du Mont Cenis",
+        "Lago del Mont Cenis",
+        "Refuge de l’Iseran",
+        "Col de l’Iseran",
+        "Cormet de Roselend",
+        "Mont Blanc desde Chamonix",
+        "Martigny",
+        "Gran San Bernardo",
+        "Bourg-Saint-Maurice",
+        "Aosta"
+      ],
+      "warnings": [
+        "Salida recomendada 07:00; etapa muy larga.",
+        "Forzar Iseran con waypoints Bonneval-sur-Arc, Refuge de l’Iseran, Col de l’Iseran y Val d’Isère.",
+        "Ver Mont Blanc sin usar el túnel del Mont Blanc como plan base.",
+        "Comprobar estado de Iseran y Gran San Bernardo la noche anterior.",
+        "El tramo Mont Cenis es un mirador de ida/vuelta corto; no bajar hacia Susa."
+      ],
+      "accommodationAdvice": "Aosta.",
+      "estimatedCost": 258,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=45.2434%2C6.8768&destination=45.6170%2C6.7690&travelmode=driving&waypoints=45.2590%2C6.9007%7C45.2350%2C6.9520%7C45.2434%2C6.8768%7C45.3710%2C7.0470%7C45.4175%2C7.0305%7C45.4170%2C7.0300%7C45.4508%2C6.9781",
+      "points": [
+        {
+          "name": "Lanslebourg-Mont-Cenis",
+          "lat": 45.2434,
+          "lng": 6.8768,
+          "type": "route",
+          "description": "Punto Lanslebourg-Mont-Cenis: salir lleno y temprano para enlazar Mont Cenis, D902 e Iseran.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lanslebourg-Mont-Cenis%2C%20France"
+        },
+        {
+          "name": "Col du Mont Cenis / Lac du Mont-Cenis",
+          "lat": 45.259,
+          "lng": 6.9007,
+          "type": "highlight",
+          "description": "Punto Col du Mont Cenis: subida panorámica al lago y regreso hacia Lanslebourg, sin bajar a Susa.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Col%20du%20Mont%20Cenis%20Lac%20du%20Mont-Cenis"
+        },
+        {
+          "name": "Lac du Mont-Cenis",
+          "lat": 45.235,
+          "lng": 6.952,
+          "type": "highlight",
+          "description": "Punto Lac du Mont-Cenis: parada fotográfica principal de la subida a Mont Cenis antes de volver hacia la D902.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lac%20du%20Mont-Cenis"
+        },
+        {
+          "name": "Lanslebourg-Mont-Cenis (vuelta a D902)",
+          "lat": 45.2434,
+          "lng": 6.8768,
+          "type": "route",
+          "description": "Punto Lanslebourg-Mont-Cenis: vuelta controlada desde Mont Cenis para enlazar la D902 hacia Bonneval sin bajar a Susa.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lanslebourg-Mont-Cenis%2C%20France"
+        },
+        {
+          "name": "Bonneval-sur-Arc",
+          "lat": 45.371,
+          "lng": 7.047,
+          "type": "route",
+          "description": "Punto Bonneval-sur-Arc: pueblo alpino de paso para atacar Iseran por la D902.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bonneval-sur-Arc%2C%20France"
+        },
+        {
+          "name": "Refuge de l’Iseran",
+          "lat": 45.4175,
+          "lng": 7.0305,
+          "type": "highlight",
+          "description": "Punto Refuge de l’Iseran: waypoint explícito para que Google Maps suba por la carretera completa de Iseran y no busque atajos.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Refuge%20de%20l%27Iseran"
+        },
+        {
+          "name": "Col de l’Iseran",
+          "lat": 45.417,
+          "lng": 7.03,
+          "type": "highlight",
+          "description": "Punto Col de l’Iseran: puerto mítico y punto fotográfico obligatorio; parar en el cartel y miradores.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Col%20de%20l%27Iseran%2C%20France"
+        },
+        {
+          "name": "Val-d'Isère",
+          "lat": 45.4508,
+          "lng": 6.9781,
+          "type": "route",
+          "description": "Punto Val-d'Isère: paso natural de la D902 tras Iseran, sin convertirlo en parada larga.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Val-d%27Is%C3%A8re%2C%20France"
+        },
+        {
+          "name": "Bourg-Saint-Maurice",
+          "lat": 45.617,
+          "lng": 6.769,
+          "type": "highlight",
+          "description": "Punto Bourg-Saint-Maurice: mejor parada de comida tras completar el Iseran y antes de enlazar hacia Mont Blanc.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bourg-Saint-Maurice%2C%20France"
+        },
+        {
+          "name": "Cormet de Roselend",
+          "lat": 45.6903,
+          "lng": 6.6909,
+          "type": "highlight",
+          "description": "Punto Cormet de Roselend: alternativa superior para evitar carreteras principales y conectar Bourg con el macizo del Mont Blanc por una carretera mucho más motera.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cormet%20de%20Roselend"
+        },
+        {
+          "name": "Beaufort",
+          "lat": 45.3405,
+          "lng": 6.5732,
+          "type": "route",
+          "description": "Punto Beaufort: enlace natural tras Roselend hacia Megève y Saint-Gervais.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Beaufort%2C%20Savoie%2C%20France"
+        },
+        {
+          "name": "Megève",
+          "lat": 45.8569,
+          "lng": 6.6178,
+          "type": "route",
+          "description": "Punto Megève: paso panorámico para acercarse a Saint-Gervais evitando el enlace más aburrido por valle.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Meg%C3%A8ve%2C%20France"
+        },
+        {
+          "name": "Saint-Gervais-les-Bains",
+          "lat": 45.8918,
+          "lng": 6.7138,
+          "type": "highlight",
+          "description": "Punto Saint-Gervais-les-Bains: primera gran ventana al macizo del Mont Blanc.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Saint-Gervais-les-Bains%2C%20France"
+        },
+        {
+          "name": "Chamonix-Mont-Blanc",
+          "lat": 45.9237,
+          "lng": 6.8694,
+          "type": "highlight",
+          "description": "Punto Chamonix-Mont-Blanc: parada breve para ver el macizo del Mont Blanc sin convertir el día en turismo urbano.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chamonix-Mont-Blanc%2C%20France"
+        },
+        {
+          "name": "Martigny",
+          "lat": 46.102,
+          "lng": 7.072,
+          "type": "route",
+          "description": "Punto Martigny: conexión lógica por Suiza para entrar en Italia por el Gran San Bernardo.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Martigny%2C%20Switzerland"
+        },
+        {
+          "name": "Col du Grand-Saint-Bernard",
+          "lat": 45.8687,
+          "lng": 7.1706,
+          "type": "highlight",
+          "description": "Punto Gran San Bernardo: entrada histórica a Italia y cierre alpino del día antes de bajar a Aosta.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Col%20du%20Grand-Saint-Bernard"
+        },
+        {
+          "name": "Aosta",
+          "lat": 45.737,
+          "lng": 7.317,
+          "type": "highlight",
+          "description": "Punto Aosta: llegada final tras tres puertos míticos; cena tranquila y descanso.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aosta%2C%20Italy"
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "fecha": "2026-09-09",
+      "base": "Bormio",
+      "ruta": "Aosta -> Lecco -> Sondrio -> Bormio",
+      "origen": "Aosta",
+      "destino": "Bormio",
+      "distanciaKm": 380,
+      "duracionHoras": 7,
+      "intensidad": "Transición alpina italiana",
+      "puntosGoogle": 5,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=Aosta&destination=Bormio&travelmode=driving&waypoints=Lecco%7CSondrio",
+      "mapas": [
+        {
+          "bloque": "transición alpina italiana",
+          "puntos": [
+            "Aosta",
+            "Lecco",
+            "Sondrio",
+            "Bormio"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=Aosta&destination=Bormio&travelmode=driving&waypoints=Lecco%7CSondrio",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-05.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Lecco",
+          "tipo": "experiencia"
+        },
+        {
+          "nombre": "Sondrio",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Bormio",
+          "tipo": "punto_interes"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Bormio",
+          "precioEstimado": 130,
+          "enlaces": [],
+          "notas": "Bormio para que el día de Stelvio empiece exactamente en el alojamiento."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 42,
+        "peajes": 15,
+        "comida": 40,
+        "actividades": 0,
+        "varios": 15,
+        "total": 242
+      },
+      "comidaAhorro": "Comida práctica cerca de Lecco/Sondrio.",
+      "repostaje": {
+        "principal": "Aosta",
+        "alternativa": "Lecco o Sondrio",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Cruce del norte de Italia hacia Bormio para colocarnos directamente al pie del Stelvio y respetar continuidad con la jornada siguiente.",
+      "planBClima": "Si hay cansancio, priorizar llegar a Bormio y descansar; no alargar a Livigno.",
+      "id": 5,
+      "date": "2026-09-09",
+      "title": "Aosta -> Bormio",
+      "start": "Aosta",
+      "end": "Bormio",
+      "overnight": "Bormio",
+      "country": "",
+      "block": "norte-italia",
+      "color": "#20a67a",
+      "km": 380,
+      "drivingTime": "7 h",
+      "type": "transición alpina italiana",
+      "summary": "Cruce del norte de Italia hacia Bormio para dormir al pie del Stelvio y evitar inconsistencias con la jornada siguiente.",
+      "highlights": [
+        "Aosta",
+        "Posible Lago di Como/Lecco",
+        "Sondrio",
+        "Bormio"
+      ],
+      "warnings": [
+        "Día de transición.",
+        "Si hay cansancio, elegir ruta práctica.",
+        "Evitar entrar en Suiza para dormir."
+      ],
+      "accommodationAdvice": "Bormio.",
+      "estimatedCost": 242,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Aosta&destination=Bormio&travelmode=driving&waypoints=Lecco%7CSondrio",
+      "points": [
+        {
+          "name": "Aosta",
+          "lat": 45.737,
+          "lng": 7.317,
+          "type": "highlight",
+          "description": "Punto Aosta: cruce del norte de Italia hacia Bormio para dormir al pie del Stelvio.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aosta"
+        },
+        {
+          "name": "Lecco",
+          "lat": 45.8566,
+          "lng": 9.3977,
+          "type": "route",
+          "description": "Punto Lecco: enlace práctico hacia Valtellina sin convertir el día en turismo urbano.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lecco"
+        },
+        {
+          "name": "Sondrio",
+          "lat": 46.1699,
+          "lng": 9.8788,
+          "type": "highlight",
+          "description": "Punto Sondrio: avance por Valtellina hacia Bormio.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sondrio"
+        },
+        {
+          "name": "Bormio",
+          "lat": 46.4669,
+          "lng": 10.375,
+          "type": "highlight",
+          "description": "Punto Bormio: alojamiento al pie del Stelvio para iniciar la etapa dolomítica desde el punto correcto.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bormio"
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "fecha": "2026-09-10",
+      "base": "Ortisei",
+      "ruta": "Bormio -> Passo dello Stelvio -> Trafoi -> Merano -> Lago di Carezza -> Passo Costalunga -> Ortisei",
+      "origen": "Bormio",
+      "destino": "Ortisei",
+      "distanciaKm": 270,
+      "duracionHoras": 5.75,
+      "intensidad": "Stelvio + entrada en Dolomitas",
+      "puntosGoogle": 7,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.4669%2C10.3750&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5287%2C10.4534%7C46.5521%2C10.5093%7C46.6713%2C11.1595%7C46.4090%2C11.5750%7C46.4040%2C11.6080",
+      "mapas": [
+        {
+          "bloque": "Stelvio + entrada en Dolomitas",
+          "puntos": [
+            "Bormio",
+            "Passo dello Stelvio",
+            "Trafoi",
+            "Merano",
+            "Lago di Carezza",
+            "Passo Costalunga",
+            "Ortisei"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=46.4669%2C10.3750&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5287%2C10.4534%7C46.5521%2C10.5093%7C46.6713%2C11.1595%7C46.4090%2C11.5750%7C46.4040%2C11.6080",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-06.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Passo dello Stelvio",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Trafoi",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Merano",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Lago di Carezza",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Passo Costalunga",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Ortisei",
+          "tipo": "ciudad"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Ortisei",
+          "precioEstimado": 130,
+          "enlaces": [],
+          "notas": "Dormir preferentemente en Ortisei para continuidad exacta con Seceda. Santa Cristina queda como alternativa de alojamiento."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 30,
+        "peajes": 0,
+        "comida": 40,
+        "actividades": 0,
+        "varios": 15,
+        "total": 215
+      },
+      "comidaAhorro": "Comida corta en Trafoi o Merano; evitar mesa larga para llegar descansado a Val Gardena. Cena tranquila en Ortisei.",
+      "repostaje": {
+        "principal": "Bormio",
+        "alternativa": "Merano o Ortisei",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Stelvio + entrada en Dolomitas. 250-280 km y 5-6 h de moto. Objetivo: disfrutar el Stelvio, bajar por Trafoi, enlazar Merano, Lago di Carezza y Passo Costalunga, y llegar descansado a Ortisei.",
+      "planBClima": "Si Stelvio está cerrado o con mal tiempo, buscar paso alternativo seguro y priorizar llegar pronto a Ortisei para proteger el día de Seceda.",
+      "id": 6,
+      "date": "2026-09-10",
+      "title": "Stelvio + entrada en Dolomitas",
+      "start": "Bormio",
+      "end": "Ortisei",
+      "overnight": "Ortisei",
+      "country": "",
+      "block": "dolomitas-oeste",
+      "color": "#00b4d8",
+      "km": 270,
+      "drivingTime": "5-6 h",
+      "type": "Stelvio + entrada en Dolomitas",
+      "summary": "Jornada motera para disfrutar el Stelvio y entrar en Dolomitas por Carezza y Costalunga sin llegar tarde a Val Gardena.",
+      "highlights": [
+        "Passo dello Stelvio",
+        "Trafoi",
+        "Merano",
+        "Lago di Carezza",
+        "Passo Costalunga",
+        "Entrada a Val Gardena"
+      ],
+      "warnings": [
+        "Stelvio con pasajero y equipaje puede ser exigente.",
+        "No hacer Stelvio con mal tiempo.",
+        "Llegar a Ortisei con margen para proteger el día de Seceda."
+      ],
+      "accommodationAdvice": "Dormir preferentemente en Ortisei; Santa Cristina es alternativa válida si mantiene parking y buena ubicación.",
+      "estimatedCost": 215,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.4669%2C10.3750&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5287%2C10.4534%7C46.5521%2C10.5093%7C46.6713%2C11.1595%7C46.4090%2C11.5750%7C46.4040%2C11.6080",
+      "points": [
+        {
+          "name": "Bormio",
+          "lat": 46.4669,
+          "lng": 10.375,
+          "type": "route",
+          "description": "Punto Bormio: alojamiento al pie del Stelvio y salida hacia Dolomitas.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bormio"
+        },
+        {
+          "name": "Passo dello Stelvio",
+          "lat": 46.5287,
+          "lng": 10.4534,
+          "type": "highlight",
+          "description": "Punto Passo dello Stelvio: puerto icónico del día y prioridad motera absoluta.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passo%20dello%20Stelvio"
+        },
+        {
+          "name": "Trafoi",
+          "lat": 46.5521,
+          "lng": 10.5093,
+          "type": "route",
+          "description": "Punto Trafoi: bajada clásica del Stelvio hacia Merano.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trafoi"
+        },
+        {
+          "name": "Merano",
+          "lat": 46.6713,
+          "lng": 11.1595,
+          "type": "highlight",
+          "description": "Punto Merano: parada corta de enlace antes de Carezza, sin turismo urbano largo.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Merano"
+        },
+        {
+          "name": "Lago di Carezza",
+          "lat": 46.409,
+          "lng": 11.575,
+          "type": "highlight",
+          "description": "Punto Lago di Carezza: parada paisajística de entrada a Dolomitas.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lago%20di%20Carezza"
+        },
+        {
+          "name": "Passo Costalunga",
+          "lat": 46.404,
+          "lng": 11.608,
+          "type": "highlight",
+          "description": "Punto Passo Costalunga: enlace panorámico hacia Val Gardena.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passo%20Costalunga"
+        },
+        {
+          "name": "Ortisei",
+          "lat": 46.5765,
+          "lng": 11.6726,
+          "type": "route",
+          "description": "Punto Ortisei: alojamiento en Val Gardena y punto de salida del día de Seceda.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ortisei"
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "fecha": "2026-09-11",
+      "base": "Ortisei",
+      "ruta": "Ortisei -> Teleférico Seceda -> Seceda Viewpoint -> Rifugio Firenze -> Alpe di Siusi -> Ortisei",
+      "origen": "Ortisei",
+      "destino": "Ortisei",
+      "distanciaKm": 10,
+      "duracionHoras": 0.5,
+      "intensidad": "Trekking panorámico · moto mínima",
+      "puntosGoogle": 6,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=walking&waypoints=46.5757%2C11.6745%7C46.6004%2C11.7242%7C46.5913%2C11.7612%7C46.5415%2C11.6172",
+      "mapas": [
+        {
+          "bloque": "Seceda + Alpe di Siusi",
+          "puntos": [
+            "Ortisei",
+            "Seceda Cable Car",
+            "Seceda viewpoint",
+            "Rifugio Firenze",
+            "Alpe di Siusi",
+            "Ortisei"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=walking&waypoints=46.5757%2C11.6745%7C46.6004%2C11.7242%7C46.5913%2C11.7612%7C46.5415%2C11.6172",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-07.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Seceda Cable Car",
+          "tipo": "experiencia"
+        },
+        {
+          "nombre": "Seceda viewpoint",
+          "tipo": "experiencia"
+        },
+        {
+          "nombre": "Rifugio Firenze",
+          "tipo": "experiencia"
+        },
+        {
+          "nombre": "Alpe di Siusi",
+          "tipo": "experiencia"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Ortisei",
+          "precioEstimado": 130,
+          "enlaces": [],
+          "notas": "Mismo alojamiento en Ortisei para proteger el trekking y evitar mover equipaje."
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Seceda",
+          "tipo": "experiencia",
+          "costeEstimado": 35,
+          "notas": "Día dedicado a Seceda, uno de los paisajes más icónicos de Dolomitas."
+        }
+      ],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 2,
+        "peajes": 0,
+        "comida": 40,
+        "actividades": 35,
+        "varios": 15,
+        "total": 222
+      },
+      "comidaAhorro": "Refugio o picnic; cena en apartamento.",
+      "repostaje": {
+        "principal": "Ortisei",
+        "alternativa": "Santa Cristina",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Seceda + Alpe di Siusi. Muy poca moto; todo el día andando. Objetivo: uno de los mejores días del viaje, aprovechando buena luz en Seceda y sin mover alojamiento.",
+      "planBClima": "Cambiar por paseo bajo si Seceda está cerrado o cubierto.",
+      "id": 7,
+      "date": "2026-09-11",
+      "title": "Seceda + Alpe di Siusi",
+      "start": "Ortisei",
+      "end": "Ortisei",
+      "overnight": "Ortisei",
+      "country": "",
+      "block": "dolomitas-oeste",
+      "color": "#00b4d8",
+      "km": 10,
+      "drivingTime": "moto mínima",
+      "type": "trekking panorámico",
+      "summary": "Día completo para Seceda, Rifugio Firenze y Alpe di Siusi. La moto queda prácticamente parada para proteger el trekking.",
+      "highlights": [
+        "Seceda",
+        "Ortisei",
+        "Rifugio Firenze opcional",
+        "Alpe di Siusi"
+      ],
+      "warnings": [
+        "Revisar/reservar cable car.",
+        "Llevar capas y calzado de trekking.",
+        "No depender de que el día esté despejado; tener alternativa."
+      ],
+      "accommodationAdvice": "Mantener Ortisei para no mover maletas y salir al teleférico temprano.",
+      "estimatedCost": 222,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=walking&waypoints=46.5757%2C11.6745%7C46.6004%2C11.7242%7C46.5913%2C11.7612%7C46.5415%2C11.6172",
+      "points": [
+        {
+          "name": "Ortisei",
+          "lat": 46.5765,
+          "lng": 11.6726,
+          "type": "highlight",
+          "description": "Punto Ortisei: alojamiento y salida a pie/teleférico hacia Seceda.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ortisei"
+        },
+        {
+          "name": "Seceda Cable Car",
+          "lat": 46.5757,
+          "lng": 11.6745,
+          "type": "route",
+          "description": "Punto Teleférico Seceda: subir temprano para aprovechar luz y evitar colas.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Seceda%20Cable%20Car"
+        },
+        {
+          "name": "Seceda viewpoint",
+          "lat": 46.6004,
+          "lng": 11.7242,
+          "type": "route",
+          "description": "Punto Seceda Viewpoint: prioridad fotográfica del día.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Seceda%20viewpoint"
+        },
+        {
+          "name": "Rifugio Firenze",
+          "lat": 46.5913,
+          "lng": 11.7612,
+          "type": "route",
+          "description": "Punto Rifugio Firenze: parada de trekking y comida si encaja.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rifugio%20Firenze"
+        },
+        {
+          "name": "Alpe di Siusi",
+          "lat": 46.5415,
+          "lng": 11.6172,
+          "type": "route",
+          "description": "Punto Alpe di Siusi: praderas panorámicas para completar el día andando.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Alpe%20di%20Siusi"
+        },
+        {
+          "name": "Ortisei",
+          "lat": 46.5765,
+          "lng": 11.6726,
+          "type": "route",
+          "description": "Punto Ortisei: regreso al mismo alojamiento para descansar antes de Sellaronda.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ortisei"
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "fecha": "2026-09-12",
+      "base": "Misurina",
+      "ruta": "Ortisei -> Passo Gardena -> Corvara -> Passo Campolongo -> Arabba -> Passo Pordoi -> Passo Sella -> Brunico -> Lago di Braies -> Dobbiaco -> Lago di Misurina",
+      "origen": "Ortisei",
+      "destino": "Lago di Misurina",
+      "distanciaKm": 300,
+      "duracionHoras": 6.5,
+      "intensidad": "Sellaronda completa + Braies + Misurina",
+      "puntosGoogle": 11,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5833%2C12.2548&travelmode=driving&waypoints=46.5490%2C11.8080%7C46.5500%2C11.8730%7C46.5180%2C11.8750%7C46.4980%2C11.8750%7C46.4880%2C11.8120%7C46.5080%2C11.7600%7C46.7990%2C11.9350%7C46.6940%2C12.0850%7C46.7360%2C12.2220",
+      "mapas": [
+        {
+          "bloque": "Sellaronda + Lago di Braies + Misurina",
+          "puntos": [
+            "Ortisei",
+            "Passo Gardena",
+            "Corvara",
+            "Passo Campolongo",
+            "Arabba",
+            "Passo Pordoi",
+            "Passo Sella",
+            "Brunico",
+            "Lago di Braies",
+            "Dobbiaco",
+            "Lago di Misurina"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5833%2C12.2548&travelmode=driving&waypoints=46.5490%2C11.8080%7C46.5500%2C11.8730%7C46.5180%2C11.8750%7C46.4980%2C11.8750%7C46.4880%2C11.8120%7C46.5080%2C11.7600%7C46.7990%2C11.9350%7C46.6940%2C12.0850%7C46.7360%2C12.2220",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-08.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Passo Gardena",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Corvara",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Passo Campolongo",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Arabba",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Passo Pordoi",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Passo Sella",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Brunico",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Lago di Braies",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Dobbiaco",
+          "tipo": "punto_interes"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Misurina",
+          "precioEstimado": 130,
+          "enlaces": [],
+          "notas": "Dormir en Misurina para empezar Tre Cime muy temprano sin mover base."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 32,
+        "peajes": 0,
+        "comida": 40,
+        "actividades": 0,
+        "varios": 15,
+        "total": 217
+      },
+      "comidaAhorro": "Comida corta en Corvara/Arabba o picnic; Braies mejor como parada visual, no restaurante largo.",
+      "repostaje": {
+        "principal": "Ortisei o Corvara",
+        "alternativa": "Brunico o Dobbiaco",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Sellaronda completa + Lago di Braies + Misurina. 280-320 km y 6-7 h con paradas. Objetivo: hacer Gardena, Campolongo, Pordoi y Sella, mantener Braies y dormir junto a Tre Cime.",
+      "planBClima": "Si hay mal tiempo o cortes, priorizar dormir en Misurina y recortar Braies o parte de Sellaronda.",
+      "id": 8,
+      "date": "2026-09-12",
+      "title": "Sellaronda + Lago di Braies + Misurina",
+      "start": "Ortisei",
+      "end": "Lago di Misurina",
+      "overnight": "Lago di Misurina",
+      "country": "",
+      "block": "dolomitas-este",
+      "color": "#7b61ff",
+      "km": 300,
+      "drivingTime": "6-7 h con paradas",
+      "type": "Sellaronda completa + Braies",
+      "summary": "Día motero fuerte: Sellaronda completa, Lago di Braies y llegada a Misurina para dormir junto a Tre Cime.",
+      "highlights": [
+        "Passo Gardena",
+        "Passo Campolongo",
+        "Passo Pordoi",
+        "Passo Sella",
+        "Brunico",
+        "Lago di Braies",
+        "Misurina"
+      ],
+      "warnings": [
+        "Día largo: salir temprano de Ortisei.",
+        "Braies puede estar saturado; parar con cabeza.",
+        "Dormir en Misurina protege Tre Cime al día siguiente."
+      ],
+      "accommodationAdvice": "Prioridad Misurina. Dobbiaco solo si no hay disponibilidad, pero reduce la ventaja para Tre Cime.",
+      "estimatedCost": 217,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5833%2C12.2548&travelmode=driving&waypoints=46.5490%2C11.8080%7C46.5500%2C11.8730%7C46.5180%2C11.8750%7C46.4980%2C11.8750%7C46.4880%2C11.8120%7C46.5080%2C11.7600%7C46.7990%2C11.9350%7C46.6940%2C12.0850%7C46.7360%2C12.2220",
+      "points": [
+        {
+          "name": "Ortisei",
+          "lat": 46.5765,
+          "lng": 11.6726,
+          "type": "route",
+          "description": "Punto Ortisei: salida desde el alojamiento para hacer Sellaronda completa y dormir en Misurina.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ortisei"
+        },
+        {
+          "name": "Passo Gardena",
+          "lat": 46.549,
+          "lng": 11.808,
+          "type": "highlight",
+          "description": "Punto Passo Gardena: primer gran puerto de Sellaronda saliendo desde Ortisei.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passo%20Gardena"
+        },
+        {
+          "name": "Corvara",
+          "lat": 46.55,
+          "lng": 11.873,
+          "type": "route",
+          "description": "Punto Corvara: enlace natural entre Gardena y Campolongo.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Corvara%20in%20Badia"
+        },
+        {
+          "name": "Passo Campolongo",
+          "lat": 46.518,
+          "lng": 11.875,
+          "type": "highlight",
+          "description": "Punto Passo Campolongo: segundo puerto del anillo Sellaronda.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passo%20Campolongo"
+        },
+        {
+          "name": "Arabba",
+          "lat": 46.498,
+          "lng": 11.875,
+          "type": "route",
+          "description": "Punto Arabba: enlace hacia Pordoi.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Arabba"
+        },
+        {
+          "name": "Passo Pordoi",
+          "lat": 46.488,
+          "lng": 11.812,
+          "type": "highlight",
+          "description": "Punto Passo Pordoi: puerto imprescindible de Sellaronda.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passo%20Pordoi"
+        },
+        {
+          "name": "Passo Sella",
+          "lat": 46.508,
+          "lng": 11.76,
+          "type": "highlight",
+          "description": "Punto Passo Sella: cierre panorámico del anillo Sellaronda.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passo%20Sella"
+        },
+        {
+          "name": "Brunico",
+          "lat": 46.799,
+          "lng": 11.935,
+          "type": "highlight",
+          "description": "Punto Brunico: enlace práctico hacia Braies tras completar el tramo de puertos.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brunico"
+        },
+        {
+          "name": "Lago di Braies",
+          "lat": 46.694,
+          "lng": 12.085,
+          "type": "highlight",
+          "description": "Punto Lago di Braies: parada visual antes de dormir en Misurina.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lago%20di%20Braies"
+        },
+        {
+          "name": "Dobbiaco",
+          "lat": 46.736,
+          "lng": 12.222,
+          "type": "highlight",
+          "description": "Punto Dobbiaco: enlace final hacia Misurina.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dobbiaco"
+        },
+        {
+          "name": "Lago di Misurina",
+          "lat": 46.5833,
+          "lng": 12.2548,
+          "type": "route",
+          "description": "Punto Lago di Misurina: alojamiento junto a Tre Cime para salir temprano al día siguiente.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lago%20di%20Misurina"
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "fecha": "2026-09-13",
+      "base": "Lago di Misurina",
+      "ruta": "Lago di Misurina -> Lago d’Antorno -> Rifugio Auronzo -> Tre Cime -> Rifugio Locatelli -> Cadini di Misurina -> Lago di Misurina",
+      "origen": "Lago di Misurina",
+      "destino": "Lago di Misurina",
+      "distanciaKm": 35,
+      "duracionHoras": 1,
+      "intensidad": "Trekking top · moto mínima",
+      "puntosGoogle": 7,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5833%2C12.2548&travelmode=walking&waypoints=46.5980%2C12.2570%7C46.6120%2C12.2950%7C46.6180%2C12.3020%7C46.6360%2C12.3100%7C46.6040%2C12.2970",
+      "mapas": [
+        {
+          "bloque": "Tre Cime di Lavaredo",
+          "puntos": [
+            "Lago di Misurina",
+            "Lago d’Antorno",
+            "Rifugio Auronzo",
+            "Tre Cime di Lavaredo",
+            "Rifugio Locatelli",
+            "Cadini di Misurina viewpoint",
+            "Lago di Misurina"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5833%2C12.2548&travelmode=walking&waypoints=46.5980%2C12.2570%7C46.6120%2C12.2950%7C46.6180%2C12.3020%7C46.6360%2C12.3100%7C46.6040%2C12.2970",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-09.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Lago d’Antorno",
+          "tipo": "ciudad"
+        },
+        {
+          "nombre": "Rifugio Auronzo",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Tre Cime di Lavaredo",
+          "tipo": "ciudad"
+        },
+        {
+          "nombre": "Rifugio Locatelli",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Cadini di Misurina viewpoint",
+          "tipo": "ciudad"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Lago di Misurina",
+          "precioEstimado": 130,
+          "enlaces": [],
+          "notas": "Mantener alojamiento en Misurina para madrugar en Tre Cime y dormir pronto tras el trekking."
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Rifugio Auronzo",
+          "tipo": "experiencia",
+          "costeEstimado": 35,
+          "notas": "Día imprescindible con Tre Cime y Cadini di Misurina."
+        }
+      ],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 4,
+        "peajes": 15,
+        "comida": 40,
+        "actividades": 35,
+        "varios": 15,
+        "total": 239
+      },
+      "comidaAhorro": "Picnic/refugio; cena sencilla.",
+      "repostaje": {
+        "principal": "Dobbiaco o Cortina",
+        "alternativa": "Misurina",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Tre Cime di Lavaredo. Todo el día dedicado al trekking. Sin moto prácticamente. Prioridad: salir temprano desde Misurina, hacer Auronzo, Locatelli y Cadini, y volver al mismo alojamiento.",
+      "planBClima": "Si no hay acceso a Auronzo, hacer miradores bajos de Misurina.",
+      "id": 9,
+      "date": "2026-09-13",
+      "title": "Tre Cime di Lavaredo",
+      "start": "Lago di Misurina",
+      "end": "Lago di Misurina",
+      "overnight": "Lago di Misurina",
+      "country": "",
+      "block": "dolomitas-este",
+      "color": "#6c63ff",
+      "km": 35,
+      "drivingTime": "moto mínima",
+      "type": "trekking top Dolomitas Este",
+      "summary": "Todo el día para Tre Cime, Locatelli y Cadini desde Misurina, protegiendo la luz y evitando mover alojamiento.",
+      "highlights": [
+        "Rifugio Auronzo",
+        "Tre Cime",
+        "Rifugio Locatelli",
+        "Cadini di Misurina"
+      ],
+      "warnings": [
+        "Revisar reserva parking/acceso Rifugio Auronzo.",
+        "No hacer Cadini con niebla o lluvia.",
+        "Salir temprano."
+      ],
+      "accommodationAdvice": "Dormir en Misurina para maximizar la mañana en Tre Cime.",
+      "estimatedCost": 239,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5833%2C12.2548&travelmode=walking&waypoints=46.5980%2C12.2570%7C46.6120%2C12.2950%7C46.6180%2C12.3020%7C46.6360%2C12.3100%7C46.6040%2C12.2970",
+      "points": [
+        {
+          "name": "Lago di Misurina",
+          "lat": 46.5833,
+          "lng": 12.2548,
+          "type": "route",
+          "description": "Punto Lago di Misurina: alojamiento y salida temprana para Tre Cime.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Misurina"
+        },
+        {
+          "name": "Lago d’Antorno",
+          "lat": 46.593,
+          "lng": 12.266,
+          "type": "route",
+          "description": "Punto Lago d’Antorno: aproximación visual hacia Rifugio Auronzo.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lago%20d%E2%80%99Antorno"
+        },
+        {
+          "name": "Rifugio Auronzo",
+          "lat": 46.6123,
+          "lng": 12.2959,
+          "type": "highlight",
+          "description": "Punto Rifugio Auronzo: inicio del trekking circular de Tre Cime.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rifugio%20Auronzo"
+        },
+        {
+          "name": "Tre Cime di Lavaredo",
+          "lat": 46.6187,
+          "lng": 12.3028,
+          "type": "route",
+          "description": "Punto Tre Cime di Lavaredo: protagonista absoluto del día.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tre%20Cime%20di%20Lavaredo"
+        },
+        {
+          "name": "Rifugio Locatelli",
+          "lat": 46.6368,
+          "lng": 12.3105,
+          "type": "highlight",
+          "description": "Punto Rifugio Locatelli: parada clave del trekking y una de las mejores vistas de Tre Cime.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rifugio%20Locatelli"
+        },
+        {
+          "name": "Cadini di Misurina viewpoint",
+          "lat": 46.604,
+          "lng": 12.288,
+          "type": "route",
+          "description": "Punto Cadini di Misurina viewpoint: fotografía de tarde si el tiempo y las piernas acompañan.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cadini%20di%20Misurina%20viewpoint"
+        },
+        {
+          "name": "Lago di Misurina",
+          "lat": 46.5833,
+          "lng": 12.2548,
+          "type": "route",
+          "description": "Punto Lago di Misurina: regreso al mismo alojamiento para descansar.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lago%20di%20Misurina"
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "fecha": "2026-09-14",
+      "base": "Cortina d’Ampezzo",
+      "ruta": "Lago di Misurina -> Passo Tre Croci -> Lago di Sorapis -> Cortina -> Passo Giau -> Cortina d’Ampezzo",
+      "origen": "Lago di Misurina",
+      "destino": "Cortina d’Ampezzo",
+      "distanciaKm": 85,
+      "duracionHoras": 2.25,
+      "intensidad": "Sorapis + Giau · trekking y luz de tarde",
+      "puntosGoogle": 5,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5405%2C12.1357&travelmode=driving&waypoints=46.5591%2C12.2044%7C46.5144%2C12.2264%7C46.5405%2C12.1357%7C46.4830%2C12.0520",
+      "mapas": [
+        {
+          "bloque": "trekking potente + carretera escénica",
+          "puntos": [
+            "Lago di Misurina",
+            "Passo Tre Croci",
+            "Lago di Sorapis",
+            "Cortina d’Ampezzo",
+            "Passo Giau",
+            "Cortina d’Ampezzo"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5405%2C12.1357&travelmode=driving&waypoints=46.5591%2C12.2044%7C46.5144%2C12.2264%7C46.5405%2C12.1357%7C46.4830%2C12.0520",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-10.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Passo Tre Croci",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Lago di Sorapis",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Passo Giau",
+          "tipo": "punto_interes"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Cortina d’Ampezzo",
+          "precioEstimado": 130,
+          "enlaces": [],
+          "notas": "Dormir en Cortina para enlazar al día siguiente con Cinque Torri, Falzarego y Lagazuoi."
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Passo Tre Croci",
+          "tipo": "experiencia",
+          "costeEstimado": 35,
+          "notas": "Lago di Sorapis como trekking principal y Passo Giau como cierre escénico en moto."
+        }
+      ],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 11,
+        "peajes": 15,
+        "comida": 40,
+        "actividades": 35,
+        "varios": 15,
+        "total": 246
+      },
+      "comidaAhorro": "Picnic para Sorapis; cena en Cortina/Misurina.",
+      "repostaje": {
+        "principal": "Cortina",
+        "alternativa": "Dobbiaco",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Sorapis + Giau. Por la mañana trekking a Lago di Sorapis desde Passo Tre Croci. Por la tarde, Passo Giau para aprovechar una de las luces más bonitas de Dolomitas. Dormir en Cortina.",
+      "planBClima": "Cambiar Sorapis por miradores si llueve.",
+      "id": 10,
+      "date": "2026-09-14",
+      "title": "Sorapis + Giau",
+      "start": "Lago di Misurina",
+      "end": "Cortina d’Ampezzo",
+      "overnight": "Cortina d’Ampezzo",
+      "country": "",
+      "block": "dolomitas-este",
+      "color": "#845ec2",
+      "km": 85,
+      "drivingTime": "2,25 h",
+      "type": "trekking potente + carretera escénica",
+      "summary": "Mañana de trekking en Sorapis y tarde de moto/fotografía en Passo Giau, terminando en Cortina.",
+      "highlights": [
+        "Passo Tre Croci",
+        "Lago di Sorapis",
+        "Passo Giau"
+      ],
+      "warnings": [
+        "Sorapis tiene tramos expuestos.",
+        "Evitar con lluvia, nieve residual o vértigo.",
+        "No empezar tarde."
+      ],
+      "accommodationAdvice": "Dormir en Cortina para no retroceder y preparar Falzarego/Lagazuoi.",
+      "estimatedCost": 246,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5405%2C12.1357&travelmode=driving&waypoints=46.5591%2C12.2044%7C46.5144%2C12.2264%7C46.5405%2C12.1357%7C46.4830%2C12.0520",
+      "points": [
+        {
+          "name": "Lago di Misurina",
+          "lat": 46.5833,
+          "lng": 12.2548,
+          "type": "route",
+          "description": "Punto Lago di Misurina: salida desde el alojamiento hacia Passo Tre Croci y Sorapis.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lago%20di%20Misurina"
+        },
+        {
+          "name": "Passo Tre Croci",
+          "lat": 46.5591,
+          "lng": 12.2044,
+          "type": "highlight",
+          "description": "Punto Passo Tre Croci: inicio del trekking a Sorapis.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passo%20Tre%20Croci"
+        },
+        {
+          "name": "Lago di Sorapis",
+          "lat": 46.5144,
+          "lng": 12.2264,
+          "type": "highlight",
+          "description": "Punto Lago di Sorapis: trekking principal de la mañana.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lago%20di%20Sorapis"
+        },
+        {
+          "name": "Passo Giau",
+          "lat": 46.483,
+          "lng": 12.052,
+          "type": "highlight",
+          "description": "Punto Passo Giau: carretera y fotografía de tarde.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passo%20Giau"
+        },
+        {
+          "name": "Cortina d’Ampezzo",
+          "lat": 46.5405,
+          "lng": 12.1357,
+          "type": "route",
+          "description": "Punto Cortina d’Ampezzo: alojamiento tras Sorapis y Giau.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cortina%20d%E2%80%99Ampezzo"
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "fecha": "2026-09-15",
+      "base": "Ortisei",
+      "ruta": "Cortina d’Ampezzo -> Cinque Torri -> Passo Falzarego -> Lagazuoi -> Corvara -> Ortisei",
+      "origen": "Cortina d’Ampezzo",
+      "destino": "Ortisei",
+      "distanciaKm": 140,
+      "duracionHoras": 3.5,
+      "intensidad": "Historia + miradores + transición",
+      "puntosGoogle": 6,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5405%2C12.1357&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5080%2C12.0460%7C46.5190%2C12.0090%7C46.5270%2C12.0080%7C46.5505%2C11.8734",
+      "mapas": [
+        {
+          "bloque": "historia + miradores + transición",
+          "puntos": [
+            "Cortina d’Ampezzo",
+            "Cinque Torri",
+            "Passo Falzarego",
+            "Lagazuoi",
+            "Corvara",
+            "Ortisei"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5405%2C12.1357&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5080%2C12.0460%7C46.5190%2C12.0090%7C46.5270%2C12.0080%7C46.5505%2C11.8734",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-11.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Cinque Torri",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Passo Falzarego",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Lagazuoi",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Corvara",
+          "tipo": "ciudad"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Ortisei",
+          "precioEstimado": 130,
+          "enlaces": [],
+          "notas": "Volver a Ortisei/Santa Cristina para cerrar Dolomitas Oeste y preparar Val di Funes."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 15,
+        "peajes": 15,
+        "comida": 40,
+        "actividades": 0,
+        "varios": 15,
+        "total": 215
+      },
+      "comidaAhorro": "Refugio o comida rápida en ruta.",
+      "repostaje": {
+        "principal": "Cortina",
+        "alternativa": "Corvara",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Falzarego + Lagazuoi + Cinque Torri. Recupera la zona oeste desde Cortina sin repetir demasiado y termina en Ortisei/Santa Cristina.",
+      "planBClima": "Si Lagazuoi está cubierto, hacer Cinque Torri y volver a Ortisei sin alargar.",
+      "id": 11,
+      "date": "2026-09-15",
+      "title": "Falzarego + Lagazuoi + Cinque Torri",
+      "start": "Cortina d’Ampezzo",
+      "end": "Ortisei",
+      "overnight": "Ortisei",
+      "country": "",
+      "block": "dolomitas-este",
+      "color": "#845ec2",
+      "km": 140,
+      "drivingTime": "3,5 h",
+      "type": "historia + miradores + transición",
+      "summary": "Cinque Torri, Passo Falzarego y Lagazuoi antes de volver por Corvara a Ortisei, evitando zig-zags innecesarios.",
+      "highlights": [
+        "Cinque Torri",
+        "Museo abierto I Guerra Mundial",
+        "Passo Falzarego",
+        "Lagazuoi"
+      ],
+      "warnings": [
+        "Si hay cansancio, dormir otra vez en Cortina.",
+        "Si el tiempo está cubierto, Lagazuoi pierde valor."
+      ],
+      "accommodationAdvice": "Dormir en Ortisei/Santa Cristina para que Val di Funes sea un día limpio al día siguiente.",
+      "estimatedCost": 215,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5405%2C12.1357&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5080%2C12.0460%7C46.5190%2C12.0090%7C46.5270%2C12.0080%7C46.5505%2C11.8734",
+      "points": [
+        {
+          "name": "Cortina d’Ampezzo",
+          "lat": 46.5405,
+          "lng": 12.1357,
+          "type": "route",
+          "description": "Punto Cortina d’Ampezzo: salida desde el alojamiento hacia Cinque Torri y Falzarego.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cortina"
+        },
+        {
+          "name": "Cinque Torri",
+          "lat": 46.508,
+          "lng": 12.046,
+          "type": "highlight",
+          "description": "Punto Cinque Torri: parada cultural y panorámica antes de Falzarego.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinque%20Torri"
+        },
+        {
+          "name": "Passo Falzarego",
+          "lat": 46.519,
+          "lng": 12.009,
+          "type": "highlight",
+          "description": "Punto Passo Falzarego: puerto clave del regreso hacia Dolomitas Oeste.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passo%20Falzarego"
+        },
+        {
+          "name": "Lagazuoi",
+          "lat": 46.527,
+          "lng": 12.008,
+          "type": "highlight",
+          "description": "Punto Lagazuoi: mirador histórico y opcional de altura si el tiempo está limpio.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lagazuoi"
+        },
+        {
+          "name": "Corvara",
+          "lat": 46.5505,
+          "lng": 11.8734,
+          "type": "route",
+          "description": "Punto Corvara: enlace lógico hacia Val Gardena sin repetir más de lo necesario.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Corvara"
+        },
+        {
+          "name": "Ortisei",
+          "lat": 46.5765,
+          "lng": 11.6726,
+          "type": "route",
+          "description": "Punto Ortisei: alojamiento final para preparar Val di Funes.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ortisei"
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "fecha": "2026-09-16",
+      "base": "Ortisei",
+      "ruta": "Ortisei -> Santa Maddalena -> San Giovanni in Ranui -> Zanser Alm -> Adolf Munkel Trail -> Geisler Alm -> Ortisei",
+      "origen": "Ortisei",
+      "destino": "Ortisei",
+      "distanciaKm": 90,
+      "duracionHoras": 2,
+      "intensidad": "Dolomitas Oeste / trekking bajo las Odle",
+      "puntosGoogle": 6,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.6408%2C11.7140%7C46.6359%2C11.7203%7C46.6360%2C11.7650%7C46.6330%2C11.7600%7C46.6332%2C11.7559",
+      "mapas": [
+        {
+          "bloque": "Dolomitas Oeste / trekking bajo las Odle",
+          "puntos": [
+            "Ortisei",
+            "Santa Maddalena",
+            "Chiesa di San Giovanni in Ranui",
+            "Zanser Alm",
+            "Adolf Munkel Trail",
+            "Geisler Alm",
+            "Ortisei"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.6408%2C11.7140%7C46.6359%2C11.7203%7C46.6360%2C11.7650%7C46.6330%2C11.7600%7C46.6332%2C11.7559",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-12.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Santa Maddalena",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Chiesa di San Giovanni in Ranui",
+          "tipo": "ciudad"
+        },
+        {
+          "nombre": "Zanser Alm",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Adolf Munkel Trail",
+          "tipo": "punto_interes"
+        },
+        {
+          "nombre": "Geisler Alm",
+          "tipo": "punto_interes"
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Alojamiento con parking y cancelación flexible",
+          "tipo": "hotel",
+          "ubicacion": "Ortisei",
+          "precioEstimado": 130,
+          "enlaces": [],
+          "notas": "Mismo alojamiento en Ortisei para cerrar el bloque de Dolomitas sin mover equipaje."
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Santa Maddalena",
+          "tipo": "experiencia",
+          "costeEstimado": 35,
+          "notas": "Día para conocer Val di Funes más allá de la foto típica."
+        }
+      ],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 10,
+        "peajes": 15,
+        "comida": 40,
+        "actividades": 35,
+        "varios": 15,
+        "total": 245
+      },
+      "comidaAhorro": "Refugio Geisler Alm o picnic.",
+      "repostaje": {
+        "principal": "Ortisei o Bressanone",
+        "alternativa": "Chiusa",
+        "regla": "Salir con margen de combustible; no apurar en autopistas, puertos ni zonas de montaña."
+      },
+      "notas": "Val di Funes + Adolf Munkel Trail. Todo el día para disfrutar el trekking bajo las Odle y volver al alojamiento de Ortisei.",
+      "planBClima": "Paseo corto por Val di Funes si el tiempo empeora.",
+      "id": 12,
+      "date": "2026-09-16",
+      "title": "Val di Funes + Adolf Munkel Trail",
+      "start": "Ortisei",
+      "end": "Ortisei",
+      "overnight": "Ortisei",
+      "country": "",
+      "block": "dolomitas-oeste",
+      "color": "#00b4d8",
+      "km": 90,
+      "drivingTime": "2 h",
+      "type": "Dolomitas Oeste / trekking bajo las Odle",
+      "summary": "Santa Maddalena, San Giovanni in Ranui, Zanser Alm, Adolf Munkel Trail y Geisler Alm en un día de trekking completo con regreso a Ortisei.",
+      "highlights": [
+        "Santa Maddalena",
+        "San Giovanni in Ranui",
+        "Adolf Munkel Trail",
+        "Geisler Alm"
+      ],
+      "warnings": [
+        "Revisar parking Zannes/Zans.",
+        "Llevar efectivo por si algún refugio lo requiere."
+      ],
+      "accommodationAdvice": "Mantener Ortisei para evitar movimiento de equipaje y salir al día siguiente hacia Austria desde el mismo punto.",
+      "estimatedCost": 245,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.6408%2C11.7140%7C46.6359%2C11.7203%7C46.6360%2C11.7650%7C46.6330%2C11.7600%7C46.6332%2C11.7559",
+      "points": [
+        {
+          "name": "Ortisei",
+          "lat": 46.5765,
+          "lng": 11.6726,
+          "type": "route",
+          "description": "Punto Ortisei: salida desde el alojamiento hacia Val di Funes.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ortisei"
+        },
+        {
+          "name": "Santa Maddalena",
+          "lat": 46.6408,
+          "lng": 11.714,
+          "type": "highlight",
+          "description": "Punto Santa Maddalena: parada fotográfica clásica de Val di Funes.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Santa%20Maddalena"
+        },
+        {
+          "name": "Chiesa di San Giovanni in Ranui",
+          "lat": 46.6359,
+          "lng": 11.7203,
+          "type": "route",
+          "description": "Punto San Giovanni in Ranui: icono fotográfico bajo las Odle.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chiesa%20di%20San%20Giovanni%20in%20Ranui"
+        },
+        {
+          "name": "Zanser Alm",
+          "lat": 46.636,
+          "lng": 11.765,
+          "type": "route",
+          "description": "Punto Zanser Alm: zona de inicio/logística para Adolf Munkel Trail.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zanser%20Alm"
+        },
+        {
+          "name": "Adolf Munkel Trail",
+          "lat": 46.633,
+          "lng": 11.76,
+          "type": "highlight",
+          "description": "Punto Adolf Munkel Trail: trekking principal del día bajo las Odle.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Adolf%20Munkel%20Trail"
+        },
+        {
+          "name": "Geisler Alm",
+          "lat": 46.6332,
+          "lng": 11.7559,
+          "type": "highlight",
+          "description": "Punto Geisler Alm: refugio y vistas principales del trekking.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Geisler%20Alm"
+        },
+        {
+          "name": "Ortisei",
+          "lat": 46.5765,
+          "lng": 11.6726,
+          "type": "route",
+          "description": "Punto Ortisei: regreso al alojamiento tras Val di Funes.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ortisei"
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "fecha": "2026-09-17",
+      "base": "Lienz",
+      "ruta": "Ortisei -> Chiusa -> Bressanone -> Brunico -> Dobbiaco -> San Candido -> Lienz",
+      "origen": "Ortisei",
+      "destino": "Lienz",
+      "distanciaKm": 200,
+      "duracionHoras": 4.5,
+      "intensidad": "Media · salida lógica de Dolomitas · interés motero 6/10 · paisaje 7/10",
+      "puntosGoogle": 7,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.8297%2C12.769&travelmode=driving&waypoints=46.641%2C11.565%7C46.715%2C11.655%7C46.799%2C11.935%7C46.736%2C12.222%7C46.733%2C12.279",
+      "mapas": [
+        {
+          "bloque": "salida natural de Dolomitas hacia Austria",
+          "puntos": [
+            "Ortisei",
+            "Chiusa",
+            "Bressanone",
+            "Brunico",
+            "Dobbiaco",
+            "San Candido",
+            "Lienz"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.8297%2C12.769&travelmode=driving&waypoints=46.641%2C11.565%7C46.715%2C11.655%7C46.799%2C11.935%7C46.736%2C12.222%7C46.733%2C12.279",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-13.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Chiusa",
+          "tipo": "ciudad",
+          "notas": "Enlace natural desde Val Gardena hacia el eje del Brennero."
+        },
+        {
+          "nombre": "Bressanone",
+          "tipo": "punto_interes",
+          "notas": "Buena parada corta y fotogenica."
+        },
+        {
+          "nombre": "Brunico",
+          "tipo": "comida",
+          "notas": "Mejor parada para comer sin desviarse."
+        },
+        {
+          "nombre": "Dobbiaco",
+          "tipo": "ciudad",
+          "notas": "Entrada al tramo final de Val Pusteria."
+        },
+        {
+          "nombre": "San Candido",
+          "tipo": "punto_interes",
+          "notas": "Ultima parada italiana antes de Austria."
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Hotel Sonne Lienz",
+          "tipo": "hotel",
+          "ubicacion": "Centro de Lienz",
+          "precioEstimado": 130,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=Hotel%20Sonne%20Lienz"
+          ],
+          "notas": "Zona centrica, buena salida hacia Heiligenblut. Confirmar parking privado o garaje para moto y bano privado."
+        },
+        {
+          "nombre": "Hotel Holunderhof Lienz",
+          "tipo": "hotel",
+          "ubicacion": "Este de Lienz",
+          "precioEstimado": 150,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=Hotel%20Holunderhof%20Lienz"
+          ],
+          "notas": "Buena opcion si se prioriza parking y tranquilidad. Confirmar precio final y cancelacion."
+        },
+        {
+          "nombre": "Gasthof Schlossberghof Lienz",
+          "tipo": "hotel",
+          "ubicacion": "Lienz / Schlossberg",
+          "precioEstimado": 130,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=Gasthof%20Schlossberghof%20Lienz"
+          ],
+          "notas": "Interesante por acceso y parking; comprobar disponibilidad y bano privado."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 130,
+        "combustible": 22,
+        "peajes": 10,
+        "comida": 45,
+        "actividades": 0,
+        "varios": 20,
+        "total": 227
+      },
+      "comidaAhorro": "Mejor parada para comer: Brunico. Alternativa: San Candido si se quiere alargar antes de entrar en Austria.",
+      "repostaje": {
+        "principal": "Brunico",
+        "alternativa": "San Candido o Lienz",
+        "regla": "Llegar a Lienz con deposito suficiente y dejar la moto preparada para salir temprano hacia Grossglockner."
+      },
+      "notas": "Salida natural de Dolomitas hacia Austria por Val Gardena y Val Pusteria, sin rodeos hacia el sur. Jornada de transición bonita y lógica para dejar Grossglockner perfectamente colocado al día siguiente. Tiempo total con paradas: 5,5-6 h. Dificultad: media-baja. Mejor foto: Bressanone o San Candido, segun luz. Zona recomendada para dormir: Lienz centro o este de Lienz, evitando alojamientos alejados del eje hacia Heiligenblut.",
+      "planBClima": "Si llueve, reducir paradas y hacer ruta directa por Val Pusteria hasta Lienz.",
+      "id": 13,
+      "date": "2026-09-17",
+      "title": "Salida natural de Dolomitas hacia Austria",
+      "start": "Ortisei",
+      "end": "Lienz",
+      "overnight": "Lienz",
+      "country": "",
+      "block": "austria",
+      "color": "#1982c4",
+      "km": 200,
+      "drivingTime": "4,5 h de conduccion · 5,5-6 h con paradas",
+      "type": "Italia/Austria · salida logica de Dolomitas",
+      "summary": "Salida natural de Dolomitas hacia Austria por Val Gardena y Val Pusteria, sin rodeos hacia el sur. Jornada de transición bonita y lógica para dejar Grossglockner perfectamente colocado al día siguiente.",
+      "highlights": [
+        "Val Gardena",
+        "Chiusa",
+        "Bressanone",
+        "Brunico",
+        "San Candido",
+        "Lienz"
+      ],
+      "warnings": [
+        "No cargar el dia con visitas largas.",
+        "Reservar en Lienz con parking seguro.",
+        "Preparar ropa fria para Grossglockner."
+      ],
+      "accommodationAdvice": "Lienz centro o salida este. Prioridad: parking privado/garaje, bano privado y salida facil hacia Heiligenblut.",
+      "estimatedCost": 227,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.8297%2C12.769&travelmode=driving&waypoints=46.641%2C11.565%7C46.715%2C11.655%7C46.799%2C11.935%7C46.736%2C12.222%7C46.733%2C12.279",
+      "points": [
+        {
+          "name": "Ortisei",
+          "lat": 46.5765,
+          "lng": 11.6726,
+          "type": "route",
+          "description": "Salida exacta desde el alojamiento de Ortisei.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ortisei"
+        },
+        {
+          "name": "Chiusa",
+          "lat": 46.641,
+          "lng": 11.565,
+          "type": "route",
+          "description": "Enlace natural hacia Bressanone sin rodeos.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chiusa"
+        },
+        {
+          "name": "Bressanone",
+          "lat": 46.715,
+          "lng": 11.655,
+          "type": "highlight",
+          "description": "Parada fotogenica y logica antes de Val Pusteria.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bressanone"
+        },
+        {
+          "name": "Brunico",
+          "lat": 46.799,
+          "lng": 11.935,
+          "type": "highlight",
+          "description": "Mejor parada para comer en el eje natural de la ruta.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brunico"
+        },
+        {
+          "name": "Dobbiaco",
+          "lat": 46.736,
+          "lng": 12.222,
+          "type": "route",
+          "description": "Paso natural hacia San Candido y Austria.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dobbiaco"
+        },
+        {
+          "name": "San Candido",
+          "lat": 46.733,
+          "lng": 12.279,
+          "type": "highlight",
+          "description": "Ultima referencia italiana antes de Lienz.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=San%20Candido"
+        },
+        {
+          "name": "Lienz",
+          "lat": 46.8297,
+          "lng": 12.769,
+          "type": "highlight",
+          "description": "Final exacto y alojamiento para preparar Grossglockner.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lienz"
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "fecha": "2026-09-18",
+      "base": "Zell am See",
+      "ruta": "Lienz -> Heiligenblut -> Grossglockner High Alpine Road -> Kaiser-Franz-Josefs-Hohe -> Zell am See",
+      "origen": "Lienz",
+      "destino": "Zell am See",
+      "distanciaKm": 170,
+      "duracionHoras": 4.5,
+      "intensidad": "Alta · Grossglockner estrella · interes motero 10/10 · paisaje 10/10",
+      "puntosGoogle": 5,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.8297%2C12.769&destination=47.3235%2C12.7968&travelmode=driving&waypoints=47.0396%2C12.8431%7C47.055%2C12.83%7C47.0742%2C12.7517",
+      "mapas": [
+        {
+          "bloque": "Grossglockner sin rodeos",
+          "puntos": [
+            "Lienz",
+            "Heiligenblut",
+            "Grossglockner High Alpine Road",
+            "Kaiser-Franz-Josefs-Höhe",
+            "Zell am See"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=46.8297%2C12.769&destination=47.3235%2C12.7968&travelmode=driving&waypoints=47.0396%2C12.8431%7C47.055%2C12.83%7C47.0742%2C12.7517",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-14.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Heiligenblut",
+          "tipo": "ciudad",
+          "notas": "Mejor punto para repostar antes de entrar a Grossglockner."
+        },
+        {
+          "nombre": "Grossglockner High Alpine Road",
+          "tipo": "punto_interes",
+          "notas": "Carretera protagonista del dia."
+        },
+        {
+          "nombre": "Kaiser-Franz-Josefs-Höhe",
+          "tipo": "punto_interes",
+          "notas": "Mejor punto de foto y parada principal."
+        },
+        {
+          "nombre": "Zell am See",
+          "tipo": "ciudad",
+          "notas": "Final exacto y alojamiento practico para bajar al dia siguiente hacia Genova."
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Hotel Glasererhaus Zell am See",
+          "tipo": "hotel",
+          "ubicacion": "Centro de Zell am See",
+          "precioEstimado": 140,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=Hotel%20Glasererhaus%20Zell%20am%20See"
+          ],
+          "notas": "Zona centrica y salida facil por carretera principal. Confirmar parking/garaje para moto y bano privado."
+        },
+        {
+          "nombre": "Pension Max Zell am See",
+          "tipo": "hotel",
+          "ubicacion": "Zell am See centro",
+          "precioEstimado": 130,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=Pension%20Max%20Zell%20am%20See"
+          ],
+          "notas": "Opcion razonable si hay parking confirmado. Buena para no desviarse del eje del dia siguiente."
+        },
+        {
+          "nombre": "Hotel Traube Zell am See",
+          "tipo": "hotel",
+          "ubicacion": "Zell am See centro",
+          "precioEstimado": 145,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=Hotel%20Traube%20Zell%20am%20See"
+          ],
+          "notas": "Practico por ubicacion; confirmar parking seguro para moto, bano privado y precio final."
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Grossglockner Hochalpenstrasse",
+          "tipo": "ruta",
+          "costeEstimado": 45,
+          "notas": "Peaje alpino estimado. Revisar tarifa oficial 2026 y meteorologia."
+        }
+      ],
+      "presupuestoDia": {
+        "alojamiento": 145,
+        "combustible": 20,
+        "peajes": 45,
+        "comida": 50,
+        "actividades": 0,
+        "varios": 20,
+        "total": 280
+      },
+      "comidaAhorro": "Mejor parada para comer: Kaiser-Franz-Josefs-Hohe o restaurante/refugio dentro de Grossglockner. Alternativa ligera en Heiligenblut antes de subir.",
+      "repostaje": {
+        "principal": "Heiligenblut",
+        "alternativa": "Lienz antes de salir",
+        "regla": "Entrar a Grossglockner con deposito alto; no depender de repostar dentro de la carretera alpina."
+      },
+      "notas": "Grossglockner como día estrella de Austria: Lienz, Heiligenblut, Grossglockner Hochalpenstrasse, Kaiser-Franz-Josefs-Hohe y Zell am See. Tiempo total con paradas: 6-7 h. Dificultad: media-alta por altura, frio y meteorologia. Mejor foto: Kaiser-Franz-Josefs-Hohe. Zona recomendada para dormir: Zell am See centro o salida sur/este, sin desviarse del eje natural hacia Genova.",
+      "planBClima": "Si Grossglockner esta cerrado, rodear de forma segura hacia Zell am See sin buscar ramales panoramicos fuera del recorrido natural.",
+      "id": 14,
+      "date": "2026-09-18",
+      "title": "Grossglockner sin rodeos",
+      "start": "Lienz",
+      "end": "Zell am See",
+      "overnight": "Zell am See",
+      "country": "",
+      "block": "austria",
+      "color": "#1982c4",
+      "km": 170,
+      "drivingTime": "4,5 h de conduccion · 6-7 h con paradas",
+      "type": "Austria · carretera alpina estrella",
+      "summary": "Grossglockner como día estrella de Austria: Lienz, Heiligenblut, Grossglockner Hochalpenstrasse, Kaiser-Franz-Josefs-Hohe y Zell am See, sin desvíos innecesarios.",
+      "highlights": [
+        "Heiligenblut",
+        "Grossglockner Hochalpenstrasse",
+        "Kaiser-Franz-Josefs-Hohe",
+        "Zell am See"
+      ],
+      "warnings": [
+        "Evitar ramales panoramicos fuera del recorrido natural.",
+        "Dormir en Zell am See para mantener el eje hacia Genova.",
+        "Verificar apertura, horarios y meteorologia oficial."
+      ],
+      "accommodationAdvice": "Dormir en Zell am See centro o cerca de la salida hacia Innsbruck. Prioridad parking seguro, bano privado y salida facil.",
+      "estimatedCost": 280,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.8297%2C12.769&destination=47.3235%2C12.7968&travelmode=driving&waypoints=47.0396%2C12.8431%7C47.055%2C12.83%7C47.0742%2C12.7517",
+      "points": [
+        {
+          "name": "Lienz",
+          "lat": 46.8297,
+          "lng": 12.769,
+          "type": "route",
+          "description": "Salida exacta desde el alojamiento en Lienz.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lienz"
+        },
+        {
+          "name": "Heiligenblut",
+          "lat": 47.0396,
+          "lng": 12.8431,
+          "type": "route",
+          "description": "Mejor punto para repostar antes de Grossglockner.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Heiligenblut"
+        },
+        {
+          "name": "Grossglockner High Alpine Road",
+          "lat": 47.055,
+          "lng": 12.83,
+          "type": "highlight",
+          "description": "Inicio del tramo alpino protagonista del dia.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grossglockner%20High%20Alpine%20Road"
+        },
+        {
+          "name": "Kaiser-Franz-Josefs-Höhe",
+          "lat": 47.0742,
+          "lng": 12.7517,
+          "type": "highlight",
+          "description": "Mejor punto de foto y parada principal bajo el Grossglockner.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaiser-Franz-Josefs-H%C3%B6he"
+        },
+        {
+          "name": "Zell am See",
+          "lat": 47.3235,
+          "lng": 12.7968,
+          "type": "highlight",
+          "description": "Final exacto y alojamiento para bajar a Genova al dia siguiente.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zell%20am%20See"
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "fecha": "2026-09-19",
+      "base": "Ferry Genova-Barcelona",
+      "ruta": "Zell am See -> Innsbruck -> Brennero -> Verona -> Brescia -> Milan -> Genova -> Barcelona",
+      "origen": "Zell am See",
+      "destino": "Barcelona",
+      "distanciaKm": 690,
+      "duracionHoras": 8,
+      "intensidad": "Alta · enlace eficiente a ferry · interes motero 4/10 · paisaje 5/10",
+      "puntosGoogle": 8,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=47.3235%2C12.7968&destination=44.4106%2C8.9139&travelmode=driving&waypoints=47.2692%2C11.4041%7C47.006%2C11.506%7C45.4384%2C10.9916%7C45.5416%2C10.2118%7C45.4642%2C9.19",
+      "mapas": [
+        {
+          "bloque": "bajada eficiente a Genova para ferry",
+          "puntos": [
+            "Zell am See",
+            "Innsbruck",
+            "Brennero",
+            "Verona",
+            "Brescia",
+            "Milan",
+            "Genova"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=47.3235%2C12.7968&destination=44.4106%2C8.9139&travelmode=driving&waypoints=47.2692%2C11.4041%7C47.006%2C11.506%7C45.4384%2C10.9916%7C45.5416%2C10.2118%7C45.4642%2C9.19",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-15.gpx"
+        },
+        {
+          "bloque": "ferry Genova -> Barcelona",
+          "puntos": [
+            "Genova",
+            "Barcelona"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=44.4106%2C8.9139&destination=41.3521%2C2.1599",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-15-ferry.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Innsbruck",
+          "tipo": "parada",
+          "notas": "Parada tecnica breve; no entrar al centro."
+        },
+        {
+          "nombre": "Brennero",
+          "tipo": "punto_interes",
+          "notas": "Paso logistico hacia Italia."
+        },
+        {
+          "nombre": "Verona",
+          "tipo": "parada",
+          "notas": "Solo de paso."
+        },
+        {
+          "nombre": "Brescia",
+          "tipo": "comida",
+          "notas": "Mejor parada para comer/repostar sin desviarse demasiado."
+        },
+        {
+          "nombre": "Milan",
+          "tipo": "parada",
+          "notas": "Punto de paso para encaminar Genova."
+        },
+        {
+          "nombre": "Genova",
+          "tipo": "punto_interes",
+          "notas": "Llegar idealmente 16:30-17:30 para embarcar con margen."
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Ferry Genova-Barcelona",
+          "tipo": "hotel",
+          "ubicacion": "A bordo",
+          "precioEstimado": 0,
+          "enlaces": [
+            "https://www.google.com/maps/search/?api=1&query=ferry%20Genova%20Barcelona%2019%20septiembre%202026"
+          ],
+          "notas": "Dormir a bordo. Reservar plaza para moto y, si compensa, camarote. Presentarse en puerto con margen para ferry sobre las 19:00."
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Ferry Genova -> Barcelona",
+          "tipo": "ruta",
+          "costeEstimado": 260,
+          "notas": "Estimacion para dos personas + moto. Confirmar naviera, horario, camarote y condiciones de embarque."
+        }
+      ],
+      "presupuestoDia": {
+        "alojamiento": 0,
+        "combustible": 78,
+        "peajes": 65,
+        "comida": 45,
+        "actividades": 260,
+        "varios": 25,
+        "total": 473
+      },
+      "comidaAhorro": "Mejor parada para comer: area de servicio entre Brescia y Milan o comida rapida cerca de Brescia. No perder tiempo en centros urbanos.",
+      "repostaje": {
+        "principal": "Brescia",
+        "alternativa": "Antes de Milan o al llegar a Genova si hay margen",
+        "regla": "Salir pronto de Zell am See y no apurar combustible en autopista italiana antes de Genova."
+      },
+      "notas": "Bajada eficiente desde Zell am See a Genova para embarcar con margen en el ferry de tarde/noche hacia Barcelona. Prioridad absoluta: salir pronto, evitar visitas largas y llegar al puerto sobre 16:30-17:30. Tiempo total con paradas hasta Genova: 9-10 h. Llegada objetivo a Genova: 16:30-17:30. Ferry objetivo: sobre 19:00. Dormir en ferry y amanecer/llegar en Barcelona el domingo.",
+      "planBClima": "Si hay retrasos fuertes, recortar todas las paradas no esenciales y priorizar llegar al puerto de Genova con margen.",
+      "id": 15,
+      "date": "2026-09-19",
+      "title": "Bajada eficiente a Genova + ferry a Barcelona",
+      "start": "Zell am See",
+      "end": "Barcelona",
+      "overnight": "Ferry Genova-Barcelona",
+      "country": "",
+      "block": "regreso-ferry",
+      "color": "#f15bb5",
+      "km": 690,
+      "drivingTime": "7,5-8,5 h de conduccion hasta Genova · 9-10 h con paradas + ferry nocturno",
+      "type": "Austria/Italia/Espana · enlace a ferry",
+      "summary": "Bajada eficiente desde Zell am See a Genova para embarcar con margen en el ferry de tarde/noche hacia Barcelona. Prioridad absoluta: salir pronto, evitar visitas largas y llegar al puerto sobre 16:30-17:30.",
+      "highlights": [
+        "Brennero",
+        "Llegada a Genova con margen",
+        "Ferry nocturno a Barcelona"
+      ],
+      "warnings": [
+        "Salir pronto de Zell am See.",
+        "No hacer turismo en Verona, Brescia, Milan ni Genova.",
+        "Objetivo Genova 16:30-17:30 para ferry sobre 19:00."
+      ],
+      "accommodationAdvice": "Noche a bordo del ferry Genova-Barcelona. Reservar moto + camarote si el precio encaja.",
+      "estimatedCost": 473,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=47.3235%2C12.7968&destination=44.4106%2C8.9139&travelmode=driving&waypoints=47.2692%2C11.4041%7C47.006%2C11.506%7C45.4384%2C10.9916%7C45.5416%2C10.2118%7C45.4642%2C9.19",
+      "points": [
+        {
+          "name": "Zell am See",
+          "lat": 47.3235,
+          "lng": 12.7968,
+          "type": "route",
+          "description": "Salida exacta desde el alojamiento en Zell am See.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zell%20am%20See"
+        },
+        {
+          "name": "Innsbruck",
+          "lat": 47.2692,
+          "lng": 11.4041,
+          "type": "route",
+          "description": "Parada tecnica breve, sin entrar al centro.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Innsbruck"
+        },
+        {
+          "name": "Brennero",
+          "lat": 47.006,
+          "lng": 11.506,
+          "type": "route",
+          "description": "Paso eficiente hacia Italia.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brennero"
+        },
+        {
+          "name": "Verona",
+          "lat": 45.4384,
+          "lng": 10.9916,
+          "type": "route",
+          "description": "Paso logistico por autopista, sin visita.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Verona"
+        },
+        {
+          "name": "Brescia",
+          "lat": 45.5416,
+          "lng": 10.2118,
+          "type": "route",
+          "description": "Mejor zona para comida/repostaje sin romper ritmo.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brescia"
+        },
+        {
+          "name": "Milan",
+          "lat": 45.4642,
+          "lng": 9.19,
+          "type": "route",
+          "description": "Punto de paso para encaminar Genova.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Milan"
+        },
+        {
+          "name": "Genova",
+          "lat": 44.4106,
+          "lng": 8.9139,
+          "type": "highlight",
+          "description": "Puerto de embarque; llegar idealmente 16:30-17:30.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Genova"
+        },
+        {
+          "name": "Barcelona",
+          "lat": 41.3521,
+          "lng": 2.1599,
+          "type": "highlight",
+          "description": "Destino del ferry y punto inicial exacto del dia siguiente.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Barcelona"
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "fecha": "2026-09-20",
+      "base": "Casa",
+      "ruta": "Barcelona -> Zaragoza -> Loranca, Fuenlabrada",
+      "origen": "Barcelona",
+      "destino": "Loranca, Fuenlabrada",
+      "distanciaKm": 625,
+      "duracionHoras": 6.5,
+      "intensidad": "Media-alta · regreso final · interes motero 2/10 · paisaje 2/10",
+      "puntosGoogle": 3,
+      "estadoGoogle": "OK",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=41.3521%2C2.1599&destination=40.291%2C-3.837&travelmode=driving&waypoints=41.6488%2C-0.8891",
+      "mapas": [
+        {
+          "bloque": "regreso final desde Barcelona",
+          "puntos": [
+            "Barcelona",
+            "Zaragoza",
+            "Loranca, Fuenlabrada"
+          ],
+          "url": "https://www.google.com/maps/dir/?api=1&origin=41.3521%2C2.1599&destination=40.291%2C-3.837&travelmode=driving&waypoints=41.6488%2C-0.8891",
+          "estado": "OK",
+          "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-16.gpx"
+        }
+      ],
+      "etapas": [
+        {
+          "nombre": "Barcelona",
+          "tipo": "ciudad",
+          "notas": "Llegada del ferry y salida hacia casa."
+        },
+        {
+          "nombre": "Zaragoza",
+          "tipo": "comida",
+          "notas": "Mejor parada para comer y repostar."
+        }
+      ],
+      "alojamientos": [
+        {
+          "nombre": "Casa",
+          "tipo": "apartamento",
+          "ubicacion": "Loranca, Fuenlabrada",
+          "precioEstimado": 0,
+          "enlaces": [],
+          "notas": "Fin del viaje."
+        }
+      ],
+      "actividades": [],
+      "presupuestoDia": {
+        "alojamiento": 0,
+        "combustible": 70,
+        "peajes": 40,
+        "comida": 40,
+        "actividades": 0,
+        "varios": 15,
+        "total": 165
+      },
+      "comidaAhorro": "Mejor parada para comer: Zaragoza o area de servicio antes/despues de Zaragoza segun hora real de desembarque.",
+      "repostaje": {
+        "principal": "Zaragoza",
+        "alternativa": "Lleida o Guadalajara segun autonomia",
+        "regla": "Salir de Barcelona con deposito suficiente y no apurar el ultimo tramo."
+      },
+      "notas": "Llegada a Barcelona en ferry y regreso directo a casa por Zaragoza. Objetivo: estar en Loranca/Fuenlabrada el domingo 20 de septiembre. Tiempo total con paradas: 7,5-8 h, dependiendo de desembarque. Dificultad: media por cansancio acumulado, no por carretera. Mejor foto: llegada a casa.",
+      "planBClima": "Si el ferry se retrasa mucho, parar antes de Madrid y no conducir de noche cansados.",
+      "id": 16,
+      "date": "2026-09-20",
+      "title": "Barcelona -> Zaragoza -> Loranca/Fuenlabrada",
+      "start": "Barcelona",
+      "end": "Loranca, Fuenlabrada",
+      "overnight": "Casa",
+      "country": "",
+      "block": "regreso",
+      "color": "#6c757d",
+      "km": 625,
+      "drivingTime": "6,5 h de conduccion · 7,5-8 h con paradas",
+      "type": "Espana · regreso final",
+      "summary": "Llegada a Barcelona en ferry y regreso directo a casa por Zaragoza. Objetivo: estar en Loranca/Fuenlabrada el domingo 20 de septiembre.",
+      "highlights": [
+        "Barcelona",
+        "Zaragoza",
+        "Llegada a casa"
+      ],
+      "warnings": [
+        "Depende de la hora real de desembarque.",
+        "Parar si hay cansancio.",
+        "No apurar de noche."
+      ],
+      "accommodationAdvice": "Casa.",
+      "estimatedCost": 165,
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=41.3521%2C2.1599&destination=40.291%2C-3.837&travelmode=driving&waypoints=41.6488%2C-0.8891",
+      "points": [
+        {
+          "name": "Barcelona",
+          "lat": 41.3521,
+          "lng": 2.1599,
+          "type": "route",
+          "description": "Punto inicial exacto tras el ferry Genova-Barcelona.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Barcelona"
+        },
+        {
+          "name": "Zaragoza",
+          "lat": 41.6488,
+          "lng": -0.8891,
+          "type": "route",
+          "description": "Mejor parada para comer y repostar en el regreso final.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zaragoza"
+        },
+        {
+          "name": "Loranca, Fuenlabrada",
+          "lat": 40.291,
+          "lng": -3.837,
+          "type": "route",
+          "description": "Llegada a casa y fin del viaje.",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Loranca%2C%20Fuenlabrada"
+        }
+      ]
+    }
+  ],
+  "presupuesto": {
+    "categorias": [
+      {
+        "nombre": "Alojamiento",
+        "estimado": 1865
+      },
+      {
+        "nombre": "Combustible",
+        "estimado": 553
+      },
+      {
+        "nombre": "Peajes",
+        "estimado": 340
+      },
+      {
+        "nombre": "Comida",
+        "estimado": 725
+      },
+      {
+        "nombre": "Actividades",
+        "estimado": 400
+      },
+      {
+        "nombre": "Varios",
+        "estimado": 280
+      }
+    ],
+    "totalEstimado": 4163,
+    "moneda": "EUR"
+  },
+  "resumenEjecutivo": {
+    "nochesSuiza": 0,
+    "diasDolomitas": 8,
+    "diasEnlace": 5,
+    "diasTrekking": 4,
+    "presupuestoEstimado": 4163,
+    "resumen": "Ruta de 17 dias con salida desde Loranca/Fuenlabrada, Dolomitas, Grossglockner como dia estrella de Austria y regreso por ferry Genova-Barcelona el sabado 19 para llegar a casa el domingo 20. El tramo final evita rodeos y mantiene Zell am See como salida natural hacia Genova."
+  },
+  "comparativaRuta": {
+    "anterior": {
+      "titulo": "Ruta anterior",
+      "ruta": "Madrid → Narbona el sábado 5, con jornada de 850-900 km.",
+      "problemas": [
+        "Sábado inicial demasiado largo.",
+        "Llegada cansada al sur de Francia.",
+        "Menos margen para entrar bien a Briançon."
+      ]
+    },
+    "nueva": {
+      "titulo": "Ruta nueva recomendada",
+      "ruta": "Viernes 4 tarde: Loranca/Fuenlabrada -> Lleida. Bloque alpino y Dolomitas. Jueves 17: Ortisei -> Lienz. Viernes 18: Grossglockner sin rodeos, durmiendo en Zell am See. Sabado 19: bajada eficiente a Genova y ferry nocturno a Barcelona. Domingo 20: Barcelona -> Zaragoza -> Loranca/Fuenlabrada.",
+      "ventajas": [
+        "Grossglockner se mantiene como dia estrella de Austria.",
+        "Se eliminan ramales que no aportan al recorrido natural.",
+        "Zell am See mantiene el eje natural hacia Genova.",
+        "El ferry Genova-Barcelona evita dos dias de regreso por autopista francesa.",
+        "El viaje termina en casa el domingo 20 con continuidad exacta entre etapas."
+      ]
+    }
+  },
+  "myMapsExport": [],
+  "fuentes": [
+    {
+      "nombre": "Sellaronda Bike Day",
+      "url": "https://www.sellarondabikeday.com/"
+    },
+    {
+      "nombre": "Tre Cime / Rifugio Auronzo",
+      "url": "https://auronzomisurina.it/tre-cime-di-lavaredo/"
+    },
+    {
+      "nombre": "Seceda oficial",
+      "url": "https://www.seceda.it/"
+    },
+    {
+      "nombre": "Grossglockner oficial",
+      "url": "https://www.grossglockner.at/"
+    }
+  ]
+}

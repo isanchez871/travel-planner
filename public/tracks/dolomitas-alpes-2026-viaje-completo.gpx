@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dolomitas y Alpes en Moto</name><desc>Ruta completa Dolomitas y Alpes 2026 con ferry Genova-Barcelona</desc></metadata>
+  <wpt lat="40.291" lon="-3.837"><name>01 - Dia 0 - Loranca, Fuenlabrada</name></wpt>
+  <wpt lat="40.6333" lon="-3.1667"><name>02 - Dia 0 - Guadalajara</name></wpt>
+  <wpt lat="41.6488" lon="-0.8891"><name>03 - Dia 0 - Zaragoza</name></wpt>
+  <wpt lat="41.5229" lon="0.3489"><name>04 - Dia 0 - Fraga</name></wpt>
+  <wpt lat="41.6176" lon="0.62"><name>05 - Dia 0 - Lleida</name></wpt>
+  <wpt lat="41.6176" lon="0.62"><name>06 - Dia 1 - Lleida</name></wpt>
+  <wpt lat="42.4172" lon="2.8731"><name>07 - Dia 1 - La Jonquera</name></wpt>
+  <wpt lat="43.1843" lon="3.0031"><name>08 - Dia 1 - Narbona</name></wpt>
+  <wpt lat="43.6119" lon="3.8772"><name>09 - Dia 1 - Montpellier</name></wpt>
+  <wpt lat="43.8367" lon="4.3601"><name>10 - Dia 1 - Nîmes</name></wpt>
+  <wpt lat="43.9493" lon="4.8055"><name>11 - Dia 1 - Avignon</name></wpt>
+  <wpt lat="43.9493" lon="4.8055"><name>12 - Dia 2 - Avignon</name></wpt>
+  <wpt lat="44.3603" lon="5.1405"><name>13 - Dia 2 - Nyons</name></wpt>
+  <wpt lat="44.4286" lon="5.7169"><name>14 - Dia 2 - Serres, Hautes-Alpes</name></wpt>
+  <wpt lat="44.5596" lon="6.0798"><name>15 - Dia 2 - Gap</name></wpt>
+  <wpt lat="44.5639" lon="6.4953"><name>16 - Dia 2 - Embrun</name></wpt>
+  <wpt lat="44.8994" lon="6.6432"><name>17 - Dia 2 - Briançon</name></wpt>
+  <wpt lat="44.8994" lon="6.6432"><name>18 - Dia 3 - Briançon</name></wpt>
+  <wpt lat="45.035" lon="6.405"><name>19 - Dia 3 - Col du Lautaret</name></wpt>
+  <wpt lat="45.064" lon="6.407"><name>20 - Dia 3 - Col du Galibier</name></wpt>
+  <wpt lat="45.0649" lon="6.4071"><name>21 - Dia 3 - Monumento Henri Desgrange</name></wpt>
+  <wpt lat="45.1655" lon="6.4292"><name>22 - Dia 3 - Valloire</name></wpt>
+  <wpt lat="45.1581" lon="6.447"><name>23 - Dia 3 - Col du Télégraphe</name></wpt>
+  <wpt lat="45.2014" lon="6.4731"><name>24 - Dia 3 - Saint-Michel-de-Maurienne</name></wpt>
+  <wpt lat="45.2017" lon="6.6697"><name>25 - Dia 3 - Modane</name></wpt>
+  <wpt lat="45.2434" lon="6.8768"><name>26 - Dia 3 - Lanslebourg-Mont-Cenis</name></wpt>
+  <wpt lat="45.2434" lon="6.8768"><name>27 - Dia 4 - Lanslebourg-Mont-Cenis</name></wpt>
+  <wpt lat="45.259" lon="6.9007"><name>28 - Dia 4 - Col du Mont Cenis / Lac du Mont-Cenis</name></wpt>
+  <wpt lat="45.235" lon="6.952"><name>29 - Dia 4 - Lac du Mont-Cenis</name></wpt>
+  <wpt lat="45.2434" lon="6.8768"><name>30 - Dia 4 - Lanslebourg-Mont-Cenis (vuelta a D902)</name></wpt>
+  <wpt lat="45.371" lon="7.047"><name>31 - Dia 4 - Bonneval-sur-Arc</name></wpt>
+  <wpt lat="45.4175" lon="7.0305"><name>32 - Dia 4 - Refuge de l’Iseran</name></wpt>
+  <wpt lat="45.417" lon="7.03"><name>33 - Dia 4 - Col de l’Iseran</name></wpt>
+  <wpt lat="45.4508" lon="6.9781"><name>34 - Dia 4 - Val-d&apos;Isère</name></wpt>
+  <wpt lat="45.617" lon="6.769"><name>35 - Dia 4 - Bourg-Saint-Maurice</name></wpt>
+  <wpt lat="45.6903" lon="6.6909"><name>36 - Dia 4 - Cormet de Roselend</name></wpt>
+  <wpt lat="45.3405" lon="6.5732"><name>37 - Dia 4 - Beaufort</name></wpt>
+  <wpt lat="45.8569" lon="6.6178"><name>38 - Dia 4 - Megève</name></wpt>
+  <wpt lat="45.8918" lon="6.7138"><name>39 - Dia 4 - Saint-Gervais-les-Bains</name></wpt>
+  <wpt lat="45.9237" lon="6.8694"><name>40 - Dia 4 - Chamonix-Mont-Blanc</name></wpt>
+  <wpt lat="46.102" lon="7.072"><name>41 - Dia 4 - Martigny</name></wpt>
+  <wpt lat="45.8687" lon="7.1706"><name>42 - Dia 4 - Col du Grand-Saint-Bernard</name></wpt>
+  <wpt lat="45.737" lon="7.317"><name>43 - Dia 4 - Aosta</name></wpt>
+  <wpt lat="45.737" lon="7.317"><name>44 - Dia 5 - Aosta</name></wpt>
+  <wpt lat="45.8566" lon="9.3977"><name>45 - Dia 5 - Lecco</name></wpt>
+  <wpt lat="46.1699" lon="9.8788"><name>46 - Dia 5 - Sondrio</name></wpt>
+  <wpt lat="46.4669" lon="10.375"><name>47 - Dia 5 - Bormio</name></wpt>
+  <wpt lat="46.4669" lon="10.375"><name>48 - Dia 6 - Bormio</name></wpt>
+  <wpt lat="46.5287" lon="10.4534"><name>49 - Dia 6 - Passo dello Stelvio</name></wpt>
+  <wpt lat="46.5521" lon="10.5093"><name>50 - Dia 6 - Trafoi</name></wpt>
+  <wpt lat="46.6713" lon="11.1595"><name>51 - Dia 6 - Merano</name></wpt>
+  <wpt lat="46.409" lon="11.575"><name>52 - Dia 6 - Lago di Carezza</name></wpt>
+  <wpt lat="46.404" lon="11.608"><name>53 - Dia 6 - Passo Costalunga</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>54 - Dia 6 - Ortisei</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>55 - Dia 7 - Ortisei</name></wpt>
+  <wpt lat="46.5757" lon="11.6745"><name>56 - Dia 7 - Seceda Cable Car</name></wpt>
+  <wpt lat="46.6004" lon="11.7242"><name>57 - Dia 7 - Seceda viewpoint</name></wpt>
+  <wpt lat="46.5913" lon="11.7612"><name>58 - Dia 7 - Rifugio Firenze</name></wpt>
+  <wpt lat="46.5415" lon="11.6172"><name>59 - Dia 7 - Alpe di Siusi</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>60 - Dia 7 - Ortisei</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>61 - Dia 8 - Ortisei</name></wpt>
+  <wpt lat="46.549" lon="11.808"><name>62 - Dia 8 - Passo Gardena</name></wpt>
+  <wpt lat="46.55" lon="11.873"><name>63 - Dia 8 - Corvara</name></wpt>
+  <wpt lat="46.518" lon="11.875"><name>64 - Dia 8 - Passo Campolongo</name></wpt>
+  <wpt lat="46.498" lon="11.875"><name>65 - Dia 8 - Arabba</name></wpt>
+  <wpt lat="46.488" lon="11.812"><name>66 - Dia 8 - Passo Pordoi</name></wpt>
+  <wpt lat="46.508" lon="11.76"><name>67 - Dia 8 - Passo Sella</name></wpt>
+  <wpt lat="46.799" lon="11.935"><name>68 - Dia 8 - Brunico</name></wpt>
+  <wpt lat="46.694" lon="12.085"><name>69 - Dia 8 - Lago di Braies</name></wpt>
+  <wpt lat="46.736" lon="12.222"><name>70 - Dia 8 - Dobbiaco</name></wpt>
+  <wpt lat="46.5833" lon="12.2548"><name>71 - Dia 8 - Lago di Misurina</name></wpt>
+  <wpt lat="46.5833" lon="12.2548"><name>72 - Dia 9 - Lago di Misurina</name></wpt>
+  <wpt lat="46.593" lon="12.266"><name>73 - Dia 9 - Lago d’Antorno</name></wpt>
+  <wpt lat="46.6123" lon="12.2959"><name>74 - Dia 9 - Rifugio Auronzo</name></wpt>
+  <wpt lat="46.6187" lon="12.3028"><name>75 - Dia 9 - Tre Cime di Lavaredo</name></wpt>
+  <wpt lat="46.6368" lon="12.3105"><name>76 - Dia 9 - Rifugio Locatelli</name></wpt>
+  <wpt lat="46.604" lon="12.288"><name>77 - Dia 9 - Cadini di Misurina viewpoint</name></wpt>
+  <wpt lat="46.5833" lon="12.2548"><name>78 - Dia 9 - Lago di Misurina</name></wpt>
+  <wpt lat="46.5833" lon="12.2548"><name>79 - Dia 10 - Lago di Misurina</name></wpt>
+  <wpt lat="46.5591" lon="12.2044"><name>80 - Dia 10 - Passo Tre Croci</name></wpt>
+  <wpt lat="46.5144" lon="12.2264"><name>81 - Dia 10 - Lago di Sorapis</name></wpt>
+  <wpt lat="46.483" lon="12.052"><name>82 - Dia 10 - Passo Giau</name></wpt>
+  <wpt lat="46.5405" lon="12.1357"><name>83 - Dia 10 - Cortina d’Ampezzo</name></wpt>
+  <wpt lat="46.5405" lon="12.1357"><name>84 - Dia 11 - Cortina d’Ampezzo</name></wpt>
+  <wpt lat="46.508" lon="12.046"><name>85 - Dia 11 - Cinque Torri</name></wpt>
+  <wpt lat="46.519" lon="12.009"><name>86 - Dia 11 - Passo Falzarego</name></wpt>
+  <wpt lat="46.527" lon="12.008"><name>87 - Dia 11 - Lagazuoi</name></wpt>
+  <wpt lat="46.5505" lon="11.8734"><name>88 - Dia 11 - Corvara</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>89 - Dia 11 - Ortisei</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>90 - Dia 12 - Ortisei</name></wpt>
+  <wpt lat="46.6408" lon="11.714"><name>91 - Dia 12 - Santa Maddalena</name></wpt>
+  <wpt lat="46.6359" lon="11.7203"><name>92 - Dia 12 - Chiesa di San Giovanni in Ranui</name></wpt>
+  <wpt lat="46.636" lon="11.765"><name>93 - Dia 12 - Zanser Alm</name></wpt>
+  <wpt lat="46.633" lon="11.76"><name>94 - Dia 12 - Adolf Munkel Trail</name></wpt>
+  <wpt lat="46.6332" lon="11.7559"><name>95 - Dia 12 - Geisler Alm</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>96 - Dia 12 - Ortisei</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>97 - Dia 13 - Ortisei</name></wpt>
+  <wpt lat="46.641" lon="11.565"><name>98 - Dia 13 - Chiusa</name></wpt>
+  <wpt lat="46.715" lon="11.655"><name>99 - Dia 13 - Bressanone</name></wpt>
+  <wpt lat="46.799" lon="11.935"><name>100 - Dia 13 - Brunico</name></wpt>
+  <wpt lat="46.736" lon="12.222"><name>101 - Dia 13 - Dobbiaco</name></wpt>
+  <wpt lat="46.733" lon="12.279"><name>102 - Dia 13 - San Candido</name></wpt>
+  <wpt lat="46.8297" lon="12.769"><name>103 - Dia 13 - Lienz</name></wpt>
+  <wpt lat="46.8297" lon="12.769"><name>104 - Dia 14 - Lienz</name></wpt>
+  <wpt lat="47.0396" lon="12.8431"><name>105 - Dia 14 - Heiligenblut</name></wpt>
+  <wpt lat="47.055" lon="12.83"><name>106 - Dia 14 - Grossglockner High Alpine Road</name></wpt>
+  <wpt lat="47.0742" lon="12.7517"><name>107 - Dia 14 - Kaiser-Franz-Josefs-Höhe</name></wpt>
+  <wpt lat="47.3235" lon="12.7968"><name>108 - Dia 14 - Zell am See</name></wpt>
+  <wpt lat="47.3235" lon="12.7968"><name>109 - Dia 15 - Zell am See</name></wpt>
+  <wpt lat="47.2692" lon="11.4041"><name>110 - Dia 15 - Innsbruck</name></wpt>
+  <wpt lat="47.006" lon="11.506"><name>111 - Dia 15 - Brennero</name></wpt>
+  <wpt lat="45.4384" lon="10.9916"><name>112 - Dia 15 - Verona</name></wpt>
+  <wpt lat="45.5416" lon="10.2118"><name>113 - Dia 15 - Brescia</name></wpt>
+  <wpt lat="45.4642" lon="9.19"><name>114 - Dia 15 - Milan</name></wpt>
+  <wpt lat="44.4106" lon="8.9139"><name>115 - Dia 15 - Genova</name></wpt>
+  <wpt lat="41.3521" lon="2.1599"><name>116 - Dia 15 - Barcelona</name></wpt>
+  <wpt lat="41.3521" lon="2.1599"><name>117 - Dia 16 - Barcelona</name></wpt>
+  <wpt lat="41.6488" lon="-0.8891"><name>118 - Dia 16 - Zaragoza</name></wpt>
+  <wpt lat="40.291" lon="-3.837"><name>119 - Dia 16 - Loranca, Fuenlabrada</name></wpt>
+  <trk><name>Dolomitas y Alpes en Moto</name><trkseg>
+    <trkpt lat="40.291" lon="-3.837"><name>Dia 0 - Loranca, Fuenlabrada</name></trkpt>
+    <trkpt lat="40.6333" lon="-3.1667"><name>Dia 0 - Guadalajara</name></trkpt>
+    <trkpt lat="41.6488" lon="-0.8891"><name>Dia 0 - Zaragoza</name></trkpt>
+    <trkpt lat="41.5229" lon="0.3489"><name>Dia 0 - Fraga</name></trkpt>
+    <trkpt lat="41.6176" lon="0.62"><name>Dia 0 - Lleida</name></trkpt>
+    <trkpt lat="41.6176" lon="0.62"><name>Dia 1 - Lleida</name></trkpt>
+    <trkpt lat="42.4172" lon="2.8731"><name>Dia 1 - La Jonquera</name></trkpt>
+    <trkpt lat="43.1843" lon="3.0031"><name>Dia 1 - Narbona</name></trkpt>
+    <trkpt lat="43.6119" lon="3.8772"><name>Dia 1 - Montpellier</name></trkpt>
+    <trkpt lat="43.8367" lon="4.3601"><name>Dia 1 - Nîmes</name></trkpt>
+    <trkpt lat="43.9493" lon="4.8055"><name>Dia 1 - Avignon</name></trkpt>
+    <trkpt lat="43.9493" lon="4.8055"><name>Dia 2 - Avignon</name></trkpt>
+    <trkpt lat="44.3603" lon="5.1405"><name>Dia 2 - Nyons</name></trkpt>
+    <trkpt lat="44.4286" lon="5.7169"><name>Dia 2 - Serres, Hautes-Alpes</name></trkpt>
+    <trkpt lat="44.5596" lon="6.0798"><name>Dia 2 - Gap</name></trkpt>
+    <trkpt lat="44.5639" lon="6.4953"><name>Dia 2 - Embrun</name></trkpt>
+    <trkpt lat="44.8994" lon="6.6432"><name>Dia 2 - Briançon</name></trkpt>
+    <trkpt lat="44.8994" lon="6.6432"><name>Dia 3 - Briançon</name></trkpt>
+    <trkpt lat="45.035" lon="6.405"><name>Dia 3 - Col du Lautaret</name></trkpt>
+    <trkpt lat="45.064" lon="6.407"><name>Dia 3 - Col du Galibier</name></trkpt>
+    <trkpt lat="45.0649" lon="6.4071"><name>Dia 3 - Monumento Henri Desgrange</name></trkpt>
+    <trkpt lat="45.1655" lon="6.4292"><name>Dia 3 - Valloire</name></trkpt>
+    <trkpt lat="45.1581" lon="6.447"><name>Dia 3 - Col du Télégraphe</name></trkpt>
+    <trkpt lat="45.2014" lon="6.4731"><name>Dia 3 - Saint-Michel-de-Maurienne</name></trkpt>
+    <trkpt lat="45.2017" lon="6.6697"><name>Dia 3 - Modane</name></trkpt>
+    <trkpt lat="45.2434" lon="6.8768"><name>Dia 3 - Lanslebourg-Mont-Cenis</name></trkpt>
+    <trkpt lat="45.2434" lon="6.8768"><name>Dia 4 - Lanslebourg-Mont-Cenis</name></trkpt>
+    <trkpt lat="45.259" lon="6.9007"><name>Dia 4 - Col du Mont Cenis / Lac du Mont-Cenis</name></trkpt>
+    <trkpt lat="45.235" lon="6.952"><name>Dia 4 - Lac du Mont-Cenis</name></trkpt>
+    <trkpt lat="45.2434" lon="6.8768"><name>Dia 4 - Lanslebourg-Mont-Cenis (vuelta a D902)</name></trkpt>
+    <trkpt lat="45.371" lon="7.047"><name>Dia 4 - Bonneval-sur-Arc</name></trkpt>
+    <trkpt lat="45.4175" lon="7.0305"><name>Dia 4 - Refuge de l’Iseran</name></trkpt>
+    <trkpt lat="45.417" lon="7.03"><name>Dia 4 - Col de l’Iseran</name></trkpt>
+    <trkpt lat="45.4508" lon="6.9781"><name>Dia 4 - Val-d&apos;Isère</name></trkpt>
+    <trkpt lat="45.617" lon="6.769"><name>Dia 4 - Bourg-Saint-Maurice</name></trkpt>
+    <trkpt lat="45.6903" lon="6.6909"><name>Dia 4 - Cormet de Roselend</name></trkpt>
+    <trkpt lat="45.3405" lon="6.5732"><name>Dia 4 - Beaufort</name></trkpt>
+    <trkpt lat="45.8569" lon="6.6178"><name>Dia 4 - Megève</name></trkpt>
+    <trkpt lat="45.8918" lon="6.7138"><name>Dia 4 - Saint-Gervais-les-Bains</name></trkpt>
+    <trkpt lat="45.9237" lon="6.8694"><name>Dia 4 - Chamonix-Mont-Blanc</name></trkpt>
+    <trkpt lat="46.102" lon="7.072"><name>Dia 4 - Martigny</name></trkpt>
+    <trkpt lat="45.8687" lon="7.1706"><name>Dia 4 - Col du Grand-Saint-Bernard</name></trkpt>
+    <trkpt lat="45.737" lon="7.317"><name>Dia 4 - Aosta</name></trkpt>
+    <trkpt lat="45.737" lon="7.317"><name>Dia 5 - Aosta</name></trkpt>
+    <trkpt lat="45.8566" lon="9.3977"><name>Dia 5 - Lecco</name></trkpt>
+    <trkpt lat="46.1699" lon="9.8788"><name>Dia 5 - Sondrio</name></trkpt>
+    <trkpt lat="46.4669" lon="10.375"><name>Dia 5 - Bormio</name></trkpt>
+    <trkpt lat="46.4669" lon="10.375"><name>Dia 6 - Bormio</name></trkpt>
+    <trkpt lat="46.5287" lon="10.4534"><name>Dia 6 - Passo dello Stelvio</name></trkpt>
+    <trkpt lat="46.5521" lon="10.5093"><name>Dia 6 - Trafoi</name></trkpt>
+    <trkpt lat="46.6713" lon="11.1595"><name>Dia 6 - Merano</name></trkpt>
+    <trkpt lat="46.409" lon="11.575"><name>Dia 6 - Lago di Carezza</name></trkpt>
+    <trkpt lat="46.404" lon="11.608"><name>Dia 6 - Passo Costalunga</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Dia 6 - Ortisei</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Dia 7 - Ortisei</name></trkpt>
+    <trkpt lat="46.5757" lon="11.6745"><name>Dia 7 - Seceda Cable Car</name></trkpt>
+    <trkpt lat="46.6004" lon="11.7242"><name>Dia 7 - Seceda viewpoint</name></trkpt>
+    <trkpt lat="46.5913" lon="11.7612"><name>Dia 7 - Rifugio Firenze</name></trkpt>
+    <trkpt lat="46.5415" lon="11.6172"><name>Dia 7 - Alpe di Siusi</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Dia 7 - Ortisei</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Dia 8 - Ortisei</name></trkpt>
+    <trkpt lat="46.549" lon="11.808"><name>Dia 8 - Passo Gardena</name></trkpt>
+    <trkpt lat="46.55" lon="11.873"><name>Dia 8 - Corvara</name></trkpt>
+    <trkpt lat="46.518" lon="11.875"><name>Dia 8 - Passo Campolongo</name></trkpt>
+    <trkpt lat="46.498" lon="11.875"><name>Dia 8 - Arabba</name></trkpt>
+    <trkpt lat="46.488" lon="11.812"><name>Dia 8 - Passo Pordoi</name></trkpt>
+    <trkpt lat="46.508" lon="11.76"><name>Dia 8 - Passo Sella</name></trkpt>
+    <trkpt lat="46.799" lon="11.935"><name>Dia 8 - Brunico</name></trkpt>
+    <trkpt lat="46.694" lon="12.085"><name>Dia 8 - Lago di Braies</name></trkpt>
+    <trkpt lat="46.736" lon="12.222"><name>Dia 8 - Dobbiaco</name></trkpt>
+    <trkpt lat="46.5833" lon="12.2548"><name>Dia 8 - Lago di Misurina</name></trkpt>
+    <trkpt lat="46.5833" lon="12.2548"><name>Dia 9 - Lago di Misurina</name></trkpt>
+    <trkpt lat="46.593" lon="12.266"><name>Dia 9 - Lago d’Antorno</name></trkpt>
+    <trkpt lat="46.6123" lon="12.2959"><name>Dia 9 - Rifugio Auronzo</name></trkpt>
+    <trkpt lat="46.6187" lon="12.3028"><name>Dia 9 - Tre Cime di Lavaredo</name></trkpt>
+    <trkpt lat="46.6368" lon="12.3105"><name>Dia 9 - Rifugio Locatelli</name></trkpt>
+    <trkpt lat="46.604" lon="12.288"><name>Dia 9 - Cadini di Misurina viewpoint</name></trkpt>
+    <trkpt lat="46.5833" lon="12.2548"><name>Dia 9 - Lago di Misurina</name></trkpt>
+    <trkpt lat="46.5833" lon="12.2548"><name>Dia 10 - Lago di Misurina</name></trkpt>
+    <trkpt lat="46.5591" lon="12.2044"><name>Dia 10 - Passo Tre Croci</name></trkpt>
+    <trkpt lat="46.5144" lon="12.2264"><name>Dia 10 - Lago di Sorapis</name></trkpt>
+    <trkpt lat="46.483" lon="12.052"><name>Dia 10 - Passo Giau</name></trkpt>
+    <trkpt lat="46.5405" lon="12.1357"><name>Dia 10 - Cortina d’Ampezzo</name></trkpt>
+    <trkpt lat="46.5405" lon="12.1357"><name>Dia 11 - Cortina d’Ampezzo</name></trkpt>
+    <trkpt lat="46.508" lon="12.046"><name>Dia 11 - Cinque Torri</name></trkpt>
+    <trkpt lat="46.519" lon="12.009"><name>Dia 11 - Passo Falzarego</name></trkpt>
+    <trkpt lat="46.527" lon="12.008"><name>Dia 11 - Lagazuoi</name></trkpt>
+    <trkpt lat="46.5505" lon="11.8734"><name>Dia 11 - Corvara</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Dia 11 - Ortisei</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Dia 12 - Ortisei</name></trkpt>
+    <trkpt lat="46.6408" lon="11.714"><name>Dia 12 - Santa Maddalena</name></trkpt>
+    <trkpt lat="46.6359" lon="11.7203"><name>Dia 12 - Chiesa di San Giovanni in Ranui</name></trkpt>
+    <trkpt lat="46.636" lon="11.765"><name>Dia 12 - Zanser Alm</name></trkpt>
+    <trkpt lat="46.633" lon="11.76"><name>Dia 12 - Adolf Munkel Trail</name></trkpt>
+    <trkpt lat="46.6332" lon="11.7559"><name>Dia 12 - Geisler Alm</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Dia 12 - Ortisei</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Dia 13 - Ortisei</name></trkpt>
+    <trkpt lat="46.641" lon="11.565"><name>Dia 13 - Chiusa</name></trkpt>
+    <trkpt lat="46.715" lon="11.655"><name>Dia 13 - Bressanone</name></trkpt>
+    <trkpt lat="46.799" lon="11.935"><name>Dia 13 - Brunico</name></trkpt>
+    <trkpt lat="46.736" lon="12.222"><name>Dia 13 - Dobbiaco</name></trkpt>
+    <trkpt lat="46.733" lon="12.279"><name>Dia 13 - San Candido</name></trkpt>
+    <trkpt lat="46.8297" lon="12.769"><name>Dia 13 - Lienz</name></trkpt>
+    <trkpt lat="46.8297" lon="12.769"><name>Dia 14 - Lienz</name></trkpt>
+    <trkpt lat="47.0396" lon="12.8431"><name>Dia 14 - Heiligenblut</name></trkpt>
+    <trkpt lat="47.055" lon="12.83"><name>Dia 14 - Grossglockner High Alpine Road</name></trkpt>
+    <trkpt lat="47.0742" lon="12.7517"><name>Dia 14 - Kaiser-Franz-Josefs-Höhe</name></trkpt>
+    <trkpt lat="47.3235" lon="12.7968"><name>Dia 14 - Zell am See</name></trkpt>
+    <trkpt lat="47.3235" lon="12.7968"><name>Dia 15 - Zell am See</name></trkpt>
+    <trkpt lat="47.2692" lon="11.4041"><name>Dia 15 - Innsbruck</name></trkpt>
+    <trkpt lat="47.006" lon="11.506"><name>Dia 15 - Brennero</name></trkpt>
+    <trkpt lat="45.4384" lon="10.9916"><name>Dia 15 - Verona</name></trkpt>
+    <trkpt lat="45.5416" lon="10.2118"><name>Dia 15 - Brescia</name></trkpt>
+    <trkpt lat="45.4642" lon="9.19"><name>Dia 15 - Milan</name></trkpt>
+    <trkpt lat="44.4106" lon="8.9139"><name>Dia 15 - Genova</name></trkpt>
+    <trkpt lat="41.3521" lon="2.1599"><name>Dia 15 - Barcelona</name></trkpt>
+    <trkpt lat="41.3521" lon="2.1599"><name>Dia 16 - Barcelona</name></trkpt>
+    <trkpt lat="41.6488" lon="-0.8891"><name>Dia 16 - Zaragoza</name></trkpt>
+    <trkpt lat="40.291" lon="-3.837"><name>Dia 16 - Loranca, Fuenlabrada</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dolomitas y Alpes en Moto</name>
+    <rtept lat="40.291" lon="-3.837"><name>Dia 0 - Loranca, Fuenlabrada</name></rtept>
+    <rtept lat="40.6333" lon="-3.1667"><name>Dia 0 - Guadalajara</name></rtept>
+    <rtept lat="41.6488" lon="-0.8891"><name>Dia 0 - Zaragoza</name></rtept>
+    <rtept lat="41.5229" lon="0.3489"><name>Dia 0 - Fraga</name></rtept>
+    <rtept lat="41.6176" lon="0.62"><name>Dia 0 - Lleida</name></rtept>
+    <rtept lat="41.6176" lon="0.62"><name>Dia 1 - Lleida</name></rtept>
+    <rtept lat="42.4172" lon="2.8731"><name>Dia 1 - La Jonquera</name></rtept>
+    <rtept lat="43.1843" lon="3.0031"><name>Dia 1 - Narbona</name></rtept>
+    <rtept lat="43.6119" lon="3.8772"><name>Dia 1 - Montpellier</name></rtept>
+    <rtept lat="43.8367" lon="4.3601"><name>Dia 1 - Nîmes</name></rtept>
+    <rtept lat="43.9493" lon="4.8055"><name>Dia 1 - Avignon</name></rtept>
+    <rtept lat="43.9493" lon="4.8055"><name>Dia 2 - Avignon</name></rtept>
+    <rtept lat="44.3603" lon="5.1405"><name>Dia 2 - Nyons</name></rtept>
+    <rtept lat="44.4286" lon="5.7169"><name>Dia 2 - Serres, Hautes-Alpes</name></rtept>
+    <rtept lat="44.5596" lon="6.0798"><name>Dia 2 - Gap</name></rtept>
+    <rtept lat="44.5639" lon="6.4953"><name>Dia 2 - Embrun</name></rtept>
+    <rtept lat="44.8994" lon="6.6432"><name>Dia 2 - Briançon</name></rtept>
+    <rtept lat="44.8994" lon="6.6432"><name>Dia 3 - Briançon</name></rtept>
+    <rtept lat="45.035" lon="6.405"><name>Dia 3 - Col du Lautaret</name></rtept>
+    <rtept lat="45.064" lon="6.407"><name>Dia 3 - Col du Galibier</name></rtept>
+    <rtept lat="45.0649" lon="6.4071"><name>Dia 3 - Monumento Henri Desgrange</name></rtept>
+    <rtept lat="45.1655" lon="6.4292"><name>Dia 3 - Valloire</name></rtept>
+    <rtept lat="45.1581" lon="6.447"><name>Dia 3 - Col du Télégraphe</name></rtept>
+    <rtept lat="45.2014" lon="6.4731"><name>Dia 3 - Saint-Michel-de-Maurienne</name></rtept>
+    <rtept lat="45.2017" lon="6.6697"><name>Dia 3 - Modane</name></rtept>
+    <rtept lat="45.2434" lon="6.8768"><name>Dia 3 - Lanslebourg-Mont-Cenis</name></rtept>
+    <rtept lat="45.2434" lon="6.8768"><name>Dia 4 - Lanslebourg-Mont-Cenis</name></rtept>
+    <rtept lat="45.259" lon="6.9007"><name>Dia 4 - Col du Mont Cenis / Lac du Mont-Cenis</name></rtept>
+    <rtept lat="45.235" lon="6.952"><name>Dia 4 - Lac du Mont-Cenis</name></rtept>
+    <rtept lat="45.2434" lon="6.8768"><name>Dia 4 - Lanslebourg-Mont-Cenis (vuelta a D902)</name></rtept>
+    <rtept lat="45.371" lon="7.047"><name>Dia 4 - Bonneval-sur-Arc</name></rtept>
+    <rtept lat="45.4175" lon="7.0305"><name>Dia 4 - Refuge de l’Iseran</name></rtept>
+    <rtept lat="45.417" lon="7.03"><name>Dia 4 - Col de l’Iseran</name></rtept>
+    <rtept lat="45.4508" lon="6.9781"><name>Dia 4 - Val-d&apos;Isère</name></rtept>
+    <rtept lat="45.617" lon="6.769"><name>Dia 4 - Bourg-Saint-Maurice</name></rtept>
+    <rtept lat="45.6903" lon="6.6909"><name>Dia 4 - Cormet de Roselend</name></rtept>
+    <rtept lat="45.3405" lon="6.5732"><name>Dia 4 - Beaufort</name></rtept>
+    <rtept lat="45.8569" lon="6.6178"><name>Dia 4 - Megève</name></rtept>
+    <rtept lat="45.8918" lon="6.7138"><name>Dia 4 - Saint-Gervais-les-Bains</name></rtept>
+    <rtept lat="45.9237" lon="6.8694"><name>Dia 4 - Chamonix-Mont-Blanc</name></rtept>
+    <rtept lat="46.102" lon="7.072"><name>Dia 4 - Martigny</name></rtept>
+    <rtept lat="45.8687" lon="7.1706"><name>Dia 4 - Col du Grand-Saint-Bernard</name></rtept>
+    <rtept lat="45.737" lon="7.317"><name>Dia 4 - Aosta</name></rtept>
+    <rtept lat="45.737" lon="7.317"><name>Dia 5 - Aosta</name></rtept>
+    <rtept lat="45.8566" lon="9.3977"><name>Dia 5 - Lecco</name></rtept>
+    <rtept lat="46.1699" lon="9.8788"><name>Dia 5 - Sondrio</name></rtept>
+    <rtept lat="46.4669" lon="10.375"><name>Dia 5 - Bormio</name></rtept>
+    <rtept lat="46.4669" lon="10.375"><name>Dia 6 - Bormio</name></rtept>
+    <rtept lat="46.5287" lon="10.4534"><name>Dia 6 - Passo dello Stelvio</name></rtept>
+    <rtept lat="46.5521" lon="10.5093"><name>Dia 6 - Trafoi</name></rtept>
+    <rtept lat="46.6713" lon="11.1595"><name>Dia 6 - Merano</name></rtept>
+    <rtept lat="46.409" lon="11.575"><name>Dia 6 - Lago di Carezza</name></rtept>
+    <rtept lat="46.404" lon="11.608"><name>Dia 6 - Passo Costalunga</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Dia 6 - Ortisei</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Dia 7 - Ortisei</name></rtept>
+    <rtept lat="46.5757" lon="11.6745"><name>Dia 7 - Seceda Cable Car</name></rtept>
+    <rtept lat="46.6004" lon="11.7242"><name>Dia 7 - Seceda viewpoint</name></rtept>
+    <rtept lat="46.5913" lon="11.7612"><name>Dia 7 - Rifugio Firenze</name></rtept>
+    <rtept lat="46.5415" lon="11.6172"><name>Dia 7 - Alpe di Siusi</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Dia 7 - Ortisei</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Dia 8 - Ortisei</name></rtept>
+    <rtept lat="46.549" lon="11.808"><name>Dia 8 - Passo Gardena</name></rtept>
+    <rtept lat="46.55" lon="11.873"><name>Dia 8 - Corvara</name></rtept>
+    <rtept lat="46.518" lon="11.875"><name>Dia 8 - Passo Campolongo</name></rtept>
+    <rtept lat="46.498" lon="11.875"><name>Dia 8 - Arabba</name></rtept>
+    <rtept lat="46.488" lon="11.812"><name>Dia 8 - Passo Pordoi</name></rtept>
+    <rtept lat="46.508" lon="11.76"><name>Dia 8 - Passo Sella</name></rtept>
+    <rtept lat="46.799" lon="11.935"><name>Dia 8 - Brunico</name></rtept>
+    <rtept lat="46.694" lon="12.085"><name>Dia 8 - Lago di Braies</name></rtept>
+    <rtept lat="46.736" lon="12.222"><name>Dia 8 - Dobbiaco</name></rtept>
+    <rtept lat="46.5833" lon="12.2548"><name>Dia 8 - Lago di Misurina</name></rtept>
+    <rtept lat="46.5833" lon="12.2548"><name>Dia 9 - Lago di Misurina</name></rtept>
+    <rtept lat="46.593" lon="12.266"><name>Dia 9 - Lago d’Antorno</name></rtept>
+    <rtept lat="46.6123" lon="12.2959"><name>Dia 9 - Rifugio Auronzo</name></rtept>
+    <rtept lat="46.6187" lon="12.3028"><name>Dia 9 - Tre Cime di Lavaredo</name></rtept>
+    <rtept lat="46.6368" lon="12.3105"><name>Dia 9 - Rifugio Locatelli</name></rtept>
+    <rtept lat="46.604" lon="12.288"><name>Dia 9 - Cadini di Misurina viewpoint</name></rtept>
+    <rtept lat="46.5833" lon="12.2548"><name>Dia 9 - Lago di Misurina</name></rtept>
+    <rtept lat="46.5833" lon="12.2548"><name>Dia 10 - Lago di Misurina</name></rtept>
+    <rtept lat="46.5591" lon="12.2044"><name>Dia 10 - Passo Tre Croci</name></rtept>
+    <rtept lat="46.5144" lon="12.2264"><name>Dia 10 - Lago di Sorapis</name></rtept>
+    <rtept lat="46.483" lon="12.052"><name>Dia 10 - Passo Giau</name></rtept>
+    <rtept lat="46.5405" lon="12.1357"><name>Dia 10 - Cortina d’Ampezzo</name></rtept>
+    <rtept lat="46.5405" lon="12.1357"><name>Dia 11 - Cortina d’Ampezzo</name></rtept>
+    <rtept lat="46.508" lon="12.046"><name>Dia 11 - Cinque Torri</name></rtept>
+    <rtept lat="46.519" lon="12.009"><name>Dia 11 - Passo Falzarego</name></rtept>
+    <rtept lat="46.527" lon="12.008"><name>Dia 11 - Lagazuoi</name></rtept>
+    <rtept lat="46.5505" lon="11.8734"><name>Dia 11 - Corvara</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Dia 11 - Ortisei</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Dia 12 - Ortisei</name></rtept>
+    <rtept lat="46.6408" lon="11.714"><name>Dia 12 - Santa Maddalena</name></rtept>
+    <rtept lat="46.6359" lon="11.7203"><name>Dia 12 - Chiesa di San Giovanni in Ranui</name></rtept>
+    <rtept lat="46.636" lon="11.765"><name>Dia 12 - Zanser Alm</name></rtept>
+    <rtept lat="46.633" lon="11.76"><name>Dia 12 - Adolf Munkel Trail</name></rtept>
+    <rtept lat="46.6332" lon="11.7559"><name>Dia 12 - Geisler Alm</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Dia 12 - Ortisei</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Dia 13 - Ortisei</name></rtept>
+    <rtept lat="46.641" lon="11.565"><name>Dia 13 - Chiusa</name></rtept>
+    <rtept lat="46.715" lon="11.655"><name>Dia 13 - Bressanone</name></rtept>
+    <rtept lat="46.799" lon="11.935"><name>Dia 13 - Brunico</name></rtept>
+    <rtept lat="46.736" lon="12.222"><name>Dia 13 - Dobbiaco</name></rtept>
+    <rtept lat="46.733" lon="12.279"><name>Dia 13 - San Candido</name></rtept>
+    <rtept lat="46.8297" lon="12.769"><name>Dia 13 - Lienz</name></rtept>
+    <rtept lat="46.8297" lon="12.769"><name>Dia 14 - Lienz</name></rtept>
+    <rtept lat="47.0396" lon="12.8431"><name>Dia 14 - Heiligenblut</name></rtept>
+    <rtept lat="47.055" lon="12.83"><name>Dia 14 - Grossglockner High Alpine Road</name></rtept>
+    <rtept lat="47.0742" lon="12.7517"><name>Dia 14 - Kaiser-Franz-Josefs-Höhe</name></rtept>
+    <rtept lat="47.3235" lon="12.7968"><name>Dia 14 - Zell am See</name></rtept>
+    <rtept lat="47.3235" lon="12.7968"><name>Dia 15 - Zell am See</name></rtept>
+    <rtept lat="47.2692" lon="11.4041"><name>Dia 15 - Innsbruck</name></rtept>
+    <rtept lat="47.006" lon="11.506"><name>Dia 15 - Brennero</name></rtept>
+    <rtept lat="45.4384" lon="10.9916"><name>Dia 15 - Verona</name></rtept>
+    <rtept lat="45.5416" lon="10.2118"><name>Dia 15 - Brescia</name></rtept>
+    <rtept lat="45.4642" lon="9.19"><name>Dia 15 - Milan</name></rtept>
+    <rtept lat="44.4106" lon="8.9139"><name>Dia 15 - Genova</name></rtept>
+    <rtept lat="41.3521" lon="2.1599"><name>Dia 15 - Barcelona</name></rtept>
+    <rtept lat="41.3521" lon="2.1599"><name>Dia 16 - Barcelona</name></rtept>
+    <rtept lat="41.6488" lon="-0.8891"><name>Dia 16 - Zaragoza</name></rtept>
+    <rtept lat="40.291" lon="-3.837"><name>Dia 16 - Loranca, Fuenlabrada</name></rtept>
+  </rte>
+</gpx>

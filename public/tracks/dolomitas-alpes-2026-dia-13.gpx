@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 13 - Ruta completa</name><desc>Ortisei -&gt; Chiusa -&gt; Bressanone -&gt; Brunico -&gt; Dobbiaco -&gt; San Candido -&gt; Lienz</desc></metadata>
+  <wpt lat="46.5765" lon="11.6726"><name>01 - Ortisei</name></wpt>
+  <wpt lat="46.641" lon="11.565"><name>02 - Chiusa</name></wpt>
+  <wpt lat="46.715" lon="11.655"><name>03 - Bressanone</name></wpt>
+  <wpt lat="46.799" lon="11.935"><name>04 - Brunico</name></wpt>
+  <wpt lat="46.736" lon="12.222"><name>05 - Dobbiaco</name></wpt>
+  <wpt lat="46.733" lon="12.279"><name>06 - San Candido</name></wpt>
+  <wpt lat="46.8297" lon="12.769"><name>07 - Lienz</name></wpt>
+  <trk><name>Dia 13 - Ruta completa</name><trkseg>
+    <trkpt lat="46.5765" lon="11.6726"><name>Ortisei</name></trkpt>
+    <trkpt lat="46.641" lon="11.565"><name>Chiusa</name></trkpt>
+    <trkpt lat="46.715" lon="11.655"><name>Bressanone</name></trkpt>
+    <trkpt lat="46.799" lon="11.935"><name>Brunico</name></trkpt>
+    <trkpt lat="46.736" lon="12.222"><name>Dobbiaco</name></trkpt>
+    <trkpt lat="46.733" lon="12.279"><name>San Candido</name></trkpt>
+    <trkpt lat="46.8297" lon="12.769"><name>Lienz</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 13 - Ruta completa</name>
+    <rtept lat="46.5765" lon="11.6726"><name>Ortisei</name></rtept>
+    <rtept lat="46.641" lon="11.565"><name>Chiusa</name></rtept>
+    <rtept lat="46.715" lon="11.655"><name>Bressanone</name></rtept>
+    <rtept lat="46.799" lon="11.935"><name>Brunico</name></rtept>
+    <rtept lat="46.736" lon="12.222"><name>Dobbiaco</name></rtept>
+    <rtept lat="46.733" lon="12.279"><name>San Candido</name></rtept>
+    <rtept lat="46.8297" lon="12.769"><name>Lienz</name></rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 6 - Ruta completa</name><desc>Bormio -&gt; Passo dello Stelvio -&gt; Trafoi -&gt; Merano -&gt; Lago di Carezza -&gt; Passo Costalunga -&gt; Ortisei</desc></metadata>
+  <wpt lat="46.4669" lon="10.375"><name>01 - Bormio</name></wpt>
+  <wpt lat="46.5287" lon="10.4534"><name>02 - Passo dello Stelvio</name></wpt>
+  <wpt lat="46.5521" lon="10.5093"><name>03 - Trafoi</name></wpt>
+  <wpt lat="46.6713" lon="11.1595"><name>04 - Merano</name></wpt>
+  <wpt lat="46.409" lon="11.575"><name>05 - Lago di Carezza</name></wpt>
+  <wpt lat="46.404" lon="11.608"><name>06 - Passo Costalunga</name></wpt>
+  <wpt lat="46.5765" lon="11.6726"><name>07 - Ortisei</name></wpt>
+  <trk><name>Dia 6 - Ruta completa</name><trkseg>
+    <trkpt lat="46.4669" lon="10.375"><name>Bormio</name></trkpt>
+    <trkpt lat="46.5287" lon="10.4534"><name>Passo dello Stelvio</name></trkpt>
+    <trkpt lat="46.5521" lon="10.5093"><name>Trafoi</name></trkpt>
+    <trkpt lat="46.6713" lon="11.1595"><name>Merano</name></trkpt>
+    <trkpt lat="46.409" lon="11.575"><name>Lago di Carezza</name></trkpt>
+    <trkpt lat="46.404" lon="11.608"><name>Passo Costalunga</name></trkpt>
+    <trkpt lat="46.5765" lon="11.6726"><name>Ortisei</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 6 - Ruta completa</name>
+    <rtept lat="46.4669" lon="10.375"><name>Bormio</name></rtept>
+    <rtept lat="46.5287" lon="10.4534"><name>Passo dello Stelvio</name></rtept>
+    <rtept lat="46.5521" lon="10.5093"><name>Trafoi</name></rtept>
+    <rtept lat="46.6713" lon="11.1595"><name>Merano</name></rtept>
+    <rtept lat="46.409" lon="11.575"><name>Lago di Carezza</name></rtept>
+    <rtept lat="46.404" lon="11.608"><name>Passo Costalunga</name></rtept>
+    <rtept lat="46.5765" lon="11.6726"><name>Ortisei</name></rtept>
+  </rte>
+</gpx>

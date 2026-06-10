@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 4 - Ruta completa</name><desc>Lanslebourg-Mont-Cenis -&gt; Col du Mont Cenis -&gt; Bonneval-sur-Arc -&gt; Col de l’Iseran -&gt; Val d’Isère -&gt; Bourg-Saint-Maurice -&gt; Cormet de Roselend -&gt; Saint-Gervais-les-Bains -&gt; Chamonix-Mont-Blanc -&gt; Martigny -&gt; Gran San Bernardo -&gt; Aosta</desc></metadata>
+  <wpt lat="45.2434" lon="6.8768"><name>01 - Lanslebourg-Mont-Cenis</name></wpt>
+  <wpt lat="45.259" lon="6.9007"><name>02 - Col du Mont Cenis / Lac du Mont-Cenis</name></wpt>
+  <wpt lat="45.235" lon="6.952"><name>03 - Lac du Mont-Cenis</name></wpt>
+  <wpt lat="45.2434" lon="6.8768"><name>04 - Lanslebourg-Mont-Cenis (vuelta a D902)</name></wpt>
+  <wpt lat="45.371" lon="7.047"><name>05 - Bonneval-sur-Arc</name></wpt>
+  <wpt lat="45.4175" lon="7.0305"><name>06 - Refuge de l’Iseran</name></wpt>
+  <wpt lat="45.417" lon="7.03"><name>07 - Col de l’Iseran</name></wpt>
+  <wpt lat="45.4508" lon="6.9781"><name>08 - Val-d&apos;Isère</name></wpt>
+  <wpt lat="45.617" lon="6.769"><name>09 - Bourg-Saint-Maurice</name></wpt>
+  <wpt lat="45.6903" lon="6.6909"><name>10 - Cormet de Roselend</name></wpt>
+  <wpt lat="45.3405" lon="6.5732"><name>11 - Beaufort</name></wpt>
+  <wpt lat="45.8569" lon="6.6178"><name>12 - Megève</name></wpt>
+  <wpt lat="45.8918" lon="6.7138"><name>13 - Saint-Gervais-les-Bains</name></wpt>
+  <wpt lat="45.9237" lon="6.8694"><name>14 - Chamonix-Mont-Blanc</name></wpt>
+  <wpt lat="46.102" lon="7.072"><name>15 - Martigny</name></wpt>
+  <wpt lat="45.8687" lon="7.1706"><name>16 - Col du Grand-Saint-Bernard</name></wpt>
+  <wpt lat="45.737" lon="7.317"><name>17 - Aosta</name></wpt>
+  <trk><name>Dia 4 - Ruta completa</name><trkseg>
+    <trkpt lat="45.2434" lon="6.8768"><name>Lanslebourg-Mont-Cenis</name></trkpt>
+    <trkpt lat="45.259" lon="6.9007"><name>Col du Mont Cenis / Lac du Mont-Cenis</name></trkpt>
+    <trkpt lat="45.235" lon="6.952"><name>Lac du Mont-Cenis</name></trkpt>
+    <trkpt lat="45.2434" lon="6.8768"><name>Lanslebourg-Mont-Cenis (vuelta a D902)</name></trkpt>
+    <trkpt lat="45.371" lon="7.047"><name>Bonneval-sur-Arc</name></trkpt>
+    <trkpt lat="45.4175" lon="7.0305"><name>Refuge de l’Iseran</name></trkpt>
+    <trkpt lat="45.417" lon="7.03"><name>Col de l’Iseran</name></trkpt>
+    <trkpt lat="45.4508" lon="6.9781"><name>Val-d&apos;Isère</name></trkpt>
+    <trkpt lat="45.617" lon="6.769"><name>Bourg-Saint-Maurice</name></trkpt>
+    <trkpt lat="45.6903" lon="6.6909"><name>Cormet de Roselend</name></trkpt>
+    <trkpt lat="45.3405" lon="6.5732"><name>Beaufort</name></trkpt>
+    <trkpt lat="45.8569" lon="6.6178"><name>Megève</name></trkpt>
+    <trkpt lat="45.8918" lon="6.7138"><name>Saint-Gervais-les-Bains</name></trkpt>
+    <trkpt lat="45.9237" lon="6.8694"><name>Chamonix-Mont-Blanc</name></trkpt>
+    <trkpt lat="46.102" lon="7.072"><name>Martigny</name></trkpt>
+    <trkpt lat="45.8687" lon="7.1706"><name>Col du Grand-Saint-Bernard</name></trkpt>
+    <trkpt lat="45.737" lon="7.317"><name>Aosta</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 4 - Ruta completa</name>
+    <rtept lat="45.2434" lon="6.8768"><name>Lanslebourg-Mont-Cenis</name></rtept>
+    <rtept lat="45.259" lon="6.9007"><name>Col du Mont Cenis / Lac du Mont-Cenis</name></rtept>
+    <rtept lat="45.235" lon="6.952"><name>Lac du Mont-Cenis</name></rtept>
+    <rtept lat="45.2434" lon="6.8768"><name>Lanslebourg-Mont-Cenis (vuelta a D902)</name></rtept>
+    <rtept lat="45.371" lon="7.047"><name>Bonneval-sur-Arc</name></rtept>
+    <rtept lat="45.4175" lon="7.0305"><name>Refuge de l’Iseran</name></rtept>
+    <rtept lat="45.417" lon="7.03"><name>Col de l’Iseran</name></rtept>
+    <rtept lat="45.4508" lon="6.9781"><name>Val-d&apos;Isère</name></rtept>
+    <rtept lat="45.617" lon="6.769"><name>Bourg-Saint-Maurice</name></rtept>
+    <rtept lat="45.6903" lon="6.6909"><name>Cormet de Roselend</name></rtept>
+    <rtept lat="45.3405" lon="6.5732"><name>Beaufort</name></rtept>
+    <rtept lat="45.8569" lon="6.6178"><name>Megève</name></rtept>
+    <rtept lat="45.8918" lon="6.7138"><name>Saint-Gervais-les-Bains</name></rtept>
+    <rtept lat="45.9237" lon="6.8694"><name>Chamonix-Mont-Blanc</name></rtept>
+    <rtept lat="46.102" lon="7.072"><name>Martigny</name></rtept>
+    <rtept lat="45.8687" lon="7.1706"><name>Col du Grand-Saint-Bernard</name></rtept>
+    <rtept lat="45.737" lon="7.317"><name>Aosta</name></rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 8 - Ruta completa</name><desc>Ortisei -&gt; Passo Gardena -&gt; Corvara -&gt; Passo Campolongo -&gt; Arabba -&gt; Passo Pordoi -&gt; Passo Sella -&gt; Brunico -&gt; Lago di Braies -&gt; Dobbiaco -&gt; Lago di Misurina</desc></metadata>
+  <wpt lat="46.5765" lon="11.6726"><name>01 - Ortisei</name></wpt>
+  <wpt lat="46.549" lon="11.808"><name>02 - Passo Gardena</name></wpt>
+  <wpt lat="46.55" lon="11.873"><name>03 - Corvara</name></wpt>
+  <wpt lat="46.518" lon="11.875"><name>04 - Passo Campolongo</name></wpt>
+  <wpt lat="46.498" lon="11.875"><name>05 - Arabba</name></wpt>
+  <wpt lat="46.488" lon="11.812"><name>06 - Passo Pordoi</name></wpt>
+  <wpt lat="46.508" lon="11.76"><name>07 - Passo Sella</name></wpt>
+  <wpt lat="46.799" lon="11.935"><name>08 - Brunico</name></wpt>
+  <wpt lat="46.694" lon="12.085"><name>09 - Lago di Braies</name></wpt>
+  <wpt lat="46.736" lon="12.222"><name>10 - Dobbiaco</name></wpt>
+  <wpt lat="46.5833" lon="12.2548"><name>11 - Lago di Misurina</name></wpt>
+  <trk><name>Dia 8 - Ruta completa</name><trkseg>
+    <trkpt lat="46.5765" lon="11.6726"><name>Ortisei</name></trkpt>
+    <trkpt lat="46.549" lon="11.808"><name>Passo Gardena</name></trkpt>
+    <trkpt lat="46.55" lon="11.873"><name>Corvara</name></trkpt>
+    <trkpt lat="46.518" lon="11.875"><name>Passo Campolongo</name></trkpt>
+    <trkpt lat="46.498" lon="11.875"><name>Arabba</name></trkpt>
+    <trkpt lat="46.488" lon="11.812"><name>Passo Pordoi</name></trkpt>
+    <trkpt lat="46.508" lon="11.76"><name>Passo Sella</name></trkpt>
+    <trkpt lat="46.799" lon="11.935"><name>Brunico</name></trkpt>
+    <trkpt lat="46.694" lon="12.085"><name>Lago di Braies</name></trkpt>
+    <trkpt lat="46.736" lon="12.222"><name>Dobbiaco</name></trkpt>
+    <trkpt lat="46.5833" lon="12.2548"><name>Lago di Misurina</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 8 - Ruta completa</name>
+    <rtept lat="46.5765" lon="11.6726"><name>Ortisei</name></rtept>
+    <rtept lat="46.549" lon="11.808"><name>Passo Gardena</name></rtept>
+    <rtept lat="46.55" lon="11.873"><name>Corvara</name></rtept>
+    <rtept lat="46.518" lon="11.875"><name>Passo Campolongo</name></rtept>
+    <rtept lat="46.498" lon="11.875"><name>Arabba</name></rtept>
+    <rtept lat="46.488" lon="11.812"><name>Passo Pordoi</name></rtept>
+    <rtept lat="46.508" lon="11.76"><name>Passo Sella</name></rtept>
+    <rtept lat="46.799" lon="11.935"><name>Brunico</name></rtept>
+    <rtept lat="46.694" lon="12.085"><name>Lago di Braies</name></rtept>
+    <rtept lat="46.736" lon="12.222"><name>Dobbiaco</name></rtept>
+    <rtept lat="46.5833" lon="12.2548"><name>Lago di Misurina</name></rtept>
+  </rte>
+</gpx>

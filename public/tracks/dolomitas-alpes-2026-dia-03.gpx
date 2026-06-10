@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 3 - Ruta completa</name><desc>Briançon -&gt; Col du Lautaret -&gt; Col du Galibier -&gt; Valloire -&gt; Saint-Michel-de-Maurienne -&gt; Modane -&gt; Lanslebourg-Mont-Cenis</desc></metadata>
+  <wpt lat="44.8994" lon="6.6432"><name>01 - Briançon</name></wpt>
+  <wpt lat="45.035" lon="6.405"><name>02 - Col du Lautaret</name></wpt>
+  <wpt lat="45.064" lon="6.407"><name>03 - Col du Galibier</name></wpt>
+  <wpt lat="45.0649" lon="6.4071"><name>04 - Monumento Henri Desgrange</name></wpt>
+  <wpt lat="45.1655" lon="6.4292"><name>05 - Valloire</name></wpt>
+  <wpt lat="45.1581" lon="6.447"><name>06 - Col du Télégraphe</name></wpt>
+  <wpt lat="45.2014" lon="6.4731"><name>07 - Saint-Michel-de-Maurienne</name></wpt>
+  <wpt lat="45.2017" lon="6.6697"><name>08 - Modane</name></wpt>
+  <wpt lat="45.2434" lon="6.8768"><name>09 - Lanslebourg-Mont-Cenis</name></wpt>
+  <trk><name>Dia 3 - Ruta completa</name><trkseg>
+    <trkpt lat="44.8994" lon="6.6432"><name>Briançon</name></trkpt>
+    <trkpt lat="45.035" lon="6.405"><name>Col du Lautaret</name></trkpt>
+    <trkpt lat="45.064" lon="6.407"><name>Col du Galibier</name></trkpt>
+    <trkpt lat="45.0649" lon="6.4071"><name>Monumento Henri Desgrange</name></trkpt>
+    <trkpt lat="45.1655" lon="6.4292"><name>Valloire</name></trkpt>
+    <trkpt lat="45.1581" lon="6.447"><name>Col du Télégraphe</name></trkpt>
+    <trkpt lat="45.2014" lon="6.4731"><name>Saint-Michel-de-Maurienne</name></trkpt>
+    <trkpt lat="45.2017" lon="6.6697"><name>Modane</name></trkpt>
+    <trkpt lat="45.2434" lon="6.8768"><name>Lanslebourg-Mont-Cenis</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 3 - Ruta completa</name>
+    <rtept lat="44.8994" lon="6.6432"><name>Briançon</name></rtept>
+    <rtept lat="45.035" lon="6.405"><name>Col du Lautaret</name></rtept>
+    <rtept lat="45.064" lon="6.407"><name>Col du Galibier</name></rtept>
+    <rtept lat="45.0649" lon="6.4071"><name>Monumento Henri Desgrange</name></rtept>
+    <rtept lat="45.1655" lon="6.4292"><name>Valloire</name></rtept>
+    <rtept lat="45.1581" lon="6.447"><name>Col du Télégraphe</name></rtept>
+    <rtept lat="45.2014" lon="6.4731"><name>Saint-Michel-de-Maurienne</name></rtept>
+    <rtept lat="45.2017" lon="6.6697"><name>Modane</name></rtept>
+    <rtept lat="45.2434" lon="6.8768"><name>Lanslebourg-Mont-Cenis</name></rtept>
+  </rte>
+</gpx>

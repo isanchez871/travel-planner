@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 0 - Ruta completa</name><desc>Loranca, Fuenlabrada -&gt; Lleida / Fraga</desc></metadata>
+  <wpt lat="40.291" lon="-3.837"><name>01 - Loranca, Fuenlabrada</name></wpt>
+  <wpt lat="40.6333" lon="-3.1667"><name>02 - Guadalajara</name></wpt>
+  <wpt lat="41.6488" lon="-0.8891"><name>03 - Zaragoza</name></wpt>
+  <wpt lat="41.5229" lon="0.3489"><name>04 - Fraga</name></wpt>
+  <wpt lat="41.6176" lon="0.62"><name>05 - Lleida</name></wpt>
+  <trk><name>Dia 0 - Ruta completa</name><trkseg>
+    <trkpt lat="40.291" lon="-3.837"><name>Loranca, Fuenlabrada</name></trkpt>
+    <trkpt lat="40.6333" lon="-3.1667"><name>Guadalajara</name></trkpt>
+    <trkpt lat="41.6488" lon="-0.8891"><name>Zaragoza</name></trkpt>
+    <trkpt lat="41.5229" lon="0.3489"><name>Fraga</name></trkpt>
+    <trkpt lat="41.6176" lon="0.62"><name>Lleida</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 0 - Ruta completa</name>
+    <rtept lat="40.291" lon="-3.837"><name>Loranca, Fuenlabrada</name></rtept>
+    <rtept lat="40.6333" lon="-3.1667"><name>Guadalajara</name></rtept>
+    <rtept lat="41.6488" lon="-0.8891"><name>Zaragoza</name></rtept>
+    <rtept lat="41.5229" lon="0.3489"><name>Fraga</name></rtept>
+    <rtept lat="41.6176" lon="0.62"><name>Lleida</name></rtept>
+  </rte>
+</gpx>

@@ -23,6 +23,12 @@
 # misc
 .DS_Store
 *.pem
+*.pdf
+*.docx
+*.xlsx
+*.html
+*.gpx
+!public/tracks/*.gpx
 
 # debug
 npm-debug.log*

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="travel-planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Dia 2 - Ruta completa</name><desc>Avignon -&gt; Nyons -&gt; Serres (Hautes-Alpes) -&gt; Gap -&gt; Embrun -&gt; Briançon</desc></metadata>
+  <wpt lat="43.9493" lon="4.8055"><name>01 - Avignon</name></wpt>
+  <wpt lat="44.3603" lon="5.1405"><name>02 - Nyons</name></wpt>
+  <wpt lat="44.4286" lon="5.7169"><name>03 - Serres, Hautes-Alpes</name></wpt>
+  <wpt lat="44.5596" lon="6.0798"><name>04 - Gap</name></wpt>
+  <wpt lat="44.5639" lon="6.4953"><name>05 - Embrun</name></wpt>
+  <wpt lat="44.8994" lon="6.6432"><name>06 - Briançon</name></wpt>
+  <trk><name>Dia 2 - Ruta completa</name><trkseg>
+    <trkpt lat="43.9493" lon="4.8055"><name>Avignon</name></trkpt>
+    <trkpt lat="44.3603" lon="5.1405"><name>Nyons</name></trkpt>
+    <trkpt lat="44.4286" lon="5.7169"><name>Serres, Hautes-Alpes</name></trkpt>
+    <trkpt lat="44.5596" lon="6.0798"><name>Gap</name></trkpt>
+    <trkpt lat="44.5639" lon="6.4953"><name>Embrun</name></trkpt>
+    <trkpt lat="44.8994" lon="6.6432"><name>Briançon</name></trkpt>
+  </trkseg></trk>
+  <rte><name>Dia 2 - Ruta completa</name>
+    <rtept lat="43.9493" lon="4.8055"><name>Avignon</name></rtept>
+    <rtept lat="44.3603" lon="5.1405"><name>Nyons</name></rtept>
+    <rtept lat="44.4286" lon="5.7169"><name>Serres, Hautes-Alpes</name></rtept>
+    <rtept lat="44.5596" lon="6.0798"><name>Gap</name></rtept>
+    <rtept lat="44.5639" lon="6.4953"><name>Embrun</name></rtept>
+    <rtept lat="44.8994" lon="6.6432"><name>Briançon</name></rtept>
+  </rte>
+</gpx>
