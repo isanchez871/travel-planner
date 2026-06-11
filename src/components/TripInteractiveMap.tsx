@@ -11,6 +11,7 @@ import 'leaflet/dist/leaflet.css';
 interface TripInteractiveMapProps {
   days: Day[];
   trip?: Trip;
+  initialActiveDay?: number | 'all';
 }
 
 type Coordinates = [number, number];
@@ -223,8 +224,8 @@ function getPointCoordinates(day: Day, pointName: string): Coordinates | undefin
   return coordinates[pointName];
 }
 
-export function TripInteractiveMap({ days, trip }: TripInteractiveMapProps) {
-  const [activeDay, setActiveDay] = useState<number | 'all'>('all');
+export function TripInteractiveMap({ days, trip, initialActiveDay = 'all' }: TripInteractiveMapProps) {
+  const [activeDay, setActiveDay] = useState<number | 'all'>(initialActiveDay);
   const [activeBlock, setActiveBlock] = useState<string | 'all'>('all');
   const [detailDay, setDetailDay] = useState<Day | null>(null);
   const [showLegend, setShowLegend] = useState(false);
