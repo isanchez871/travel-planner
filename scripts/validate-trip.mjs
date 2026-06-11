@@ -22,6 +22,11 @@ function isHttpUrl(value) {
   return typeof value === 'string' && /^https?:\/\//.test(value);
 }
 
+function routeSegmentFor(day, pointName) {
+  const point = day.points?.find((item) => item.name === pointName);
+  return encodeURIComponent(point ? `${point.lat},${point.lng}` : pointName);
+}
+
 requiredTopLevel.forEach((field) => {
   assert(trip[field] !== undefined, `Falta campo principal: ${field}`);
 });
@@ -77,8 +82,11 @@ trip.dias.forEach((day, index) => {
 
   day.mapas.forEach((map) => {
     assert(map.bloque, `Mapa sin bloque en día ${day.numero}`);
-    assert(map.url?.startsWith('https://www.google.com/maps/'), `Mapa con URL no Google Maps en día ${day.numero}: ${map.bloque}`);
+    assert(map.url?.startsWith('https://www.google.com/maps/dir/'), `Mapa con URL no Google Maps Dir en día ${day.numero}: ${map.bloque}`);
     assert(map.puntos.length > 1, `Mapa con menos de dos puntos en día ${day.numero}: ${map.bloque}`);
+    map.puntos.forEach((pointName) => {
+      assert(map.url.includes(routeSegmentFor(day, pointName)), `Mapa del día ${day.numero} no contiene punto en URL: ${map.bloque} -> ${pointName}`);
+    });
     if (map.gpxUrl) {
       assert(existsSync(join(root, 'public', map.gpxUrl.replace(/^\//, ''))), `GPX no existe en día ${day.numero}: ${map.gpxUrl}`);
     }

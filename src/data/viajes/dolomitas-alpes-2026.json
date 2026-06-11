@@ -46,7 +46,7 @@
       "intensidad": "Pre-etapa de aproximación",
       "puntosGoogle": 5,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=Loranca%2C%20Fuenlabrada&destination=Lleida&travelmode=driving&waypoints=Guadalajara%7CZaragoza%7CFraga",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/40.291%2C-3.837/40.6333%2C-3.1667/41.6488%2C-0.8891/41.5229%2C0.3489/41.6176%2C0.62/",
       "mapas": [
         {
           "bloque": "pre-etapa de aproximación",
@@ -57,7 +57,7 @@
             "Fraga",
             "Lleida"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=Loranca%2C%20Fuenlabrada&destination=Lleida&travelmode=driving&waypoints=Guadalajara%7CZaragoza%7CFraga",
+          "url": "https://www.google.com/maps/dir/40.291%2C-3.837/40.6333%2C-3.1667/41.6488%2C-0.8891/41.5229%2C0.3489/41.6176%2C0.62/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-00.gpx"
         }
@@ -133,7 +133,7 @@
       ],
       "accommodationAdvice": "Lleida si vamos bien. Fraga si queremos algo más prudente. Zaragoza si salimos tarde o estamos cansados.",
       "estimatedCost": 253,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Loranca%2C%20Fuenlabrada&destination=Lleida&travelmode=driving&waypoints=Guadalajara%7CZaragoza%7CFraga",
+      "googleMapsUrl": "https://www.google.com/maps/dir/40.291%2C-3.837/40.6333%2C-3.1667/41.6488%2C-0.8891/41.5229%2C0.3489/41.6176%2C0.62/",
       "points": [
         {
           "name": "Loranca, Fuenlabrada",
@@ -189,7 +189,7 @@
       "intensidad": "Enlace hacia Alpes franceses",
       "puntosGoogle": 6,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=Lleida&destination=Avignon&travelmode=driving&waypoints=La%20Jonquera%7CNarbona%7CMontpellier%7CN%C3%AEmes",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/41.6176%2C0.62/42.4172%2C2.8731/43.1843%2C3.0031/43.6119%2C3.8772/43.8367%2C4.3601/43.9493%2C4.8055/",
       "mapas": [
         {
           "bloque": "enlace hacia Alpes franceses",
@@ -201,7 +201,7 @@
             "Nîmes",
             "Avignon"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=Lleida&destination=Avignon&travelmode=driving&waypoints=La%20Jonquera%7CNarbona%7CMontpellier%7CN%C3%AEmes",
+          "url": "https://www.google.com/maps/dir/41.6176%2C0.62/42.4172%2C2.8731/43.1843%2C3.0031/43.6119%2C3.8772/43.8367%2C4.3601/43.9493%2C4.8055/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-01.gpx"
         }
@@ -280,7 +280,7 @@
       ],
       "accommodationAdvice": "Avignon, con parking, para salir al día siguiente hacia Nyons/Serres/Briançon sin salto de continuidad.",
       "estimatedCost": 265,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Lleida&destination=Avignon&travelmode=driving&waypoints=La%20Jonquera%7CNarbona%7CMontpellier%7CN%C3%AEmes",
+      "googleMapsUrl": "https://www.google.com/maps/dir/41.6176%2C0.62/42.4172%2C2.8731/43.1843%2C3.0031/43.6119%2C3.8772/43.8367%2C4.3601/43.9493%2C4.8055/",
       "points": [
         {
           "name": "Lleida",
@@ -344,7 +344,7 @@
       "intensidad": "Entrada escénica a Alpes",
       "puntosGoogle": 6,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=43.9493%2C4.8055&destination=44.8994%2C6.6432&travelmode=driving&waypoints=44.3603%2C5.1405%7C44.4286%2C5.7169%7C44.5596%2C6.0798%7C44.5639%2C6.4953",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/43.9493%2C4.8055/44.3603%2C5.1405/Serres%20(Hautes-Alpes)/44.5596%2C6.0798/44.5639%2C6.4953/44.8994%2C6.6432/",
       "mapas": [
         {
           "bloque": "entrada escénica a Alpes",
@@ -356,7 +356,7 @@
             "Embrun",
             "Briançon"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=43.9493%2C4.8055&destination=44.8994%2C6.6432&travelmode=driving&waypoints=44.3603%2C5.1405%7C44.4286%2C5.7169%7C44.5596%2C6.0798%7C44.5639%2C6.4953",
+          "url": "https://www.google.com/maps/dir/43.9493%2C4.8055/44.3603%2C5.1405/Serres%20(Hautes-Alpes)/44.5596%2C6.0798/44.5639%2C6.4953/44.8994%2C6.6432/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-02.gpx"
         }
@@ -463,7 +463,7 @@
       ],
       "accommodationAdvice": "Briançon.",
       "estimatedCost": 203,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=43.9493%2C4.8055&destination=44.8994%2C6.6432&travelmode=driving&waypoints=44.3603%2C5.1405%7C44.4286%2C5.7169%7C44.5596%2C6.0798%7C44.5639%2C6.4953",
+      "googleMapsUrl": "https://www.google.com/maps/dir/43.9493%2C4.8055/44.3603%2C5.1405/Serres%20(Hautes-Alpes)/44.5596%2C6.0798/44.5639%2C6.4953/44.8994%2C6.6432/",
       "points": [
         {
           "name": "Avignon",
@@ -527,7 +527,7 @@
       "intensidad": "Media-alta · paisaje 10/10 · moto 10/10",
       "puntosGoogle": 9,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=44.8994%2C6.6432&destination=45.2434%2C6.8768&travelmode=driving&waypoints=45.0350%2C6.4050%7C45.0640%2C6.4070%7C45.0649%2C6.4071%7C45.1655%2C6.4292%7C45.1581%2C6.4470%7C45.2014%2C6.4731%7C45.2017%2C6.6697",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/44.8994%2C6.6432/45.035%2C6.405/45.064%2C6.407/45.0649%2C6.4071/45.1655%2C6.4292/45.1581%2C6.447/45.2014%2C6.4731/45.2017%2C6.6697/45.2434%2C6.8768/",
       "mapas": [
         {
           "bloque": "Los gigantes de la Route des Grandes Alpes",
@@ -542,7 +542,7 @@
             "Modane",
             "Lanslebourg-Mont-Cenis"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=44.8994%2C6.6432&destination=45.2434%2C6.8768&travelmode=driving&waypoints=45.0350%2C6.4050%7C45.0640%2C6.4070%7C45.0649%2C6.4071%7C45.1655%2C6.4292%7C45.1581%2C6.4470%7C45.2014%2C6.4731%7C45.2017%2C6.6697",
+          "url": "https://www.google.com/maps/dir/44.8994%2C6.6432/45.035%2C6.405/45.064%2C6.407/45.0649%2C6.4071/45.1655%2C6.4292/45.1581%2C6.447/45.2014%2C6.4731/45.2017%2C6.6697/45.2434%2C6.8768/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-03.gpx"
         }
@@ -660,7 +660,7 @@
       ],
       "accommodationAdvice": "Prioridad Lanslebourg-Mont-Cenis por lógica de ruta. Modane solo si mejora precio, parking o disponibilidad.",
       "estimatedCost": 198,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=44.8994%2C6.6432&destination=45.2434%2C6.8768&travelmode=driving&waypoints=45.0350%2C6.4050%7C45.0640%2C6.4070%7C45.0649%2C6.4071%7C45.1655%2C6.4292%7C45.1581%2C6.4470%7C45.2014%2C6.4731%7C45.2017%2C6.6697",
+      "googleMapsUrl": "https://www.google.com/maps/dir/44.8994%2C6.6432/45.035%2C6.405/45.064%2C6.407/45.0649%2C6.4071/45.1655%2C6.4292/45.1581%2C6.447/45.2014%2C6.4731/45.2017%2C6.6697/45.2434%2C6.8768/",
       "points": [
         {
           "name": "Briançon",
@@ -748,7 +748,7 @@
       "intensidad": "Muy alta · paisaje 10/10 · moto 10/10",
       "puntosGoogle": 16,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=45.2434%2C6.8768&destination=45.6170%2C6.7690&travelmode=driving&waypoints=45.2590%2C6.9007%7C45.2350%2C6.9520%7C45.2434%2C6.8768%7C45.3710%2C7.0470%7C45.4175%2C7.0305%7C45.4170%2C7.0300%7C45.4508%2C6.9781",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/45.2434%2C6.8768/Col%20du%20Mont%20Cenis/45.235%2C6.952/45.2434%2C6.8768/45.371%2C7.047/45.4175%2C7.0305/45.417%2C7.03/Val%20d%E2%80%99Is%C3%A8re/45.617%2C6.769/",
       "mapas": [
         {
           "bloque": "Iseran completo por la D902",
@@ -763,7 +763,7 @@
             "Val d’Isère",
             "Bourg-Saint-Maurice"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=45.2434%2C6.8768&destination=45.6170%2C6.7690&travelmode=driving&waypoints=45.2590%2C6.9007%7C45.2350%2C6.9520%7C45.2434%2C6.8768%7C45.3710%2C7.0470%7C45.4175%2C7.0305%7C45.4170%2C7.0300%7C45.4508%2C6.9781",
+          "url": "https://www.google.com/maps/dir/45.2434%2C6.8768/Col%20du%20Mont%20Cenis/45.235%2C6.952/45.2434%2C6.8768/45.371%2C7.047/45.4175%2C7.0305/45.417%2C7.03/Val%20d%E2%80%99Is%C3%A8re/45.617%2C6.769/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-04.gpx"
         },
@@ -780,7 +780,7 @@
             "Col du Grand-Saint-Bernard",
             "Aosta"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=45.6170%2C6.7690&destination=45.7370%2C7.3170&travelmode=driving&waypoints=45.6903%2C6.6909%7C45.3405%2C6.5732%7C45.8569%2C6.6178%7C45.8918%2C6.7138%7C45.9237%2C6.8694%7C46.1020%2C7.0720%7C45.8687%2C7.1706",
+          "url": "https://www.google.com/maps/dir/45.617%2C6.769/45.6903%2C6.6909/45.3405%2C6.5732/45.8569%2C6.6178/45.8918%2C6.7138/45.9237%2C6.8694/46.102%2C7.072/45.8687%2C7.1706/45.737%2C7.317/",
           "estado": "OK"
         }
       ],
@@ -910,7 +910,7 @@
       ],
       "accommodationAdvice": "Aosta.",
       "estimatedCost": 258,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=45.2434%2C6.8768&destination=45.6170%2C6.7690&travelmode=driving&waypoints=45.2590%2C6.9007%7C45.2350%2C6.9520%7C45.2434%2C6.8768%7C45.3710%2C7.0470%7C45.4175%2C7.0305%7C45.4170%2C7.0300%7C45.4508%2C6.9781",
+      "googleMapsUrl": "https://www.google.com/maps/dir/45.2434%2C6.8768/Col%20du%20Mont%20Cenis/45.235%2C6.952/45.2434%2C6.8768/45.371%2C7.047/45.4175%2C7.0305/45.417%2C7.03/Val%20d%E2%80%99Is%C3%A8re/45.617%2C6.769/",
       "points": [
         {
           "name": "Lanslebourg-Mont-Cenis",
@@ -1062,7 +1062,7 @@
       "intensidad": "Transición alpina italiana",
       "puntosGoogle": 5,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=Aosta&destination=Bormio&travelmode=driving&waypoints=Lecco%7CSondrio",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/45.737%2C7.317/45.8566%2C9.3977/46.1699%2C9.8788/46.4669%2C10.375/",
       "mapas": [
         {
           "bloque": "transición alpina italiana",
@@ -1072,7 +1072,7 @@
             "Sondrio",
             "Bormio"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=Aosta&destination=Bormio&travelmode=driving&waypoints=Lecco%7CSondrio",
+          "url": "https://www.google.com/maps/dir/45.737%2C7.317/45.8566%2C9.3977/46.1699%2C9.8788/46.4669%2C10.375/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-05.gpx"
         }
@@ -1145,7 +1145,7 @@
       ],
       "accommodationAdvice": "Bormio.",
       "estimatedCost": 242,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Aosta&destination=Bormio&travelmode=driving&waypoints=Lecco%7CSondrio",
+      "googleMapsUrl": "https://www.google.com/maps/dir/45.737%2C7.317/45.8566%2C9.3977/46.1699%2C9.8788/46.4669%2C10.375/",
       "points": [
         {
           "name": "Aosta",
@@ -1193,7 +1193,7 @@
       "intensidad": "Stelvio + entrada en Dolomitas",
       "puntosGoogle": 7,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.4669%2C10.3750&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5287%2C10.4534%7C46.5521%2C10.5093%7C46.6713%2C11.1595%7C46.4090%2C11.5750%7C46.4040%2C11.6080",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/46.4669%2C10.375/46.5287%2C10.4534/46.5521%2C10.5093/46.6713%2C11.1595/46.409%2C11.575/46.404%2C11.608/46.5765%2C11.6726/",
       "mapas": [
         {
           "bloque": "Stelvio + entrada en Dolomitas",
@@ -1206,7 +1206,7 @@
             "Passo Costalunga",
             "Ortisei"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=46.4669%2C10.3750&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5287%2C10.4534%7C46.5521%2C10.5093%7C46.6713%2C11.1595%7C46.4090%2C11.5750%7C46.4040%2C11.6080",
+          "url": "https://www.google.com/maps/dir/46.4669%2C10.375/46.5287%2C10.4534/46.5521%2C10.5093/46.6713%2C11.1595/46.409%2C11.575/46.404%2C11.608/46.5765%2C11.6726/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-06.gpx"
         }
@@ -1293,7 +1293,7 @@
       ],
       "accommodationAdvice": "Dormir preferentemente en Ortisei; Santa Cristina es alternativa válida si mantiene parking y buena ubicación.",
       "estimatedCost": 215,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.4669%2C10.3750&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5287%2C10.4534%7C46.5521%2C10.5093%7C46.6713%2C11.1595%7C46.4090%2C11.5750%7C46.4040%2C11.6080",
+      "googleMapsUrl": "https://www.google.com/maps/dir/46.4669%2C10.375/46.5287%2C10.4534/46.5521%2C10.5093/46.6713%2C11.1595/46.409%2C11.575/46.404%2C11.608/46.5765%2C11.6726/",
       "points": [
         {
           "name": "Bormio",
@@ -1365,7 +1365,7 @@
       "intensidad": "Trekking panorámico · moto mínima",
       "puntosGoogle": 6,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=walking&waypoints=46.5757%2C11.6745%7C46.6004%2C11.7242%7C46.5913%2C11.7612%7C46.5415%2C11.6172",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.5757%2C11.6745/46.6004%2C11.7242/46.5913%2C11.7612/46.5415%2C11.6172/46.5765%2C11.6726/",
       "mapas": [
         {
           "bloque": "Seceda + Alpe di Siusi",
@@ -1377,7 +1377,7 @@
             "Alpe di Siusi",
             "Ortisei"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=walking&waypoints=46.5757%2C11.6745%7C46.6004%2C11.7242%7C46.5913%2C11.7612%7C46.5415%2C11.6172",
+          "url": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.5757%2C11.6745/46.6004%2C11.7242/46.5913%2C11.7612/46.5415%2C11.6172/46.5765%2C11.6726/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-07.gpx"
         }
@@ -1461,7 +1461,7 @@
       ],
       "accommodationAdvice": "Mantener Ortisei para no mover maletas y salir al teleférico temprano.",
       "estimatedCost": 222,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=walking&waypoints=46.5757%2C11.6745%7C46.6004%2C11.7242%7C46.5913%2C11.7612%7C46.5415%2C11.6172",
+      "googleMapsUrl": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.5757%2C11.6745/46.6004%2C11.7242/46.5913%2C11.7612/46.5415%2C11.6172/46.5765%2C11.6726/",
       "points": [
         {
           "name": "Ortisei",
@@ -1525,7 +1525,7 @@
       "intensidad": "Sellaronda completa + Braies + Misurina",
       "puntosGoogle": 11,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5833%2C12.2548&travelmode=driving&waypoints=46.5490%2C11.8080%7C46.5500%2C11.8730%7C46.5180%2C11.8750%7C46.4980%2C11.8750%7C46.4880%2C11.8120%7C46.5080%2C11.7600%7C46.7990%2C11.9350%7C46.6940%2C12.0850%7C46.7360%2C12.2220",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.549%2C11.808/46.55%2C11.873/46.518%2C11.875/46.498%2C11.875/46.488%2C11.812/46.508%2C11.76/46.799%2C11.935/46.694%2C12.085/46.736%2C12.222/46.5833%2C12.2548/",
       "mapas": [
         {
           "bloque": "Sellaronda + Lago di Braies + Misurina",
@@ -1542,7 +1542,7 @@
             "Dobbiaco",
             "Lago di Misurina"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5833%2C12.2548&travelmode=driving&waypoints=46.5490%2C11.8080%7C46.5500%2C11.8730%7C46.5180%2C11.8750%7C46.4980%2C11.8750%7C46.4880%2C11.8120%7C46.5080%2C11.7600%7C46.7990%2C11.9350%7C46.6940%2C12.0850%7C46.7360%2C12.2220",
+          "url": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.549%2C11.808/46.55%2C11.873/46.518%2C11.875/46.498%2C11.875/46.488%2C11.812/46.508%2C11.76/46.799%2C11.935/46.694%2C12.085/46.736%2C12.222/46.5833%2C12.2548/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-08.gpx"
         }
@@ -1642,7 +1642,7 @@
       ],
       "accommodationAdvice": "Prioridad Misurina. Dobbiaco solo si no hay disponibilidad, pero reduce la ventaja para Tre Cime.",
       "estimatedCost": 217,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5833%2C12.2548&travelmode=driving&waypoints=46.5490%2C11.8080%7C46.5500%2C11.8730%7C46.5180%2C11.8750%7C46.4980%2C11.8750%7C46.4880%2C11.8120%7C46.5080%2C11.7600%7C46.7990%2C11.9350%7C46.6940%2C12.0850%7C46.7360%2C12.2220",
+      "googleMapsUrl": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.549%2C11.808/46.55%2C11.873/46.518%2C11.875/46.498%2C11.875/46.488%2C11.812/46.508%2C11.76/46.799%2C11.935/46.694%2C12.085/46.736%2C12.222/46.5833%2C12.2548/",
       "points": [
         {
           "name": "Ortisei",
@@ -1746,7 +1746,7 @@
       "intensidad": "Trekking top · moto mínima",
       "puntosGoogle": 7,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5833%2C12.2548&travelmode=walking&waypoints=46.5980%2C12.2570%7C46.6120%2C12.2950%7C46.6180%2C12.3020%7C46.6360%2C12.3100%7C46.6040%2C12.2970",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/46.5833%2C12.2548/46.593%2C12.266/46.6123%2C12.2959/46.6187%2C12.3028/46.6368%2C12.3105/46.604%2C12.288/46.5833%2C12.2548/",
       "mapas": [
         {
           "bloque": "Tre Cime di Lavaredo",
@@ -1759,7 +1759,7 @@
             "Cadini di Misurina viewpoint",
             "Lago di Misurina"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5833%2C12.2548&travelmode=walking&waypoints=46.5980%2C12.2570%7C46.6120%2C12.2950%7C46.6180%2C12.3020%7C46.6360%2C12.3100%7C46.6040%2C12.2970",
+          "url": "https://www.google.com/maps/dir/46.5833%2C12.2548/46.593%2C12.266/46.6123%2C12.2959/46.6187%2C12.3028/46.6368%2C12.3105/46.604%2C12.288/46.5833%2C12.2548/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-09.gpx"
         }
@@ -1847,7 +1847,7 @@
       ],
       "accommodationAdvice": "Dormir en Misurina para maximizar la mañana en Tre Cime.",
       "estimatedCost": 239,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5833%2C12.2548&travelmode=walking&waypoints=46.5980%2C12.2570%7C46.6120%2C12.2950%7C46.6180%2C12.3020%7C46.6360%2C12.3100%7C46.6040%2C12.2970",
+      "googleMapsUrl": "https://www.google.com/maps/dir/46.5833%2C12.2548/46.593%2C12.266/46.6123%2C12.2959/46.6187%2C12.3028/46.6368%2C12.3105/46.604%2C12.288/46.5833%2C12.2548/",
       "points": [
         {
           "name": "Lago di Misurina",
@@ -1919,7 +1919,7 @@
       "intensidad": "Sorapis + Giau · trekking y luz de tarde",
       "puntosGoogle": 5,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5405%2C12.1357&travelmode=driving&waypoints=46.5591%2C12.2044%7C46.5144%2C12.2264%7C46.5405%2C12.1357%7C46.4830%2C12.0520",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/46.5833%2C12.2548/46.5591%2C12.2044/46.5144%2C12.2264/46.5405%2C12.1357/46.483%2C12.052/46.5405%2C12.1357/",
       "mapas": [
         {
           "bloque": "trekking potente + carretera escénica",
@@ -1931,7 +1931,7 @@
             "Passo Giau",
             "Cortina d’Ampezzo"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5405%2C12.1357&travelmode=driving&waypoints=46.5591%2C12.2044%7C46.5144%2C12.2264%7C46.5405%2C12.1357%7C46.4830%2C12.0520",
+          "url": "https://www.google.com/maps/dir/46.5833%2C12.2548/46.5591%2C12.2044/46.5144%2C12.2264/46.5405%2C12.1357/46.483%2C12.052/46.5405%2C12.1357/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-10.gpx"
         }
@@ -2010,7 +2010,7 @@
       ],
       "accommodationAdvice": "Dormir en Cortina para no retroceder y preparar Falzarego/Lagazuoi.",
       "estimatedCost": 246,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5833%2C12.2548&destination=46.5405%2C12.1357&travelmode=driving&waypoints=46.5591%2C12.2044%7C46.5144%2C12.2264%7C46.5405%2C12.1357%7C46.4830%2C12.0520",
+      "googleMapsUrl": "https://www.google.com/maps/dir/46.5833%2C12.2548/46.5591%2C12.2044/46.5144%2C12.2264/46.5405%2C12.1357/46.483%2C12.052/46.5405%2C12.1357/",
       "points": [
         {
           "name": "Lago di Misurina",
@@ -2066,7 +2066,7 @@
       "intensidad": "Historia + miradores + transición",
       "puntosGoogle": 6,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5405%2C12.1357&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5080%2C12.0460%7C46.5190%2C12.0090%7C46.5270%2C12.0080%7C46.5505%2C11.8734",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/46.5405%2C12.1357/46.508%2C12.046/46.519%2C12.009/46.527%2C12.008/46.5505%2C11.8734/46.5765%2C11.6726/",
       "mapas": [
         {
           "bloque": "historia + miradores + transición",
@@ -2078,7 +2078,7 @@
             "Corvara",
             "Ortisei"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5405%2C12.1357&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5080%2C12.0460%7C46.5190%2C12.0090%7C46.5270%2C12.0080%7C46.5505%2C11.8734",
+          "url": "https://www.google.com/maps/dir/46.5405%2C12.1357/46.508%2C12.046/46.519%2C12.009/46.527%2C12.008/46.5505%2C11.8734/46.5765%2C11.6726/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-11.gpx"
         }
@@ -2154,7 +2154,7 @@
       ],
       "accommodationAdvice": "Dormir en Ortisei/Santa Cristina para que Val di Funes sea un día limpio al día siguiente.",
       "estimatedCost": 215,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5405%2C12.1357&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.5080%2C12.0460%7C46.5190%2C12.0090%7C46.5270%2C12.0080%7C46.5505%2C11.8734",
+      "googleMapsUrl": "https://www.google.com/maps/dir/46.5405%2C12.1357/46.508%2C12.046/46.519%2C12.009/46.527%2C12.008/46.5505%2C11.8734/46.5765%2C11.6726/",
       "points": [
         {
           "name": "Cortina d’Ampezzo",
@@ -2218,7 +2218,7 @@
       "intensidad": "Dolomitas Oeste / trekking bajo las Odle",
       "puntosGoogle": 6,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.6408%2C11.7140%7C46.6359%2C11.7203%7C46.6360%2C11.7650%7C46.6330%2C11.7600%7C46.6332%2C11.7559",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.6408%2C11.714/46.6359%2C11.7203/46.636%2C11.765/46.633%2C11.76/46.6332%2C11.7559/46.5765%2C11.6726/",
       "mapas": [
         {
           "bloque": "Dolomitas Oeste / trekking bajo las Odle",
@@ -2231,7 +2231,7 @@
             "Geisler Alm",
             "Ortisei"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.6408%2C11.7140%7C46.6359%2C11.7203%7C46.6360%2C11.7650%7C46.6330%2C11.7600%7C46.6332%2C11.7559",
+          "url": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.6408%2C11.714/46.6359%2C11.7203/46.636%2C11.765/46.633%2C11.76/46.6332%2C11.7559/46.5765%2C11.6726/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-12.gpx"
         }
@@ -2318,7 +2318,7 @@
       ],
       "accommodationAdvice": "Mantener Ortisei para evitar movimiento de equipaje y salir al día siguiente hacia Austria desde el mismo punto.",
       "estimatedCost": 245,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.5765%2C11.6726&travelmode=driving&waypoints=46.6408%2C11.7140%7C46.6359%2C11.7203%7C46.6360%2C11.7650%7C46.6330%2C11.7600%7C46.6332%2C11.7559",
+      "googleMapsUrl": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.6408%2C11.714/46.6359%2C11.7203/46.636%2C11.765/46.633%2C11.76/46.6332%2C11.7559/46.5765%2C11.6726/",
       "points": [
         {
           "name": "Ortisei",
@@ -2390,7 +2390,7 @@
       "intensidad": "Media · salida lógica de Dolomitas · interés motero 6/10 · paisaje 7/10",
       "puntosGoogle": 7,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.8297%2C12.769&travelmode=driving&waypoints=46.641%2C11.565%7C46.715%2C11.655%7C46.799%2C11.935%7C46.736%2C12.222%7C46.733%2C12.279",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.641%2C11.565/46.715%2C11.655/46.799%2C11.935/46.736%2C12.222/46.733%2C12.279/46.8297%2C12.769/",
       "mapas": [
         {
           "bloque": "salida natural de Dolomitas hacia Austria",
@@ -2403,7 +2403,7 @@
             "San Candido",
             "Lienz"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.8297%2C12.769&travelmode=driving&waypoints=46.641%2C11.565%7C46.715%2C11.655%7C46.799%2C11.935%7C46.736%2C12.222%7C46.733%2C12.279",
+          "url": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.641%2C11.565/46.715%2C11.655/46.799%2C11.935/46.736%2C12.222/46.733%2C12.279/46.8297%2C12.769/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-13.gpx"
         }
@@ -2513,7 +2513,7 @@
       ],
       "accommodationAdvice": "Lienz centro o salida este. Prioridad: parking privado/garaje, bano privado y salida facil hacia Heiligenblut.",
       "estimatedCost": 227,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.5765%2C11.6726&destination=46.8297%2C12.769&travelmode=driving&waypoints=46.641%2C11.565%7C46.715%2C11.655%7C46.799%2C11.935%7C46.736%2C12.222%7C46.733%2C12.279",
+      "googleMapsUrl": "https://www.google.com/maps/dir/46.5765%2C11.6726/46.641%2C11.565/46.715%2C11.655/46.799%2C11.935/46.736%2C12.222/46.733%2C12.279/46.8297%2C12.769/",
       "points": [
         {
           "name": "Ortisei",
@@ -2585,7 +2585,7 @@
       "intensidad": "Alta · Grossglockner estrella · interes motero 10/10 · paisaje 10/10",
       "puntosGoogle": 5,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=46.8297%2C12.769&destination=47.3235%2C12.7968&travelmode=driving&waypoints=47.0396%2C12.8431%7C47.055%2C12.83%7C47.0742%2C12.7517",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/46.8297%2C12.769/47.0396%2C12.8431/47.055%2C12.83/47.0742%2C12.7517/47.3235%2C12.7968/",
       "mapas": [
         {
           "bloque": "Grossglockner sin rodeos",
@@ -2596,7 +2596,7 @@
             "Kaiser-Franz-Josefs-Höhe",
             "Zell am See"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=46.8297%2C12.769&destination=47.3235%2C12.7968&travelmode=driving&waypoints=47.0396%2C12.8431%7C47.055%2C12.83%7C47.0742%2C12.7517",
+          "url": "https://www.google.com/maps/dir/46.8297%2C12.769/47.0396%2C12.8431/47.055%2C12.83/47.0742%2C12.7517/47.3235%2C12.7968/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-14.gpx"
         }
@@ -2706,7 +2706,7 @@
       ],
       "accommodationAdvice": "Dormir en Zell am See centro o cerca de la salida hacia Innsbruck. Prioridad parking seguro, bano privado y salida facil.",
       "estimatedCost": 280,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=46.8297%2C12.769&destination=47.3235%2C12.7968&travelmode=driving&waypoints=47.0396%2C12.8431%7C47.055%2C12.83%7C47.0742%2C12.7517",
+      "googleMapsUrl": "https://www.google.com/maps/dir/46.8297%2C12.769/47.0396%2C12.8431/47.055%2C12.83/47.0742%2C12.7517/47.3235%2C12.7968/",
       "points": [
         {
           "name": "Lienz",
@@ -2762,7 +2762,7 @@
       "intensidad": "Alta · enlace eficiente a ferry · interes motero 4/10 · paisaje 5/10",
       "puntosGoogle": 8,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=47.3235%2C12.7968&destination=44.4106%2C8.9139&travelmode=driving&waypoints=47.2692%2C11.4041%7C47.006%2C11.506%7C45.4384%2C10.9916%7C45.5416%2C10.2118%7C45.4642%2C9.19",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/47.3235%2C12.7968/47.2692%2C11.4041/47.006%2C11.506/45.4384%2C10.9916/45.5416%2C10.2118/45.4642%2C9.19/44.4106%2C8.9139/",
       "mapas": [
         {
           "bloque": "bajada eficiente a Genova para ferry",
@@ -2775,7 +2775,7 @@
             "Milan",
             "Genova"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=47.3235%2C12.7968&destination=44.4106%2C8.9139&travelmode=driving&waypoints=47.2692%2C11.4041%7C47.006%2C11.506%7C45.4384%2C10.9916%7C45.5416%2C10.2118%7C45.4642%2C9.19",
+          "url": "https://www.google.com/maps/dir/47.3235%2C12.7968/47.2692%2C11.4041/47.006%2C11.506/45.4384%2C10.9916/45.5416%2C10.2118/45.4642%2C9.19/44.4106%2C8.9139/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-15.gpx"
         },
@@ -2785,7 +2785,7 @@
             "Genova",
             "Barcelona"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=44.4106%2C8.9139&destination=41.3521%2C2.1599",
+          "url": "https://www.google.com/maps/dir/44.4106%2C8.9139/41.3521%2C2.1599/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-15-ferry.gpx"
         }
@@ -2884,7 +2884,7 @@
       ],
       "accommodationAdvice": "Noche a bordo del ferry Genova-Barcelona. Reservar moto + camarote si el precio encaja.",
       "estimatedCost": 473,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=47.3235%2C12.7968&destination=44.4106%2C8.9139&travelmode=driving&waypoints=47.2692%2C11.4041%7C47.006%2C11.506%7C45.4384%2C10.9916%7C45.5416%2C10.2118%7C45.4642%2C9.19",
+      "googleMapsUrl": "https://www.google.com/maps/dir/47.3235%2C12.7968/47.2692%2C11.4041/47.006%2C11.506/45.4384%2C10.9916/45.5416%2C10.2118/45.4642%2C9.19/44.4106%2C8.9139/",
       "points": [
         {
           "name": "Zell am See",
@@ -2964,7 +2964,7 @@
       "intensidad": "Media-alta · regreso final · interes motero 2/10 · paisaje 2/10",
       "puntosGoogle": 3,
       "estadoGoogle": "OK",
-      "rutaGoogleMaps": "https://www.google.com/maps/dir/?api=1&origin=41.3521%2C2.1599&destination=40.291%2C-3.837&travelmode=driving&waypoints=41.6488%2C-0.8891",
+      "rutaGoogleMaps": "https://www.google.com/maps/dir/41.3521%2C2.1599/41.6488%2C-0.8891/40.291%2C-3.837/",
       "mapas": [
         {
           "bloque": "regreso final desde Barcelona",
@@ -2973,7 +2973,7 @@
             "Zaragoza",
             "Loranca, Fuenlabrada"
           ],
-          "url": "https://www.google.com/maps/dir/?api=1&origin=41.3521%2C2.1599&destination=40.291%2C-3.837&travelmode=driving&waypoints=41.6488%2C-0.8891",
+          "url": "https://www.google.com/maps/dir/41.3521%2C2.1599/41.6488%2C-0.8891/40.291%2C-3.837/",
           "estado": "OK",
           "gpxUrl": "/tracks/dolomitas-alpes-2026-dia-16.gpx"
         }
@@ -3043,7 +3043,7 @@
       ],
       "accommodationAdvice": "Casa.",
       "estimatedCost": 165,
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=41.3521%2C2.1599&destination=40.291%2C-3.837&travelmode=driving&waypoints=41.6488%2C-0.8891",
+      "googleMapsUrl": "https://www.google.com/maps/dir/41.3521%2C2.1599/41.6488%2C-0.8891/40.291%2C-3.837/",
       "points": [
         {
           "name": "Barcelona",

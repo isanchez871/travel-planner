@@ -69,14 +69,13 @@ export function MapaTab({ days, trip }: MapaTabProps) {
                   {getDayCountries(day.numero).map((country) => <span key={`maps-card-${day.numero}-${country}`} className="rounded-full bg-stone-100 px-2.5 py-1 text-[11px] font-semibold text-stone-700">{country}</span>)}
                 </div>
                 <ol className="mt-4 space-y-2">
-                  {map.puntos.slice(0, 6).map((point, pointPosition) => (
+                  {map.puntos.map((point, pointPosition) => (
                     <li key={`day-${day.numero}-map-${mapPosition}-point-${point}-${occurrenceAt(map.puntos, pointPosition)}`} className="flex gap-3">
                       <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-amber-100 text-xs font-semibold text-amber-800">{pointPosition + 1}</span>
                       <span className="text-sm text-stone-700">{point}</span>
                     </li>
                   ))}
                 </ol>
-                {map.puntos.length > 6 && <p className="mt-3 text-xs font-medium text-stone-500">+{map.puntos.length - 6} puntos más en Google Maps</p>}
 
                 <a
                   href={map.url}
