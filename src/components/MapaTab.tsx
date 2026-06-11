@@ -36,33 +36,34 @@ export function MapaTab({ days, trip }: MapaTabProps) {
   }
 
   return (
-    <div className="space-y-8 rounded-[2.5rem] bg-[#f4efe7] p-3 shadow-inner shadow-stone-200/70 md:p-6">
+    <div className="space-y-4 rounded-2xl bg-[#f4efe7] p-2 shadow-inner shadow-stone-200/70 md:space-y-8 md:rounded-[2.5rem] md:p-6">
       <TripInteractiveMap days={days} trip={trip} />
 
-      <section className="rounded-[2rem] border border-stone-200 bg-white p-5 shadow-sm md:p-6">
+      <section className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm md:rounded-[2rem] md:p-6">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-stone-400">Google Maps y Garmin</p>
-            <h3 className="mt-2 text-2xl font-semibold tracking-tight text-stone-950">Mapas y tracks descargables</h3>
-            <p className="mt-2 max-w-2xl text-sm leading-6 text-stone-600">Accesos directos por día para abrir la ruta en Google Maps o descargar el GPX aproximado para Garmin.</p>
+            <h3 className="mt-2 text-xl font-semibold tracking-tight text-stone-950 md:text-2xl">Mapas y tracks descargables</h3>
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-stone-600">En móvil abre solo el día que necesitas. El detalle completo queda desplegable para evitar ruido.</p>
           </div>
           <span className="rounded-full bg-stone-100 px-3 py-1 text-xs font-semibold text-stone-600">{totalMaps} mapas</span>
         </div>
 
-        <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-5 grid gap-3 md:gap-4 md:grid-cols-2 xl:grid-cols-3">
           {days.flatMap((day) => day.mapas.map((map, mapPosition) => ({ day, map, mapPosition }))).map(({ day, map, mapPosition }) => (
-            <article key={`day-${day.numero}-map-${map.gpxUrl ?? map.url}`} className="group overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-xl hover:shadow-stone-200">
-              <div className="border-b border-stone-100 bg-gradient-to-br from-stone-950 to-stone-800 p-5 text-white">
+            <details key={`day-${day.numero}-map-${map.gpxUrl ?? map.url}`} className="group overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition open:shadow-lg md:rounded-3xl md:hover:-translate-y-0.5 md:hover:shadow-xl md:hover:shadow-stone-200">
+              <summary className="cursor-pointer list-none border-b border-stone-100 bg-gradient-to-br from-stone-950 to-stone-800 p-4 text-white md:p-5">
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">{displayDayLabel(day.numero)} · {formatDate(day.fecha)}</p>
-                    <h4 className="mt-2 text-lg font-semibold leading-6">{map.bloque}</h4>
+                    <h4 className="mt-2 text-base font-semibold leading-6 md:text-lg">{day.origen} → {day.destino}</h4>
+                    <p className="mt-1 text-xs text-stone-300">{map.bloque}</p>
                   </div>
-                  <span className="rounded-full bg-white/10 px-3 py-1 text-xs text-stone-200">{map.puntos.length} puntos</span>
+                  <span className="rounded-full bg-white/10 px-3 py-1 text-xs text-stone-200">Ver</span>
                 </div>
-              </div>
+              </summary>
 
-              <div className="p-5">
+              <div className="p-4 md:p-5">
                 <p className="text-sm font-semibold leading-5 text-stone-950">{day.origen} → {day.destino}</p>
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {getDayCountries(day.numero).map((country) => <span key={`maps-card-${day.numero}-${country}`} className="rounded-full bg-stone-100 px-2.5 py-1 text-[11px] font-semibold text-stone-700">{country}</span>)}
@@ -95,7 +96,7 @@ export function MapaTab({ days, trip }: MapaTabProps) {
                   </a>
                 )}
               </div>
-            </article>
+            </details>
           ))}
         </div>
       </section>

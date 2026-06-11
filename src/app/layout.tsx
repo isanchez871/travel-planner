@@ -1,9 +1,24 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import { OfflineSupport } from '@/components/OfflineSupport';
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Travel Planner - Planifica tus viajes",
-  description: "Gestiona tus viajes detallados con itinerario día a día, mapas, presupuesto y más",
+  title: "Moto Travel Planner",
+  description: "Roadbook operativo para rutas en moto con itinerario, mapas, GPX, presupuesto y alojamientos.",
+  applicationName: "Moto Travel Planner",
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    title: "Moto Planner",
+    statusBarStyle: "black-translucent",
+  },
+  formatDetection: {
+    telephone: false,
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1c1917",
 };
 
 export default function RootLayout({
@@ -17,7 +32,10 @@ export default function RootLayout({
       className="h-full antialiased"
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <OfflineSupport />
+      </body>
     </html>
   );
 }

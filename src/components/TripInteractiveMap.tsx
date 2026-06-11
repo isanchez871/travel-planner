@@ -22,7 +22,7 @@ const dayColors = [
 ];
 
 const blockStyles: Record<string, { label: string; color: string }> = {
-  enlace: { label: 'Enlace', color: '#ef476f' },
+  enlace: { label: 'Día de transición', color: '#ef476f' },
   'alpes-franceses': { label: 'Alpes franceses', color: '#ff9f1c' },
   'norte-italia': { label: 'Norte Italia', color: '#2bb673' },
   'dolomitas-oeste': { label: 'Dolomitas Oeste', color: '#00b4d8' },
@@ -227,7 +227,7 @@ export function TripInteractiveMap({ days, trip }: TripInteractiveMapProps) {
   const [activeDay, setActiveDay] = useState<number | 'all'>('all');
   const [activeBlock, setActiveBlock] = useState<string | 'all'>('all');
   const [detailDay, setDetailDay] = useState<Day | null>(null);
-  const [showLegend, setShowLegend] = useState(true);
+  const [showLegend, setShowLegend] = useState(false);
   const [mapReady, setMapReady] = useState(false);
   const leafletRef = useRef<typeof Leaflet | null>(null);
   const mapRef = useRef<Leaflet.Map | null>(null);
@@ -517,9 +517,9 @@ export function TripInteractiveMap({ days, trip }: TripInteractiveMapProps) {
   })() : null;
 
   return (
-    <section className="relative overflow-hidden rounded-[2.25rem] border border-white/70 bg-white shadow-xl shadow-stone-300/40 ring-1 ring-stone-950/5">
+    <section className="relative overflow-hidden rounded-2xl border border-white/70 bg-white shadow-xl shadow-stone-300/40 ring-1 ring-stone-950/5 md:rounded-[2.25rem]">
       <div className="grid gap-0 xl:grid-cols-[410px_1fr]">
-        <aside className="border-b border-stone-200 bg-gradient-to-b from-stone-950 via-stone-900 to-stone-800 p-5 text-white xl:max-h-[820px] xl:overflow-y-auto xl:border-b-0 xl:border-r xl:border-stone-800 xl:p-6">
+        <aside className="hidden border-b border-stone-200 bg-gradient-to-b from-stone-950 via-stone-900 to-stone-800 p-5 text-white xl:block xl:max-h-[820px] xl:overflow-y-auto xl:border-b-0 xl:border-r xl:border-stone-800 xl:p-6">
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-amber-300">Roadbook interactivo</p>
           <h3 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">Dolomitas + Alpes en moto</h3>
           <p className="mt-3 text-sm leading-6 text-stone-300">Ruta optimizada · 4-22 septiembre 2026 · Sin dormir en Suiza</p>
@@ -534,7 +534,7 @@ export function TripInteractiveMap({ days, trip }: TripInteractiveMapProps) {
           <div className="mt-6 grid grid-cols-2 gap-3">
             <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10"><p className="text-[11px] uppercase tracking-wide text-stone-400">Km aprox.</p><p className="mt-1 text-2xl font-semibold">{totalKm.toLocaleString('es-ES')}</p></div>
             <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10"><p className="text-[11px] uppercase tracking-wide text-stone-400">Dolomitas</p><p className="mt-1 text-2xl font-semibold">{trip?.resumenEjecutivo?.diasDolomitas ?? dolomitesDays}</p></div>
-            <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10"><p className="text-[11px] uppercase tracking-wide text-stone-400">Enlace</p><p className="mt-1 text-2xl font-semibold">{trip?.resumenEjecutivo?.diasEnlace ?? linkDays}</p></div>
+            <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10"><p className="text-[11px] uppercase tracking-wide text-stone-400">Transición</p><p className="mt-1 text-2xl font-semibold">{trip?.resumenEjecutivo?.diasEnlace ?? linkDays}</p></div>
             <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10"><p className="text-[11px] uppercase tracking-wide text-stone-400">Trekking</p><p className="mt-1 text-2xl font-semibold">{trip?.resumenEjecutivo?.diasTrekking ?? trekkingDays}</p></div>
           </div>
 
@@ -607,13 +607,13 @@ export function TripInteractiveMap({ days, trip }: TripInteractiveMapProps) {
           </div>
         </aside>
 
-        <div className={`grid gap-4 bg-stone-100 p-3 md:p-4 ${detailDay ? 'xl:grid-cols-[minmax(0,1fr)_420px]' : ''}`}>
-          <div className="relative h-[560px] min-h-[560px] overflow-hidden rounded-[2rem] bg-stone-200 md:h-[720px] xl:h-[820px]">
-            <div className="pointer-events-none absolute bottom-4 left-4 z-[400] rounded-2xl bg-white/90 px-4 py-3 shadow-lg shadow-stone-400/30 backdrop-blur">
+        <div className={`grid gap-4 bg-stone-100 p-2 md:p-4 ${detailDay ? 'xl:grid-cols-[minmax(0,1fr)_420px]' : ''}`}>
+          <div className="relative h-[360px] min-h-[360px] overflow-hidden rounded-2xl bg-stone-200 md:h-[720px] xl:h-[820px]">
+            <div className="pointer-events-none absolute bottom-3 left-3 z-[400] rounded-2xl bg-white/90 px-3 py-2 shadow-lg shadow-stone-400/30 backdrop-blur md:bottom-4 md:left-4 md:px-4 md:py-3">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-stone-500">Mapa protagonista</p>
               <p className="mt-1 text-sm font-semibold text-stone-950">{activeDay === 'all' ? 'Ruta completa' : `Día ${activeDay}`}</p>
             </div>
-            <div className="absolute right-4 top-4 z-[410] grid max-w-[min(330px,calc(100%-2rem))] gap-2">
+            <div className="absolute right-3 top-3 z-[410] grid max-w-[min(300px,calc(100%-1.5rem))] gap-2 md:right-4 md:top-4 md:max-w-[min(330px,calc(100%-2rem))]">
               <button
                 type="button"
                 aria-expanded={showLegend}

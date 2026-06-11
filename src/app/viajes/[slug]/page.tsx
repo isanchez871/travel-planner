@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { Suspense } from 'react';
 import { getTripBySlug } from '@/lib/data';
 import { TripHeader } from '@/components/TripHeader';
 import { TripPageClient } from '@/components/TripPageClient';
@@ -18,15 +19,11 @@ export default async function TripPage({ params }: PageProps) {
   return (
     <div className="min-h-screen bg-stone-50">
       <TripHeader trip={trip} />
-      <main className="compact-cards mx-auto max-w-[1600px] px-4 pb-12 pt-2 md:px-6">
-        <SuspenseWrapper>
+      <main className="compact-cards mx-auto max-w-[1600px] px-3 pb-12 pt-0 md:px-6 md:pt-2">
+        <Suspense fallback={null}>
           <TripPageClient trip={trip} />
-        </SuspenseWrapper>
+        </Suspense>
       </main>
     </div>
   );
-}
-
-function SuspenseWrapper({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
 }

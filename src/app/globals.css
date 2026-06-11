@@ -25,6 +25,30 @@ body {
   color: #1c1917;
 }
 
+:where(a, button, select, input, summary):focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
+:where(button, select, input, summary) {
+  touch-action: manipulation;
+}
+
+@media (max-width: 767px) {
+  :where(button, select, input[type="checkbox"], a) {
+    min-height: 44px;
+  }
+
+  :where(.overflow-x-auto) {
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  :where(.overflow-x-auto)::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 .trip-map-marker {
   background: transparent;
   border: 0;

@@ -49,6 +49,16 @@ trip.dias.forEach((day, index) => {
   assert(typeof day.distanciaKm === 'number' && day.distanciaKm > 0, `Día ${day.numero} tiene distanciaKm inválida`);
   assert(typeof day.duracionHoras === 'number' && day.duracionHoras > 0, `Día ${day.numero} tiene duracionHoras inválida`);
   assert(day.origen && day.destino && day.ruta, `Día ${day.numero} debe tener origen, destino y ruta`);
+  assert(day.intensidad, `Día ${day.numero} debe tener intensidad`);
+  assert(day.comidaAhorro, `Día ${day.numero} debe tener comidaAhorro`);
+  assert(day.planBClima, `Día ${day.numero} debe tener planBClima`);
+  assert(day.repostaje?.principal && day.repostaje?.alternativa && day.repostaje?.regla, `Día ${day.numero} debe tener repostaje principal, alternativa y regla`);
+  assert(Array.isArray(day.mapas) && day.mapas.length > 0, `Día ${day.numero} debe tener al menos un mapa`);
+  assert(Array.isArray(day.alojamientos), `Día ${day.numero} debe tener alojamientos[]`);
+
+  if (!String(day.base).toLowerCase().includes('casa') && !String(day.base).toLowerCase().includes('ferry')) {
+    assert(day.alojamientos.length > 0, `Día ${day.numero} debe tener alojamiento previsto`);
+  }
 
   const budgetTotal = day.presupuestoDia.alojamiento + day.presupuestoDia.combustible + day.presupuestoDia.peajes + day.presupuestoDia.comida + day.presupuestoDia.actividades + day.presupuestoDia.varios;
   assert(budgetTotal === day.presupuestoDia.total, `Presupuesto del día ${day.numero} no suma: ${budgetTotal} != ${day.presupuestoDia.total}`);
@@ -66,6 +76,7 @@ trip.dias.forEach((day, index) => {
   });
 
   day.mapas.forEach((map) => {
+    assert(map.bloque, `Mapa sin bloque en día ${day.numero}`);
     assert(map.url?.startsWith('https://www.google.com/maps/'), `Mapa con URL no Google Maps en día ${day.numero}: ${map.bloque}`);
     assert(map.puntos.length > 1, `Mapa con menos de dos puntos en día ${day.numero}: ${map.bloque}`);
     if (map.gpxUrl) {
@@ -74,18 +85,25 @@ trip.dias.forEach((day, index) => {
   });
 });
 
+const categoryTotal = trip.presupuesto.categorias.reduce((sum, category) => sum + category.estimado, 0);
+assert(categoryTotal === trip.presupuesto.totalEstimado, `Presupuesto total no suma: ${categoryTotal} != ${trip.presupuesto.totalEstimado}`);
+
 assert(dayNumbers.has(0), 'Debe existir el día 0');
 assert(dayNumbers.size === trip.dias.length, 'Hay números de día repetidos');
 assert(dateOnly(trip.fechaInicio).getTime() + (trip.dias.length - 1) * 86_400_000 === dateOnly(trip.fechaFin).getTime(), 'fechaFin no coincide con fechaInicio + días');
 
 assert(accommodations.tripSlug === trip.slug, 'El JSON de alojamientos no corresponde al slug del viaje');
 assert(Array.isArray(accommodations.candidates), 'El JSON de alojamientos debe tener candidates[]');
+assert(accommodations.candidates.length > 0, 'Debe existir al menos un candidato de alojamiento');
 
 const accommodationIds = new Set();
 accommodations.candidates.forEach((candidate) => {
   assert(!accommodationIds.has(candidate.id), `Alojamiento duplicado: ${candidate.id}`);
   accommodationIds.add(candidate.id);
   assert(dayNumbers.has(candidate.dayNumber), `Alojamiento con día inexistente: ${candidate.id}`);
+  assert(candidate.name, `Alojamiento sin nombre: ${candidate.id}`);
+  assert(candidate.provider, `Alojamiento sin provider: ${candidate.id}`);
+  assert(candidate.location, `Alojamiento sin location: ${candidate.id}`);
   assert(['ready', 'pending'].includes(candidate.status), `Alojamiento con status inválido: ${candidate.id}`);
   assert(candidate.price <= 150, `Alojamiento supera 150€: ${candidate.id}`);
   assert(candidate.rating >= 7, `Alojamiento con rating menor de 7: ${candidate.id}`);

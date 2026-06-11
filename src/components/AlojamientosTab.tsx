@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type * as Leaflet from 'leaflet';
 import { AccommodationCandidate, Day } from '@/lib/types';
@@ -21,8 +22,25 @@ type SlotCandidate = AccommodationCandidate & {
 };
 
 const STORAGE_KEY = 'dolomitas-alpes-2026-accommodation-shortlist-v2';
+const STATUS_STORAGE_KEY = 'dolomitas-alpes-2026-accommodation-status-v1';
 const MAX_PRICE = 150;
 const FLEX_MAX_PRICE = 200;
+
+type ReservationStatus = 'pendiente' | 'favorito' | 'reservado' | 'descartado';
+
+const reservationStatusLabels: Record<ReservationStatus, string> = {
+  pendiente: 'Pendiente',
+  favorito: 'Favorito',
+  reservado: 'Reservado',
+  descartado: 'Descartado',
+};
+
+const reservationStatusClasses: Record<ReservationStatus, string> = {
+  pendiente: 'bg-stone-100 text-stone-700',
+  favorito: 'bg-amber-100 text-amber-800',
+  reservado: 'bg-emerald-100 text-emerald-800',
+  descartado: 'bg-red-100 text-red-800',
+};
 
 function buildBookingUrl(destination: string, checkin: string, checkout: string) {
   const params = new URLSearchParams({
@@ -194,7 +212,7 @@ function MiniAccommodationMap({ day, candidates, selectedId }: { day: Day; candi
     });
   }, [candidates, day, selectedId]);
 
-  return <div ref={containerRef} className="h-[320px] overflow-hidden rounded-[1.5rem] bg-stone-200" />;
+  return <div ref={containerRef} className="h-[240px] overflow-hidden rounded-[1.5rem] bg-stone-200 md:h-[320px]" />;
 }
 
 export function AlojamientosTab({ days }: AlojamientosTabProps) {
@@ -212,6 +230,15 @@ export function AlojamientosTab({ days }: AlojamientosTabProps) {
       return [];
     }
   });
+  const [reservationStatuses, setReservationStatuses] = useState<Record<string, ReservationStatus>>(() => {
+    if (typeof window === 'undefined') return {};
+    try {
+      const stored = window.localStorage.getItem(STATUS_STORAGE_KEY);
+      return stored ? (JSON.parse(stored) as Record<string, ReservationStatus>) : {};
+    } catch {
+      return {};
+    }
+  });
 
   const selectedDayData = days.find((day) => day.numero === selectedDay) ?? days[0];
   const visibleCandidates = candidates.filter((candidate) => candidate.dayNumber === selectedDay).sort((a, b) => a.price - b.price);
@@ -219,10 +246,15 @@ export function AlojamientosTab({ days }: AlojamientosTabProps) {
   const favoriteIds = new Set(favorites.map((favorite) => favorite.id));
   const totalFavorites = favorites.reduce((sum, favorite) => sum + favorite.price, 0);
   const readyCount = candidates.length;
+  const reservedCount = Object.values(reservationStatuses).filter((status) => status === 'reservado').length;
 
   useEffect(() => {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(favorites));
   }, [favorites]);
+
+  useEffect(() => {
+    window.localStorage.setItem(STATUS_STORAGE_KEY, JSON.stringify(reservationStatuses));
+  }, [reservationStatuses]);
 
   function toggleFavorite(candidate: SlotCandidate) {
     setFavorites((current) => {
@@ -231,41 +263,45 @@ export function AlojamientosTab({ days }: AlojamientosTabProps) {
     });
   }
 
+  function updateReservationStatus(candidateId: string, status: ReservationStatus) {
+    setReservationStatuses((current) => ({ ...current, [candidateId]: status }));
+  }
+
   return (
-    <div className="space-y-8">
-      <section className="overflow-hidden rounded-[2rem] border border-stone-200 bg-stone-950 text-white shadow-2xl shadow-stone-300/40">
-        <div className="relative p-6 md:p-8">
+    <div className="space-y-4 md:space-y-8">
+      <section className="overflow-hidden rounded-2xl border border-stone-200 bg-stone-950 text-white shadow-2xl shadow-stone-300/40 md:rounded-[2rem]">
+        <div className="relative p-4 md:p-8">
           <div className="absolute inset-0 opacity-30 [background:radial-gradient(circle_at_20%_20%,#f59e0b,transparent_28%),radial-gradient(circle_at_82%_18%,#38bdf8,transparent_24%),linear-gradient(135deg,#0c0a09,#1c1917)]" />
           <div className="relative grid gap-6 md:grid-cols-[1fr_440px] md:items-end">
             <div>
               <p className="mb-3 text-xs font-semibold uppercase tracking-[0.28em] text-amber-300">Reservas críticas</p>
-              <h2 className="max-w-3xl text-3xl font-semibold tracking-tight md:text-5xl">Alojamientos reales y mi recomendado</h2>
-              <p className="mt-4 max-w-3xl text-sm leading-6 text-stone-300 md:text-base">Solo se muestran candidatos con fotos, precio, coordenadas y enlace usable. Están ordenados por precio y cada noche marca mi favorito según precio, distancia, rating, parking y encaje de ruta. Si no basta el filtro estricto, la tarjeta se marca como búsqueda ampliada.</p>
+              <h2 className="max-w-3xl text-2xl font-semibold tracking-tight md:text-5xl">Alojamientos reales</h2>
+              <p className="mt-3 max-w-3xl text-sm leading-6 text-stone-300 md:mt-4 md:text-base">Candidatos con precio, enlace y coordenadas. En móvil elige noche y decide rápido.</p>
             </div>
-            <div className="grid grid-cols-3 gap-3">
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur"><p className="text-2xl font-semibold">{dayNumbers.length}</p><p className="mt-1 text-xs text-stone-300">noches</p></div>
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur"><p className="text-2xl font-semibold">{readyCount}</p><p className="mt-1 text-xs text-stone-300">concretos</p></div>
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur"><p className="text-2xl font-semibold">≤150€</p><p className="mt-1 text-xs text-stone-300">estricto</p></div>
+              <div className="grid grid-cols-3 gap-3">
+                <div className="rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur"><p className="text-2xl font-semibold">{dayNumbers.length}</p><p className="mt-1 text-xs text-stone-300">noches</p></div>
+                <div className="rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur"><p className="text-2xl font-semibold">{readyCount}</p><p className="mt-1 text-xs text-stone-300">concretos</p></div>
+                <div className="rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur"><p className="text-2xl font-semibold">{reservedCount}</p><p className="mt-1 text-xs text-stone-300">reservados</p></div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="rounded-[2rem] border border-amber-200 bg-amber-50 p-5 text-sm leading-6 text-amber-950 shadow-sm">
+      <section className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-950 shadow-sm md:rounded-[2rem] md:p-5">
         Revisa siempre el precio final, tasas, baño privado y parking en la página del alojamiento antes de reservar. El filtro estricto es 150€/noche; cuando no hay suficientes opciones válidas, amplio hasta 200€ y lo indico en cada tarjeta.
       </section>
 
       <section className="grid gap-6 xl:grid-cols-[280px_1fr]">
-        <aside className="self-start rounded-[2rem] border border-stone-200 bg-white p-3 shadow-sm xl:sticky xl:top-24">
+        <aside className="self-start rounded-2xl border border-stone-200 bg-white p-3 shadow-sm xl:sticky xl:top-24 xl:rounded-[2rem]">
           <p className="px-3 pb-2 pt-2 text-xs font-semibold uppercase tracking-[0.22em] text-stone-400">Noches</p>
-          <div className="space-y-2">
+          <div className="flex gap-2 overflow-x-auto xl:block xl:space-y-2">
             {dayNumbers.map((dayNumber) => {
               const day = days.find((item) => item.numero === dayNumber);
               const selected = dayNumber === selectedDay;
               const count = favorites.filter((favorite) => favorite.dayNumber === dayNumber).length;
 
               return (
-                <button key={dayNumber} type="button" onClick={() => { setSelectedDay(dayNumber); setSelectedCandidate(undefined); }} className={`w-full rounded-2xl p-3 text-left transition ${selected ? 'bg-stone-950 text-white' : 'bg-stone-50 text-stone-800 hover:bg-stone-100'}`}>
+                <button key={dayNumber} type="button" onClick={() => { setSelectedDay(dayNumber); setSelectedCandidate(undefined); }} className={`min-w-[8rem] rounded-2xl p-3 text-left transition xl:w-full ${selected ? 'bg-stone-950 text-white' : 'bg-stone-50 text-stone-800 hover:bg-stone-100'}`}>
                   <div className="flex items-center justify-between gap-3"><span className="text-sm font-semibold">{displayDayLabel(dayNumber)}</span>{count > 0 && <span className="rounded-full bg-amber-300 px-2 py-0.5 text-xs font-bold text-stone-950">{count}</span>}</div>
                   <p className="mt-1 line-clamp-1 text-xs opacity-75">{day?.overnight ?? day?.base}</p>
                   <p className="mt-1 text-[11px] opacity-70">{day && formatDate(day.fecha)} → {day && formatDate(days[days.findIndex((item) => item.numero === dayNumber) + 1]?.fecha ?? day.fecha)}</p>
@@ -292,14 +328,15 @@ export function AlojamientosTab({ days }: AlojamientosTabProps) {
               {visibleCandidates.map((candidate, index) => {
                 const isFavorite = favoriteIds.has(candidate.id);
                 const isRecommended = recommendation?.id === candidate.id;
+                const status = reservationStatuses[candidate.id] ?? (isFavorite ? 'favorito' : 'pendiente');
 
                 return (
-                  <article key={candidate.id} onMouseEnter={() => setSelectedCandidate(candidate.id)} className={`overflow-hidden rounded-[2rem] border bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-xl ${isRecommended ? 'border-emerald-300 bg-emerald-50/40 ring-2 ring-emerald-200' : isFavorite ? 'border-amber-300 ring-2 ring-amber-200' : 'border-stone-200'}`}>
+                  <article key={candidate.id} onMouseEnter={() => setSelectedCandidate(candidate.id)} className={`overflow-hidden rounded-[2rem] border bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-xl ${status === 'reservado' ? 'border-emerald-400 ring-2 ring-emerald-200' : status === 'descartado' ? 'border-red-200 opacity-70' : isRecommended ? 'border-emerald-300 bg-emerald-50/40 ring-2 ring-emerald-200' : isFavorite || status === 'favorito' ? 'border-amber-300 ring-2 ring-amber-200' : 'border-stone-200'}`}>
                     <div className="bg-gradient-to-br from-stone-950 to-stone-800 p-5 text-white">
-                      <div className="flex items-start justify-between gap-3"><div><p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">#{index + 1} · {candidate.provider}</p><h3 className="mt-2 text-xl font-semibold leading-6">{candidate.name}</h3><div className="mt-3 flex flex-wrap gap-2"><span className={`inline-flex rounded-full px-3 py-1 text-xs font-black uppercase tracking-wide ${searchModeClass(candidate.searchMode)}`}>{searchModeLabel(candidate.searchMode)}</span>{isRecommended && <span className="inline-flex rounded-full bg-emerald-300 px-3 py-1 text-xs font-black uppercase tracking-wide text-stone-950">Mi favorito</span>}</div></div><span className="rounded-full bg-white px-3 py-1 text-sm font-bold text-stone-950">{candidate.price}€</span></div>
-                      <div className="mt-4 grid grid-cols-3 gap-2">
+                      <div className="flex items-start justify-between gap-3"><div><p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">#{index + 1} · {candidate.provider}</p><h3 className="mt-2 text-xl font-semibold leading-6">{candidate.name}</h3><div className="mt-3 flex flex-wrap gap-2"><span className={`inline-flex rounded-full px-3 py-1 text-xs font-black uppercase tracking-wide ${searchModeClass(candidate.searchMode)}`}>{searchModeLabel(candidate.searchMode)}</span><span className={`inline-flex rounded-full px-3 py-1 text-xs font-black uppercase tracking-wide ${reservationStatusClasses[status]}`}>{reservationStatusLabels[status]}</span>{isRecommended && <span className="inline-flex rounded-full bg-emerald-300 px-3 py-1 text-xs font-black uppercase tracking-wide text-stone-950">Mi favorito</span>}</div></div><span className="rounded-full bg-white px-3 py-1 text-sm font-bold text-stone-950">{candidate.price}€</span></div>
+                      <div className="mt-4 hidden grid-cols-3 gap-2 sm:grid">
                         {(candidate.photoUrls.length > 0 ? candidate.photoUrls.slice(0, 3) : ['Pendiente foto 1', 'Pendiente foto 2', 'Pendiente foto 3']).map((photo, photoIndex) => (
-                          candidate.photoUrls.length > 0 ? <img key={photo} src={photo} alt={`${candidate.name} foto ${photoIndex + 1}`} className="h-20 rounded-xl object-cover" /> : <div key={photo} className="flex h-20 items-center justify-center rounded-xl border border-white/10 bg-white/10 px-2 text-center text-[10px] text-stone-300">{photo}</div>
+                          candidate.photoUrls.length > 0 ? <Image key={photo} src={photo} alt={`${candidate.name} foto ${photoIndex + 1}`} width={287} height={192} className="h-20 rounded-xl object-cover" /> : <div key={photo} className="flex h-20 items-center justify-center rounded-xl border border-white/10 bg-white/10 px-2 text-center text-[10px] text-stone-300">{photo}</div>
                         ))}
                       </div>
                     </div>
@@ -319,6 +356,12 @@ export function AlojamientosTab({ days }: AlojamientosTabProps) {
                         <a href={candidate.url} target="_blank" rel="noopener noreferrer" className="rounded-2xl bg-stone-950 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-amber-600">Reservar directo</a>
                         <a href={candidate.mapsUrl} target="_blank" rel="noopener noreferrer" className="rounded-2xl bg-sky-600 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-sky-700">Mapa desde llegada</a>
                       </div>
+                      <label className="block">
+                        <span className="mb-2 block text-xs font-bold uppercase tracking-[0.2em] text-stone-400">Estado de reserva</span>
+                        <select value={status} onChange={(event) => updateReservationStatus(candidate.id, event.target.value as ReservationStatus)} className="w-full rounded-2xl border border-stone-200 bg-white px-4 py-3 text-sm font-bold text-stone-800">
+                          {(Object.keys(reservationStatusLabels) as ReservationStatus[]).map((value) => <option key={value} value={value}>{reservationStatusLabels[value]}</option>)}
+                        </select>
+                      </label>
                       <button type="button" onClick={() => toggleFavorite(candidate)} className={`w-full rounded-2xl px-4 py-3 text-sm font-semibold transition ${isFavorite ? 'bg-amber-300 text-stone-950 hover:bg-amber-400' : 'bg-stone-100 text-stone-800 hover:bg-stone-200'}`}>{isFavorite ? 'Quitar de preselección' : 'Añadir a preselección'}</button>
                     </div>
                   </article>

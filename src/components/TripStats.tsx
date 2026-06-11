@@ -35,7 +35,7 @@ export function TripStats({ trip }: TripStatsProps) {
     { label: 'Noches en Suiza', value: `${trip.resumenEjecutivo?.nochesSuiza ?? 0}` },
     { label: 'Días Dolomitas', value: `${trip.resumenEjecutivo?.diasDolomitas ?? trip.dias.filter((day) => day.block?.includes('dolomitas')).length}` },
     { label: 'Días trekking', value: `${trip.resumenEjecutivo?.diasTrekking ?? trip.dias.filter((day) => day.actividades.length > 0).length}` },
-    { label: 'Días enlace', value: `${trip.resumenEjecutivo?.diasEnlace ?? trip.dias.filter((day) => day.block === 'enlace' || day.block === 'regreso').length}` },
+    { label: 'Días de transición', value: `${trip.resumenEjecutivo?.diasEnlace ?? trip.dias.filter((day) => day.block === 'enlace' || day.block === 'regreso').length}` },
     { label: 'Km aprox.', value: totalKm.toLocaleString('es-ES') },
   ];
 

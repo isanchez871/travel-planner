@@ -285,7 +285,7 @@ const detailedLogistics: Record<number, DetailedLogistics> = {
 const guideOverrides: Record<number, Partial<DayGuide>> = {
   6: {
     title: 'Llegada a Dolomitas por Stelvio',
-    focus: 'Día de enlace alpino largo pero controlado. Prioridad: llegar a Val Gardena con energía para los trekkings.',
+    focus: 'Día de transición alpina largo pero controlado. Prioridad: llegar a Val Gardena con energía para los trekkings.',
     practical: ['Si Stelvio está mal, saltarlo sin drama', 'Comprar comida en Bolzano', 'Dejar equipaje ordenado para cuatro noches de base'],
   },
   7: {
@@ -654,6 +654,117 @@ function buildSights(day: Day): Sight[] {
   });
 }
 
+function MobileDetailedPlan({
+  days,
+  day,
+  guide,
+  logistics,
+  schedule,
+  selectedDay,
+  onSelectDay,
+}: {
+  days: Day[];
+  day: Day;
+  guide: DayGuide;
+  logistics: DetailedLogistics;
+  schedule: ReturnType<typeof buildSchedule>;
+  selectedDay: number;
+  onSelectDay: (dayNumber: number) => void;
+}) {
+  const mainMap = day.mapas[0];
+
+  return (
+    <section className="space-y-4 md:hidden">
+      <div className="flex gap-2 overflow-x-auto pb-1">
+        {days.map((item) => (
+          <button
+            key={item.numero}
+            type="button"
+            onClick={() => onSelectDay(item.numero)}
+            className={`min-w-[5rem] rounded-2xl border px-3 py-2 text-left text-xs font-bold ${item.numero === selectedDay ? 'border-stone-950 bg-stone-950 text-white' : 'border-stone-200 bg-white text-stone-700'}`}
+          >
+            <span className="block">{displayDayLabel(item.numero)}</span>
+            <span className="mt-0.5 block font-semibold opacity-70">{item.distanciaKm} km</span>
+          </button>
+        ))}
+      </div>
+
+      <article className="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
+        <div className="bg-stone-950 p-4 text-white">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300">Plan operativo</p>
+          <h3 className="mt-2 text-2xl font-semibold leading-tight">{guide.title}</h3>
+          <p className="mt-2 text-sm leading-6 text-stone-300">{guide.focus}</p>
+        </div>
+        <div className="grid grid-cols-2 gap-2 p-4">
+          <div className="rounded-2xl bg-stone-100 p-3"><p className="text-[11px] uppercase tracking-wide text-stone-500">Conducción</p><p className="mt-1 font-bold text-stone-950">{day.duracionHoras} h · {day.distanciaKm} km</p></div>
+          <div className="rounded-2xl bg-stone-100 p-3"><p className="text-[11px] uppercase tracking-wide text-stone-500">Noche</p><p className="mt-1 font-bold text-stone-950">{getBaseWithCountry(day.numero, day.base)}</p></div>
+        </div>
+        {mainMap && (
+          <div className="grid gap-2 px-4 pb-4">
+            <a href={mainMap.url} target="_blank" rel="noopener noreferrer" className="rounded-2xl bg-red-600 px-4 py-3 text-center text-sm font-bold text-white">Abrir Google Maps</a>
+            {mainMap.gpxUrl && <a href={mainMap.gpxUrl} download className="rounded-2xl bg-stone-950 px-4 py-3 text-center text-sm font-bold text-white">Descargar GPX</a>}
+          </div>
+        )}
+      </article>
+
+      <details className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm" open>
+        <summary className="cursor-pointer text-sm font-bold text-stone-950">Horario orientativo</summary>
+        <div className="mt-4 space-y-4">
+          {schedule.map((item) => (
+            <div key={`${item.time}-${item.title}`} className="border-l border-emerald-200 pl-4">
+              <p className="text-sm font-bold text-emerald-700">{item.time} · {item.title}</p>
+              <ul className="mt-1 space-y-1 text-sm leading-6 text-stone-600">
+                {item.details.filter(Boolean).map((detail) => <li key={detail}>{detail}</li>)}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </details>
+
+      <details className="rounded-2xl border border-amber-200 bg-amber-50 p-4">
+        <summary className="cursor-pointer text-sm font-bold text-amber-950">Comida y cena</summary>
+        <div className="mt-4 space-y-3">
+          {logistics.food.map((food) => (
+            <a key={`${food.time}-${food.name}`} href={mapsSearch(food.query)} target="_blank" rel="noopener noreferrer" className="block rounded-2xl bg-white p-3 shadow-sm">
+              <p className="text-xs font-bold uppercase tracking-wide text-amber-700">{food.time} · {food.type} · {foodPriceLabel(food)}</p>
+              <p className="mt-1 font-semibold text-stone-950">{food.name}</p>
+              <p className="mt-1 text-sm leading-5 text-stone-600">{foodNotes(food)}</p>
+            </a>
+          ))}
+        </div>
+      </details>
+
+      <details className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
+        <summary className="cursor-pointer text-sm font-bold text-stone-950">Repostaje y reservas</summary>
+        <div className="mt-4 space-y-3">
+          {logistics.fuel.map((fuel) => (
+            <a key={`${fuel.time}-${fuel.name}`} href={mapsSearch(fuel.query)} target="_blank" rel="noopener noreferrer" className="block rounded-2xl bg-stone-100 p-3">
+              <p className="text-xs font-bold uppercase tracking-wide text-stone-500">{fuel.time} · {fuel.use}</p>
+              <p className="mt-1 font-semibold text-stone-950">{fuel.name}</p>
+              <p className="mt-1 text-sm leading-5 text-stone-600">{fuel.notes}</p>
+            </a>
+          ))}
+          {logistics.reservations.map((reservation) => (
+            <a key={reservation.title} href={reservation.url} target="_blank" rel="noopener noreferrer" className="block rounded-2xl bg-stone-950 p-3 text-white">
+              <p className="font-semibold">{reservation.title}</p>
+              <p className="mt-1 text-sm leading-5 text-stone-300">{reservation.notes}</p>
+            </a>
+          ))}
+        </div>
+      </details>
+
+      <details className="rounded-2xl border border-red-200 bg-red-50 p-4">
+        <summary className="cursor-pointer text-sm font-bold text-red-950">Evitar, costes y checklist</summary>
+        <div className="mt-4 space-y-4 text-sm leading-6">
+          <div><p className="font-bold text-red-800">Evitar</p>{logistics.avoid.map((item) => <p key={item} className="text-red-950">{displayDayReferences(item)}</p>)}</div>
+          <div><p className="font-bold text-sky-800">Costes</p>{logistics.costs.map((item) => <p key={item} className="text-stone-700">{costNote(item)}</p>)}</div>
+          <div><p className="font-bold text-stone-950">Checklist</p>{logistics.checklist.map((item) => <p key={item} className="text-stone-700">{displayDayReferences(item)}</p>)}</div>
+        </div>
+      </details>
+    </section>
+  );
+}
+
 export function PlanDetalladoTab({ days }: PlanDetalladoTabProps) {
   const [selectedDay, setSelectedDay] = useState(days[0]?.numero ?? 1);
   const day = days.find((item) => item.numero === selectedDay) ?? days[0];
@@ -664,7 +775,9 @@ export function PlanDetalladoTab({ days }: PlanDetalladoTabProps) {
   const sights = buildSights(day);
 
   return (
-    <div className="space-y-8">
+    <>
+      <MobileDetailedPlan days={days} day={day} guide={guide} logistics={logistics} schedule={schedule} selectedDay={selectedDay} onSelectDay={setSelectedDay} />
+      <div className="hidden space-y-8 md:block">
       <div className="grid gap-8 xl:grid-cols-[320px_1fr]">
         <aside className="self-start rounded-[2rem] border border-stone-200 bg-white p-3 shadow-sm xl:sticky xl:top-24">
           <div className="px-3 pb-3 pt-2">
@@ -916,6 +1029,7 @@ export function PlanDetalladoTab({ days }: PlanDetalladoTabProps) {
           </article>
         </section>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

@@ -16,6 +16,27 @@ type VisualDay = {
   schedule: { time: string; title: string; detail: string; link?: string }[];
 };
 
+type DayFilter = 'todos' | 'transicion' | 'dolomitas' | 'trekking' | 'regreso' | 'alta';
+
+const dayFilters: { id: DayFilter; label: string }[] = [
+  { id: 'todos', label: 'Todos' },
+  { id: 'transicion', label: 'Transición' },
+  { id: 'dolomitas', label: 'Dolomitas' },
+  { id: 'trekking', label: 'Trekking' },
+  { id: 'regreso', label: 'Regreso' },
+  { id: 'alta', label: 'Alta intensidad' },
+];
+
+function matchesDayFilter(day: Day, filter: DayFilter) {
+  if (filter === 'todos') return true;
+  if (filter === 'transicion') return day.block === 'enlace';
+  if (filter === 'dolomitas') return day.block?.includes('dolomitas') || /dolomitas|gardena|cortina|misurina/i.test(`${day.ruta} ${day.base}`);
+  if (filter === 'trekking') return day.actividades.some((activity) => activity.tipo === 'experiencia') || /trekking|trail|seceda|sorapis|tre cime/i.test(`${day.ruta} ${day.notas}`);
+  if (filter === 'regreso') return day.block === 'regreso';
+  if (filter === 'alta') return /alta/i.test(day.intensidad);
+  return true;
+}
+
 function formatDate(dateStr: string) {
   return new Intl.DateTimeFormat('es-ES', {
     weekday: 'long',
@@ -50,21 +71,136 @@ function buildVisual(day: Day): VisualDay {
   };
 }
 
+function MobileItinerary({
+  days,
+  day,
+  visual,
+  selectedDay,
+  activeFilter,
+  onFilterChange,
+  onSelectDay,
+}: {
+  days: Day[];
+  day: Day;
+  visual: VisualDay;
+  selectedDay: number;
+  activeFilter: DayFilter;
+  onFilterChange: (filter: DayFilter) => void;
+  onSelectDay: (dayNumber: number) => void;
+}) {
+  const firstMap = day.mapas[0];
+
+  return (
+    <section className="space-y-4 md:hidden">
+      <div className="flex gap-2 overflow-x-auto pb-1" aria-label="Filtrar días">
+        {dayFilters.map((filter) => (
+          <button key={filter.id} type="button" onClick={() => onFilterChange(filter.id)} className={`shrink-0 rounded-full px-3 py-2 text-xs font-bold ${filter.id === activeFilter ? 'bg-stone-950 text-white' : 'bg-white text-stone-700 ring-1 ring-stone-200'}`}>
+            {filter.label}
+          </button>
+        ))}
+      </div>
+
+      <div className="flex gap-2 overflow-x-auto pb-1">
+        {days.map((item) => (
+          <button
+            key={item.numero}
+            type="button"
+            onClick={() => onSelectDay(item.numero)}
+            className={`min-w-[5rem] rounded-2xl border px-3 py-2 text-left text-xs font-bold ${item.numero === selectedDay ? 'border-stone-950 bg-stone-950 text-white' : 'border-stone-200 bg-white text-stone-700'}`}
+          >
+            <span className="block">{displayDayLabel(item.numero)}</span>
+            <span className="mt-0.5 block font-semibold opacity-70">{item.distanciaKm} km</span>
+          </button>
+        ))}
+      </div>
+
+      <article className="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
+        <div className="bg-gradient-to-br from-stone-950 to-stone-800 p-4 text-white">
+          <div className="flex flex-wrap gap-2">
+            <span className="rounded-full bg-white/15 px-3 py-1 text-xs font-bold">{displayDayLabel(day.numero)}</span>
+            <span className="rounded-full bg-amber-400 px-3 py-1 text-xs font-bold text-stone-950">{day.intensidad}</span>
+          </div>
+          <p className="mt-4 text-xs font-semibold uppercase tracking-[0.22em] text-amber-200">{formatDate(day.fecha)}</p>
+          <h2 className="mt-2 text-2xl font-semibold leading-tight">{day.origen} → {day.destino}</h2>
+          <p className="mt-2 text-sm leading-6 text-stone-300">{visual.mood}</p>
+        </div>
+
+        <div className="grid grid-cols-3 gap-2 p-4 text-center">
+          <div className="rounded-2xl bg-stone-100 p-3"><p className="text-[11px] uppercase tracking-wide text-stone-500">Km</p><p className="mt-1 font-bold text-stone-950">{day.distanciaKm}</p></div>
+          <div className="rounded-2xl bg-stone-100 p-3"><p className="text-[11px] uppercase tracking-wide text-stone-500">Tiempo</p><p className="mt-1 font-bold text-stone-950">{day.drivingTime ?? `${day.duracionHoras} h`}</p></div>
+          <div className="rounded-2xl bg-stone-100 p-3"><p className="text-[11px] uppercase tracking-wide text-stone-500">Mapas</p><p className="mt-1 font-bold text-stone-950">{day.mapas.length}</p></div>
+        </div>
+
+        <div className="px-4 pb-4">
+          <p className="rounded-2xl bg-stone-50 p-3 text-sm leading-5 text-stone-700"><strong className="text-stone-950">Dormir:</strong> {getBaseWithCountry(day.numero, day.base)}</p>
+          <div className="mt-3 grid gap-2">
+            {firstMap && <a href={firstMap.url} target="_blank" rel="noopener noreferrer" className="rounded-2xl bg-red-600 px-4 py-3 text-center text-sm font-bold text-white">Abrir ruta principal</a>}
+            {firstMap?.gpxUrl && <a href={firstMap.gpxUrl} download className="rounded-2xl bg-stone-950 px-4 py-3 text-center text-sm font-bold text-white">Descargar GPX</a>}
+          </div>
+        </div>
+      </article>
+
+      <details className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm" open>
+        <summary className="cursor-pointer text-sm font-bold text-stone-950">Agenda del día</summary>
+        <div className="mt-4 space-y-4">
+          {visual.schedule.map((item) => (
+            <div key={`${item.time}-${item.title}`} className="border-l border-amber-200 pl-4">
+              <p className="text-sm font-bold text-amber-700">{item.time} · {item.title}</p>
+              <p className="mt-1 text-sm leading-6 text-stone-600">{item.detail}</p>
+              {item.link && <a href={item.link} target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex rounded-full bg-stone-100 px-3 py-1.5 text-xs font-bold text-stone-700">Abrir punto</a>}
+            </div>
+          ))}
+        </div>
+      </details>
+
+      <details className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
+        <summary className="cursor-pointer text-sm font-bold text-stone-950">Puntos fuertes</summary>
+        <div className="mt-4 flex flex-wrap gap-2">
+          {visual.highlights.map((highlight) => (
+            <a key={highlight} href={buildPointUrl(highlight)} target="_blank" rel="noopener noreferrer" className="rounded-full bg-stone-100 px-3 py-2 text-xs font-bold text-stone-700">{highlight}</a>
+          ))}
+        </div>
+      </details>
+
+      <details className="rounded-2xl border border-amber-200 bg-amber-50 p-4">
+        <summary className="cursor-pointer text-sm font-bold text-amber-950">Comida, repostaje y clima</summary>
+        <div className="mt-4 space-y-3 text-sm leading-6">
+          <p className="text-emerald-950"><strong>Comida:</strong> {day.comidaAhorro}</p>
+          <p className="text-amber-950"><strong>Repostaje:</strong> {day.repostaje.principal}</p>
+          <p className="text-sky-950"><strong>Plan B:</strong> {day.planBClima}</p>
+        </div>
+      </details>
+    </section>
+  );
+}
+
 export function ItinerarioTab({ days }: ItinerarioTabProps) {
   const [selectedDay, setSelectedDay] = useState(days[0]?.numero ?? 0);
-  const day = days.find((item) => item.numero === selectedDay) ?? days[0];
+  const [activeFilter, setActiveFilter] = useState<DayFilter>('todos');
+  const filteredDays = days.filter((item) => matchesDayFilter(item, activeFilter));
+  const visibleDays = filteredDays.length > 0 ? filteredDays : days;
+  const day = visibleDays.find((item) => item.numero === selectedDay) ?? visibleDays[0] ?? days[0];
   const visual = buildVisual(day);
   const firstMap = day.mapas[0];
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[280px_1fr]">
-      <aside className="self-start rounded-[2rem] border border-stone-200 bg-white p-3 shadow-sm lg:sticky lg:top-24">
-        <div className="px-3 pb-3 pt-2">
-          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-400">Roadbook</p>
-          <p className="mt-1 text-sm text-stone-600">Todos los días visibles, sin scroll interno.</p>
-        </div>
-        <div className="space-y-2">
-          {days.map((item) => (
+    <>
+      <MobileItinerary days={visibleDays} day={day} visual={visual} selectedDay={day.numero} activeFilter={activeFilter} onFilterChange={setActiveFilter} onSelectDay={setSelectedDay} />
+      <div className="hidden gap-8 md:grid lg:grid-cols-[280px_1fr]">
+        <aside className="self-start rounded-[2rem] border border-stone-200 bg-white p-3 shadow-sm lg:sticky lg:top-24">
+          <div className="px-3 pb-3 pt-2">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-400">Roadbook</p>
+            <p className="mt-1 text-sm text-stone-600">Todos los días visibles, sin scroll interno.</p>
+          </div>
+          <div className="mb-3 flex flex-wrap gap-2 px-3">
+            {dayFilters.map((filter) => (
+              <button key={filter.id} type="button" onClick={() => setActiveFilter(filter.id)} className={`rounded-full px-3 py-1.5 text-xs font-bold ${filter.id === activeFilter ? 'bg-stone-950 text-white' : 'bg-stone-100 text-stone-600'}`}>
+                {filter.label}
+              </button>
+            ))}
+          </div>
+          <div className="space-y-2">
+            {visibleDays.map((item) => (
             <button
               key={item.numero}
               onClick={() => setSelectedDay(item.numero)}
@@ -193,6 +329,7 @@ export function ItinerarioTab({ days }: ItinerarioTabProps) {
           ))}
         </section>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

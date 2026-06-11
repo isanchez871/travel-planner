@@ -21,30 +21,30 @@ export function GastosTab({ presupuesto }: GastosTabProps) {
   const restante = totalEstimado - totalReal;
 
   return (
-    <div className="space-y-8">
-      <section className="overflow-hidden rounded-[2rem] border border-stone-200 bg-stone-950 text-white shadow-2xl shadow-stone-300/40">
-        <div className="relative p-6 md:p-8">
+    <div className="space-y-4 md:space-y-8">
+      <section className="overflow-hidden rounded-2xl border border-stone-200 bg-stone-950 text-white shadow-2xl shadow-stone-300/40 md:rounded-[2rem]">
+        <div className="relative p-4 md:p-8">
           <div className="absolute inset-0 opacity-30 [background:radial-gradient(circle_at_20%_20%,#f59e0b,transparent_28%),radial-gradient(circle_at_82%_18%,#22c55e,transparent_24%),linear-gradient(135deg,#0c0a09,#1c1917)]" />
           <div className="relative grid gap-6 md:grid-cols-[1fr_420px] md:items-end">
             <div>
               <p className="mb-3 text-xs font-semibold uppercase tracking-[0.28em] text-amber-300">Presupuesto</p>
-              <h2 className="max-w-3xl text-3xl font-semibold tracking-tight md:text-5xl">Control de gasto del viaje</h2>
-              <p className="mt-4 max-w-2xl text-sm leading-6 text-stone-300 md:text-base">Estimación por categorías para dos personas, con margen de seguridad y enfoque de ahorro en comidas y repostajes.</p>
+              <h2 className="max-w-3xl text-2xl font-semibold tracking-tight md:text-5xl">Control de gasto</h2>
+              <p className="mt-3 max-w-2xl text-sm leading-6 text-stone-300 md:mt-4 md:text-base">Estimación para dos personas, con margen y foco en ahorro.</p>
             </div>
             <div className="grid grid-cols-3 gap-3">
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur"><p className="text-2xl font-semibold">{totalEstimado.toLocaleString('es-ES')}€</p><p className="mt-1 text-xs text-stone-300">total</p></div>
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur"><p className="text-2xl font-semibold">{Math.round(totalEstimado / 2).toLocaleString('es-ES')}€</p><p className="mt-1 text-xs text-stone-300">persona</p></div>
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-4 backdrop-blur"><p className="text-2xl font-semibold">{restante.toLocaleString('es-ES')}€</p><p className="mt-1 text-xs text-stone-300">restante</p></div>
+              <div className="rounded-2xl border border-white/10 bg-white/10 p-3 backdrop-blur md:p-4"><p className="text-lg font-semibold md:text-2xl">{totalEstimado.toLocaleString('es-ES')}€</p><p className="mt-1 text-xs text-stone-300">total</p></div>
+              <div className="rounded-2xl border border-white/10 bg-white/10 p-3 backdrop-blur md:p-4"><p className="text-lg font-semibold md:text-2xl">{Math.round(totalEstimado / 2).toLocaleString('es-ES')}€</p><p className="mt-1 text-xs text-stone-300">persona</p></div>
+              <div className="rounded-2xl border border-white/10 bg-white/10 p-3 backdrop-blur md:p-4"><p className="text-lg font-semibold md:text-2xl">{restante.toLocaleString('es-ES')}€</p><p className="mt-1 text-xs text-stone-300">restante</p></div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="rounded-[2rem] border border-stone-200 bg-white p-5 shadow-sm md:p-6">
+      <section className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm md:rounded-[2rem] md:p-6">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-stone-400">Desglose por categoría</p>
-            <h3 className="mt-2 text-2xl font-semibold tracking-tight text-stone-950">Peso real del presupuesto</h3>
+            <h3 className="mt-2 text-xl font-semibold tracking-tight text-stone-950 md:text-2xl">Peso real del presupuesto</h3>
           </div>
           <span className="rounded-full bg-stone-950 px-3 py-2 text-xs font-semibold text-white">{presupuesto.moneda}</span>
         </div>
@@ -77,7 +77,7 @@ export function GastosTab({ presupuesto }: GastosTabProps) {
           const percentage = Math.min(100, Math.round((categoria.estimado / totalEstimado) * 100));
 
           return (
-            <article key={categoria.nombre} className="rounded-[2rem] border border-stone-200 bg-white p-5 shadow-sm">
+            <article key={categoria.nombre} className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm md:rounded-[2rem] md:p-5">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-400">{style.label}</p>
